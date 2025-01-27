@@ -7,7 +7,7 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 
-def generalize_value(value, level, hierarchy):
+def generalize_value(value, level, hierarchy, data_min=None, data_max=None):
     """
     Generalize values dynamically based on the hierarchy type.
 
@@ -15,45 +15,45 @@ def generalize_value(value, level, hierarchy):
         value: The value to generalize.
         level: The level of generalization (higher levels = more generalization).
         hierarchy: The type of hierarchy (e.g., "range", "round", "taxonomy", "suppression").
+        data_min: Minimum value in the column (used for range generalization).
+        data_max: Maximum value in the column (used for range generalization).
 
     Returns:
         The generalized value or "Any" if fully generalized.
     """
     try:
-        # Skip already suppressed values
-        if value == "Suppressed" or pd.isna(value):
-            return "Any"  # Treat suppressed or missing values as fully generalized
+        # Skip suppressed or invalid values
+        if value == "Suppressed" or pd.isna(value) or value == "Any":
+            return "Any"
 
-        # Range-based generalization (e.g., for ages)
+        # Range-based generalization
         if hierarchy == "range":
-            # Ensure the value is numeric
+            # Ensure numeric value
             if not isinstance(value, (int, float, np.integer, np.floating)):
                 raise ValueError(f"Non-numeric value '{value}' cannot be generalized with a 'range' hierarchy.")
-            value = int(value)  # Ensure the value is an integer
-            step = 10 ** level  # Determine step size (10, 100, 1000, etc.)
+            if data_min is None or data_max is None:
+                raise ValueError("Range hierarchy requires data_min and data_max.")
+            step = (data_max - data_min) / (10 ** level)
             lower_bound = (value // step) * step
-            upper_bound = lower_bound + step - 1  # Avoid off-by-one errors
-            return f"{lower_bound}-{upper_bound}"
+            upper_bound = lower_bound + step
+            return f"{int(lower_bound)}-{int(upper_bound)}"
 
-        # Rounding-based generalization (e.g., for zip codes or prices)
+        # Rounding-based generalization
         elif hierarchy == "round":
-            # Ensure the value is numeric
             if not isinstance(value, (int, float, np.integer, np.floating)):
                 raise ValueError(f"Non-numeric value '{value}' cannot be generalized with a 'round' hierarchy.")
-            value = int(value)
-            step = 10 ** level  # Generalization step size
+            step = 10 ** level
             lower_bound = (value // step) * step
             upper_bound = lower_bound + step - 1
-            return f"{lower_bound}-{upper_bound}"  # Show explicit range
+            return f"{int(lower_bound)}-{int(upper_bound)}"
 
-        # Taxonomy-based generalization (e.g., categories like "Work Class")
+        # Taxonomy-based generalization
         elif hierarchy == "taxonomy":
-            # Implement taxonomy-specific rules if required
             if level == 1:
-                return "General"  # Example for level 1
+                return "General"
             elif level > 1:
-                return f"Level-{level}"  # Placeholder for deeper generalization
-            return value  # No generalization at level 0
+                return f"Level-{level}"
+            return value
 
         # Suppression-based generalization
         elif hierarchy == "suppression":
@@ -64,15 +64,14 @@ def generalize_value(value, level, hierarchy):
 
     except ValueError as e:
         print(f"{Fore.RED}Error generalizing value '{value}' for hierarchy '{hierarchy}': {e}{Style.RESET_ALL}")
-        return "Invalid"
+        return value  # Return the original value if an error occurs
     except Exception as e:
         print(f"{Fore.RED}Unexpected error while generalizing value '{value}': {e}{Style.RESET_ALL}")
-        return "Error"
-
+        return value
 
 def apply_generalization(data, quasi_identifiers, levels, max_levels, hierarchies):
     """
-    Dynamically adjust generalization based on levels, max_levels, and hierarchies.
+    Apply generalization based on levels, max_levels, and hierarchies.
 
     Args:
         data (pd.DataFrame): The dataset to be generalized.
@@ -91,16 +90,19 @@ def apply_generalization(data, quasi_identifiers, levels, max_levels, hierarchie
         max_level = max_levels[i]
         hierarchy = hierarchies[i]
 
-        # Dynamically adjust generalization level if max level is exceeded
+        # Skip columns that are already fully generalized or exceed max levels
         if level > max_level:
             print(f"{Fore.YELLOW}Skipping column '{qi}': Level {level} exceeds max allowed {max_level}.{Style.RESET_ALL}")
             continue
 
         print(f"{Fore.CYAN}Generalizing column '{qi}' with hierarchy '{hierarchy}' at level {level}...{Style.RESET_ALL}")
 
-        # Handle range or taxonomy-based generalization
+        # Handle range generalization and skip non-numeric values
         data_min = data[qi].min() if hierarchy == "range" else None
         data_max = data[qi].max() if hierarchy == "range" else None
+        if hierarchy == "range" and not pd.api.types.is_numeric_dtype(data[qi]):
+            print(f"{Fore.RED}Skipping column '{qi}': Contains non-numeric values incompatible with 'range' hierarchy.{Style.RESET_ALL}")
+            continue
 
         try:
             generalized_data[qi] = generalized_data[qi].apply(
@@ -455,7 +457,7 @@ def lattice_search(data, quasi_identifiers, sensitive_attr, max_levels, hierarch
 #         #         print(f"{Fore.GREEN}ℓ-Diversity satisfied using NPD Recursive at levels: {levels}{Style.RESET_ALL}")
 #         #         return generalized_data
 
-#         # print(f"{Fore.RED}ℓ-Diversity not satisfied at levels: {levels}. Trying next combination...{Style.RESET_ALL}")
+#         print(f"{Fore.RED}ℓ-Diversity not satisfied at levels: {levels}. Trying next combination...{Style.RESET_ALL}")
 
 #     # Step 3: Redistribution
 #     print(f"{Fore.YELLOW}Generalization alone failed to achieve ℓ-Diversity. Proceeding with redistribution...{Style.RESET_ALL}")
@@ -552,13 +554,41 @@ def apply_l_diversity(data, quasi_identifiers, sensitive_attr, l, max_levels, hi
 
     print(f"{Fore.YELLOW}Generalization failed to achieve ℓ-Diversity. Proceeding with redistribution and suppression...{Style.RESET_ALL}")
 
-    # Step 3: Redistribution and Suppression
+    # Step 3: Redistribution
     redistributed_data = redistribute_sensitive_data(generalized_data, quasi_identifiers, sensitive_attr, l)
-    if method == "recursive" and not check_recursive_l_diversity(redistributed_data, quasi_identifiers, sensitive_attr, l, c):
-        print(f"{Fore.RED}Recursive ℓ-Diversity requirements could not be met. Suppressing sensitive attribute...{Style.RESET_ALL}")
-        redistributed_data[sensitive_attr] = "Suppressed"
 
-    return redistributed_data
+    # Check if ℓ-diversity is satisfied after redistribution
+    if method == "recursive":
+        if check_recursive_l_diversity(redistributed_data, quasi_identifiers, sensitive_attr, l, c):
+            print(f"{Fore.GREEN}ℓ-Diversity satisfied after redistribution.{Style.RESET_ALL}")
+            return redistributed_data
+
+    # Step 4: Suppression for Groups Failing ℓ-Diversity
+    # Suppress sensitive attributes for groups that fail ℓ-diversity
+    grouped = redistributed_data.groupby(quasi_identifiers)  # Suppression should operate on redistributed data
+    suppressed_groups = []  # Track groups where suppression was applied
+
+    for group_name, group_data in grouped:
+        sensitive_counts = group_data[sensitive_attr].value_counts()
+
+        # Step 4.1: Check if the group satisfies ℓ-diversity
+        if len(sensitive_counts) < l:
+            print(f"{Fore.RED}Group {group_name} fails ℓ-diversity. Suppressing sensitive attribute for this group.{Style.RESET_ALL}")
+            # Suppress the sensitive attribute for all rows in the group
+            redistributed_data.loc[group_data.index, sensitive_attr] = "Suppressed"
+            # Step 4.2: Track suppressed group for summary reporting
+            suppressed_groups.append(group_name)
+
+    # Step 5: Display Suppressed Groups Summary
+    if suppressed_groups:
+        print(f"\n{Fore.YELLOW}Suppressed Groups Summary:{Style.RESET_ALL}")
+        for group_name in suppressed_groups:
+            print(f"{Fore.CYAN}Group: {group_name}{Style.RESET_ALL} - Sensitive attributes suppressed.")
+    else:
+        print(f"{Fore.GREEN}No groups required suppression. ℓ-Diversity satisfied after suppression.{Style.RESET_ALL}")
+
+    # Step 6: Return final dataset
+    return redistributed_data  # Return redistributed and suppressed data
 
 def generate_composite_quasi_identifiers(quasi_identifiers):
     """

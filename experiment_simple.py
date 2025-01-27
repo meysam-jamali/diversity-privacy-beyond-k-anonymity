@@ -24,7 +24,6 @@ def calculate_discernibility_metric(anonymized_data, quasi_identifiers):
     grouped = anonymized_data.groupby(quasi_identifiers)
     return sum(len(group)**2 for _, group in grouped)
 
-# Utility Testing
 def test_utility_and_performance(dataset, quasi_identifiers, sensitive_attr, k, l, c, max_levels, hierarchies, dataset_name, output_dir):
     """
     Test utility and performance for fixed k, l, and c values.
@@ -33,27 +32,52 @@ def test_utility_and_performance(dataset, quasi_identifiers, sensitive_attr, k, 
 
     print(Fore.CYAN + f"Testing {dataset_name} with k={k}, l={l}, c={c}..." + Style.RESET_ALL)
 
-    # Apply k-Anonymity
+    # Step 1: Apply k-Anonymity
     start_time = time.time()
-    # k_anonymized = apply_k_anonymity(dataset, quasi_identifiers, k, {qi: 1 for qi in quasi_identifiers})
-    k_anonymized = apply_k_anonymity(dataset, quasi_identifiers, k)  # Fixed function call
+    k_anonymized = apply_k_anonymity(dataset.copy(), quasi_identifiers, k)  # Ensure no in-place modification
     k_time = time.time() - start_time
 
-    # Apply ℓ-Diversity (Entropy)
+    # Validate k-Anonymity
+    if k_anonymized is None or k_anonymized.empty:
+        print(Fore.RED + f"Error: k-Anonymity failed for {dataset_name}. Exiting..." + Style.RESET_ALL)
+        return None
+
+    # Step 2: Apply ℓ-Diversity (Entropy)
     start_time = time.time()
+    entropy_k_anonymized = k_anonymized.copy()  # Clone the k-anonymized dataset
     entropy_l_diverse = apply_l_diversity(
-        k_anonymized, quasi_identifiers, sensitive_attr, l, max_levels=max_levels, method="entropy", hierarchies=hierarchies
+        entropy_k_anonymized,
+        quasi_identifiers,
+        sensitive_attr,
+        l,
+        max_levels=max_levels,
+        method="entropy",
+        hierarchies=hierarchies,
     )
     entropy_time = time.time() - start_time
 
-    # Apply ℓ-Diversity (Recursive)
+    if entropy_l_diverse is None:
+        print(Fore.YELLOW + f"ℓ-Diversity (Entropy) could not be applied for {dataset_name}." + Style.RESET_ALL)
+
+    # Step 3: Apply ℓ-Diversity (Recursive)
     start_time = time.time()
+    recursive_k_anonymized = k_anonymized.copy()  # Clone the k-anonymized dataset
     recursive_l_diverse = apply_l_diversity(
-        k_anonymized, quasi_identifiers, sensitive_attr, l, max_levels=max_levels, method="recursive", c=c, hierarchies=hierarchies
+        recursive_k_anonymized,
+        quasi_identifiers,
+        sensitive_attr,
+        l,
+        max_levels=max_levels,
+        method="recursive",
+        c=c,
+        hierarchies=hierarchies,
     )
     recursive_time = time.time() - start_time
 
-    # Calculate Utility Metrics
+    if recursive_l_diverse is None:
+        print(Fore.YELLOW + f"ℓ-Diversity (Recursive) could not be applied for {dataset_name}." + Style.RESET_ALL)
+
+    # Step 4: Calculate Utility Metrics
     utility_metrics = {
         "Dataset": dataset_name,
         "k": k,
@@ -66,13 +90,15 @@ def test_utility_and_performance(dataset, quasi_identifiers, sensitive_attr, k, 
         "Entropy ℓ-Diversity Discernibility Metric": calculate_discernibility_metric(entropy_l_diverse, quasi_identifiers) if entropy_l_diverse is not None else None,
         "Recursive ℓ-Diversity Discernibility Metric": calculate_discernibility_metric(recursive_l_diverse, quasi_identifiers) if recursive_l_diverse is not None else None,
         "Execution Time (k-Anonymity)": k_time,
-        "Execution Time (Entropy)": entropy_time,
-        "Execution Time (Recursive)": recursive_time,
+        "Execution Time (Entropy)": entropy_time if entropy_l_diverse is not None else None,
+        "Execution Time (Recursive)": recursive_time if recursive_l_diverse is not None else None,
     }
 
-    # Print utility metrics with color-coded output
+    # Step 5: Print Utility Metrics
     for metric, value in utility_metrics.items():
-        if "Generalization Height" in metric:
+        if value is None:
+            print(f"{Fore.YELLOW}{metric}:{Style.RESET_ALL} {Fore.RED}Not Computed{Style.RESET_ALL}")
+        elif "Generalization Height" in metric:
             print(f"{Fore.BLUE}{metric}:{Style.RESET_ALL} {Fore.CYAN}{value}{Style.RESET_ALL}")
         elif "Discernibility Metric" in metric:
             print(f"{Fore.GREEN}{metric}:{Style.RESET_ALL} {Fore.MAGENTA}{value}{Style.RESET_ALL}")
@@ -81,8 +107,8 @@ def test_utility_and_performance(dataset, quasi_identifiers, sensitive_attr, k, 
         else:
             print(f"{Fore.WHITE}{metric}:{Style.RESET_ALL} {value}")
 
-
     return utility_metrics
+
 
 # Main Execution
 def main():
