@@ -1,0 +1,101 @@
+Age,Gender,Race,Marital Status,Education,Native Country,Work Class,Salary Class,Occupation
+62,Male,Asian,Single,High School,Italy,Self-Employed,50-60K,Craft-repair
+33,Male,White,Single,Some College,Philippines,Private,20-30K,Tech-support
+43,Female,White,Widowed,Some College,Germany,Self-Employed,40-50K,Sales
+18,Female,Asian,Married,Some College,India,Unemployed,30-40K,Other-service
+71,Male,White,Single,Bachelor's,Italy,Government,50-60K,Sales
+34,Male,White,Single,Some College,India,Private,60-70K,Exec-managerial
+58,Female,White,Married,Some College,Italy,Government,>70K,Other-service
+67,Female,Black,Single,High School,Italy,Private,30-40K,Other-service
+20,Male,White,Single,Bachelor's,Italy,Private,50-60K,Other-service
+47,Male,Black,Widowed,High School,Philippines,Government,<=20K,Tech-support
+19,Female,Other,Single,Some College,Italy,Private,20-30K,Craft-repair
+84,Male,White,Divorced,High School,Italy,Unemployed,60-70K,Other-service
+69,Male,Other,Single,Master's,China,Government,60-70K,Exec-managerial
+59,Female,Hispanic,Married,Some College,Italy,Government,30-40K,Tech-support
+44,Male,White,Single,Master's,Italy,Government,50-60K,Craft-repair
+78,Male,Hispanic,Widowed,High School,Germany,Private,<=20K,Craft-repair
+33,Male,White,Single,High School,Italy,Private,20-30K,Tech-support
+67,Male,Black,Single,High School,Germany,Private,30-40K,Exec-managerial
+67,Male,White,Single,Some College,Italy,Unemployed,30-40K,Craft-repair
+58,Male,White,Widowed,Some College,Italy,Private,50-60K,Sales
+38,Female,White,Separated,Bachelor's,Italy,Government,<=20K,Sales
+34,Female,Hispanic,Married,Some College,Italy,Private,60-70K,Tech-support
+80,Male,Other,Single,Some College,Italy,Private,40-50K,Exec-managerial
+85,Female,Asian,Married,Bachelor's,Italy,Unemployed,50-60K,Other-service
+47,Male,Asian,Single,Bachelor's,Italy,Private,60-70K,Exec-managerial
+35,Male,Other,Divorced,High School,Italy,Private,<=20K,Tech-support
+90,Female,Black,Single,Master's,Italy,Self-Employed,60-70K,Craft-repair
+33,Male,White,Single,Some College,Italy,Private,<=20K,Exec-managerial
+29,Male,White,Single,Bachelor's,Italy,Self-Employed,<=20K,Other-service
+67,Female,Hispanic,Married,High School,Italy,Private,<=20K,Craft-repair
+60,Female,White,Single,Some College,Italy,Private,50-60K,Exec-managerial
+20,Male,Black,Married,High School,Germany,Private,30-40K,Craft-repair
+38,Male,Black,Single,Bachelor's,Italy,Self-Employed,50-60K,Other-service
+18,Male,White,Widowed,High School,Italy,Unemployed,40-50K,Exec-managerial
+59,Male,Asian,Single,High School,Italy,Private,<=20K,Other-service
+56,Female,Hispanic,Single,Bachelor's,Italy,Private,<=20K,Other-service
+25,Male,Asian,Married,Bachelor's,Germany,Self-Employed,30-40K,Exec-managerial
+61,Male,Hispanic,Single,High School,India,Self-Employed,<=20K,Craft-repair
+50,Female,White,Single,Bachelor's,Italy,Self-Employed,<=20K,Craft-repair
+50,Female,Black,Single,Master's,Germany,Private,30-40K,Craft-repair
+48,Male,White,Single,Some College,Germany,Private,20-30K,Sales
+32,Female,Hispanic,Single,Master's,Italy,Private,50-60K,Exec-managerial
+28,Female,White,Married,Bachelor's,Italy,Unemployed,<=20K,Exec-managerial
+43,Female,Black,Married,Doctorate,Italy,Private,<=20K,Craft-repair
+90,Male,White,Single,High School,Italy,Government,40-50K,Sales
+19,Male,White,Married,High School,Germany,Private,30-40K,Tech-support
+86,Female,White,Single,Bachelor's,Italy,Private,20-30K,Craft-repair
+83,Female,White,Single,Bachelor's,Philippines,Private,<=20K,Exec-managerial
+75,Female,Black,Single,Bachelor's,Italy,Government,40-50K,Sales
+51,Male,White,Single,High School,Italy,Government,30-40K,Other-service
+45,Male,Asian,Separated,Bachelor's,Italy,Unemployed,30-40K,Sales
+80,Female,White,Single,High School,Italy,Private,30-40K,Other-service
+28,Female,White,Married,Bachelor's,Italy,Unemployed,40-50K,Sales
+84,Female,White,Married,Bachelor's,Philippines,Government,<=20K,Craft-repair
+25,Male,Black,Divorced,High School,India,Private,50-60K,Sales
+69,Female,Asian,Married,High School,Italy,Government,<=20K,Exec-managerial
+34,Female,White,Married,Some College,Italy,Private,60-70K,Exec-managerial
+77,Male,White,Single,Some College,Italy,Self-Employed,>70K,Exec-managerial
+22,Female,Hispanic,Divorced,Some College,Italy,Government,30-40K,Sales
+56,Female,White,Married,Bachelor's,Italy,Government,20-30K,Exec-managerial
+36,Male,Hispanic,Single,High School,Italy,Self-Employed,40-50K,Other-service
+21,Female,Hispanic,Married,Master's,India,Private,>70K,Exec-managerial
+88,Female,White,Single,Some College,Italy,Government,<=20K,Craft-repair
+42,Male,White,Divorced,Some College,Italy,Government,30-40K,Sales
+71,Female,White,Married,High School,Italy,Government,50-60K,Craft-repair
+76,Female,White,Single,Bachelor's,Italy,Private,<=20K,Sales
+30,Male,Asian,Single,High School,Italy,Private,60-70K,Other-service
+34,Female,White,Single,Some College,Italy,Government,40-50K,Sales
+60,Male,White,Divorced,Some College,Italy,Self-Employed,30-40K,Sales
+49,Female,White,Single,High School,Italy,Self-Employed,40-50K,Craft-repair
+54,Male,Hispanic,Single,High School,Italy,Private,40-50K,Other-service
+84,Male,White,Single,Some College,Italy,Unemployed,40-50K,Craft-repair
+67,Male,White,Single,High School,Italy,Government,<=20K,Sales
+21,Female,Asian,Widowed,High School,Italy,Unemployed,<=20K,Exec-managerial
+88,Female,Black,Single,Bachelor's,China,Government,30-40K,Other-service
+41,Male,White,Widowed,Some College,Italy,Self-Employed,<=20K,Tech-support
+60,Female,White,Married,High School,Germany,Private,<=20K,Tech-support
+76,Male,Asian,Separated,Bachelor's,India,Government,50-60K,Tech-support
+62,Male,White,Divorced,Some College,Italy,Private,40-50K,Sales
+19,Female,White,Single,Some College,Germany,Private,30-40K,Other-service
+53,Male,White,Single,Some College,Germany,Self-Employed,30-40K,Craft-repair
+33,Male,White,Separated,High School,Italy,Unemployed,60-70K,Exec-managerial
+65,Male,White,Divorced,Some College,Italy,Private,40-50K,Sales
+37,Female,Hispanic,Single,Some College,Italy,Government,40-50K,Sales
+88,Female,White,Married,High School,India,Private,20-30K,Other-service
+47,Female,Asian,Single,Bachelor's,Italy,Private,20-30K,Exec-managerial
+37,Female,White,Single,High School,Italy,Unemployed,<=20K,Other-service
+90,Female,White,Separated,Some College,Italy,Private,30-40K,Other-service
+88,Male,White,Married,High School,Germany,Private,20-30K,Sales
+53,Male,White,Married,Some College,Germany,Government,60-70K,Tech-support
+67,Female,White,Single,High School,Italy,Government,20-30K,Exec-managerial
+28,Male,White,Married,High School,Italy,Unemployed,50-60K,Sales
+60,Male,Black,Separated,Bachelor's,Italy,Private,20-30K,Sales
+62,Male,Hispanic,Single,High School,Italy,Private,40-50K,Exec-managerial
+38,Male,White,Single,High School,Philippines,Unemployed,<=20K,Craft-repair
+21,Female,White,Single,High School,India,Private,40-50K,Sales
+76,Female,White,Single,Bachelor's,India,Government,50-60K,Other-service
+50,Female,Hispanic,Married,Some College,Italy,Private,<=20K,Exec-managerial
+44,Female,White,Single,High School,Italy,Private,30-40K,Sales
+57,Male,Black,Single,Some College,Italy,Private,<=20K,Sales

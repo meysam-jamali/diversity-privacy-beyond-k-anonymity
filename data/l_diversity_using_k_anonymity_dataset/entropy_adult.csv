@@ -1,0 +1,101 @@
+Age,Gender,Race,Marital Status,Education,Native Country,Work Class,Salary Class,Occupation
+50-59,Any,Any,Any,High School,Italy,Self-Employed,30-40K,Craft-repair
+40-49,Any,Any,Any,Master's,India,Private,60-70K,Sales
+60-69,Any,Any,Any,High School,Italy,Government,<=20K,Exec-managerial
+60-69,Any,Any,Any,High School,Italy,Government,30-40K,Exec-managerial
+10-19,Any,Any,Any,Bachelor's,Italy,Private,40-50K,Exec-managerial
+60-69,Any,Any,Any,Master's,Italy,Unemployed,40-50K,Other-service
+60-69,Any,Any,Any,High School,Italy,Self-Employed,<=20K,Craft-repair
+30-39,Any,Any,Any,High School,Italy,Private,<=20K,Exec-managerial
+60-69,Any,Any,Any,High School,Italy,Unemployed,40-50K,Other-service
+50-59,Any,Any,Any,Some College,Italy,Private,20-30K,Tech-support
+40-49,Any,Any,Any,Bachelor's,India,Self-Employed,40-50K,Sales
+70-79,Any,Any,Any,High School,Italy,Self-Employed,40-50K,Exec-managerial
+40-49,Any,Any,Any,High School,Italy,Government,<=20K,Sales
+20-29,Any,Any,Any,High School,India,Private,20-30K,Exec-managerial
+60-69,Any,Any,Any,Some College,India,Unemployed,40-50K,Other-service
+30-39,Any,Any,Any,Bachelor's,Italy,Private,<=20K,Other-service
+60-69,Any,Any,Any,High School,India,Private,40-50K,Sales
+70-79,Any,Any,Any,Bachelor's,Italy,Government,60-70K,Exec-managerial
+60-69,Any,Any,Any,Bachelor's,Italy,Private,40-50K,Exec-managerial
+30-39,Any,Any,Any,Master's,Philippines,Private,<=20K,Other-service
+50-59,Any,Any,Any,Some College,Italy,Government,40-50K,Craft-repair
+20-29,Any,Any,Any,Some College,Italy,Private,30-40K,Tech-support
+40-49,Any,Any,Any,High School,Italy,Private,20-30K,Sales
+80-89,Any,Any,Any,Bachelor's,Italy,Private,40-50K,Exec-managerial
+70-79,Any,Any,Any,High School,Philippines,Private,30-40K,Sales
+20-29,Any,Any,Any,Master's,Germany,Private,30-40K,Craft-repair
+40-49,Any,Any,Any,Some College,China,Private,<=20K,Sales
+40-49,Any,Any,Any,Some College,Germany,Unemployed,40-50K,Sales
+50-59,Any,Any,Any,Some College,Italy,Self-Employed,50-60K,Craft-repair
+20-29,Any,Any,Any,Some College,Italy,Government,20-30K,Sales
+10-19,Any,Any,Any,Master's,Italy,Self-Employed,50-60K,Craft-repair
+80-89,Any,Any,Any,High School,Italy,Self-Employed,20-30K,Tech-support
+10-19,Any,Any,Any,High School,Italy,Government,30-40K,Other-service
+80-89,Any,Any,Any,High School,Italy,Private,40-50K,Exec-managerial
+20-29,Any,Any,Any,Some College,Italy,Private,60-70K,Sales
+60-69,Any,Any,Any,High School,Germany,Self-Employed,<=20K,Other-service
+60-69,Any,Any,Any,Some College,India,Self-Employed,<=20K,Exec-managerial
+80-89,Any,Any,Any,Some College,China,Private,20-30K,Sales
+Any,Any,Any,Any,High School,Italy,Private,<=20K,Sales
+30-39,Any,Any,Any,High School,Italy,Government,50-60K,Exec-managerial
+70-79,Any,Any,Any,High School,Italy,Government,30-40K,Sales
+80-89,Any,Any,Any,High School,Italy,Self-Employed,50-60K,Craft-repair
+70-79,Any,Any,Any,Master's,Italy,Private,20-30K,Sales
+70-79,Any,Any,Any,High School,Germany,Unemployed,20-30K,Sales
+60-69,Any,Any,Any,High School,Italy,Private,40-50K,Other-service
+70-79,Any,Any,Any,Bachelor's,Italy,Private,40-50K,Craft-repair
+20-29,Any,Any,Any,Doctorate,Italy,Private,30-40K,Exec-managerial
+60-69,Any,Any,Any,Bachelor's,Germany,Government,40-50K,Other-service
+20-29,Any,Any,Any,High School,Italy,Unemployed,30-40K,Exec-managerial
+60-69,Any,Any,Any,Some College,Italy,Self-Employed,30-40K,Other-service
+60-69,Any,Any,Any,Bachelor's,Italy,Unemployed,30-40K,Sales
+20-29,Any,Any,Any,High School,Italy,Private,40-50K,Tech-support
+80-89,Any,Any,Any,High School,Italy,Government,40-50K,Sales
+30-39,Any,Any,Any,High School,India,Self-Employed,<=20K,Sales
+40-49,Any,Any,Any,High School,Italy,Self-Employed,40-50K,Exec-managerial
+40-49,Any,Any,Any,Bachelor's,Italy,Private,50-60K,Tech-support
+30-39,Any,Any,Any,High School,India,Government,20-30K,Sales
+80-89,Any,Any,Any,High School,Italy,Private,60-70K,Craft-repair
+40-49,Any,Any,Any,High School,Italy,Self-Employed,20-30K,Exec-managerial
+70-79,Any,Any,Any,Some College,Italy,Government,40-50K,Other-service
+20-29,Any,Any,Any,Some College,Italy,Self-Employed,>70K,Other-service
+50-59,Any,Any,Any,Bachelor's,Germany,Government,30-40K,Sales
+40-49,Any,Any,Any,Bachelor's,Italy,Private,<=20K,Sales
+20-29,Any,Any,Any,High School,Germany,Private,60-70K,Exec-managerial
+70-79,Any,Any,Any,Some College,China,Self-Employed,<=20K,Other-service
+40-49,Any,Any,Any,Bachelor's,Italy,Private,40-50K,Craft-repair
+20-29,Any,Any,Any,Bachelor's,India,Government,30-40K,Exec-managerial
+80-89,Any,Any,Any,Doctorate,India,Government,60-70K,Other-service
+30-39,Any,Any,Any,High School,Italy,Private,40-50K,Sales
+30-39,Any,Any,Any,Bachelor's,Italy,Self-Employed,30-40K,Sales
+10-19,Any,Any,Any,Bachelor's,Italy,Private,30-40K,Tech-support
+80-89,Any,Any,Any,High School,Italy,Government,<=20K,Craft-repair
+30-39,Any,Any,Any,Bachelor's,India,Unemployed,30-40K,Sales
+80-89,Any,Any,Any,Bachelor's,Italy,Unemployed,20-30K,Sales
+50-59,Any,Any,Any,Some College,Italy,Private,40-50K,Exec-managerial
+70-79,Any,Any,Any,High School,Italy,Private,30-40K,Tech-support
+70-79,Any,Any,Any,High School,China,Government,60-70K,Exec-managerial
+40-49,Any,Any,Any,Some College,Italy,Private,<=20K,Other-service
+60-69,Any,Any,Any,High School,Italy,Self-Employed,30-40K,Sales
+20-29,Any,Any,Any,Master's,Italy,Government,20-30K,Sales
+70-79,Any,Any,Any,Some College,China,Private,60-70K,Exec-managerial
+50-59,Any,Any,Any,Master's,India,Private,30-40K,Exec-managerial
+30-39,Any,Any,Any,Bachelor's,Italy,Government,60-70K,Sales
+60-69,Any,Any,Any,High School,Italy,Private,50-60K,Other-service
+10-19,Any,Any,Any,High School,Germany,Self-Employed,30-40K,Exec-managerial
+70-79,Any,Any,Any,Some College,Italy,Self-Employed,50-60K,Exec-managerial
+50-59,Any,Any,Any,High School,Italy,Private,<=20K,Other-service
+50-59,Any,Any,Any,High School,Italy,Private,<=20K,Tech-support
+30-39,Any,Any,Any,High School,Italy,Government,<=20K,Sales
+40-49,Any,Any,Any,Master's,Italy,Unemployed,30-40K,Other-service
+30-39,Any,Any,Any,High School,Italy,Private,<=20K,Sales
+30-39,Any,Any,Any,Bachelor's,India,Government,<=20K,Other-service
+80-89,Any,Any,Any,Master's,India,Private,20-30K,Exec-managerial
+70-79,Any,Any,Any,High School,Italy,Private,50-60K,Other-service
+80-89,Any,Any,Any,Bachelor's,Italy,Government,<=20K,Exec-managerial
+70-79,Any,Any,Any,Some College,Italy,Private,20-30K,Exec-managerial
+40-49,Any,Any,Any,Some College,Italy,Unemployed,>70K,Craft-repair
+60-69,Any,Any,Any,Master's,Italy,Private,20-30K,Sales
+50-59,Any,Any,Any,High School,Italy,Government,50-60K,Sales
+40-49,Any,Any,Any,Bachelor's,Italy,Private,30-40K,Other-service

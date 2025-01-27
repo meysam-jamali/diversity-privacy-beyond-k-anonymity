@@ -1,0 +1,201 @@
+Age,Gender,Race,Marital Status,Education,Native Country,Work Class,Salary Class,Occupation
+40-49,Any,Any,Divorced,High School,Country 39,Unemployed,<=50K,Occupation 34
+50-59,Any,Any,Separated,,Country 2,Student,>50K,Occupation 39
+50-59,Any,Any,Other,Some College,Country 18,Retired,<=50K,Occupation 4
+60+,Any,Any,Separated,Associate,Country 19,Private,<=50K,Occupation 2
+60+,Any,Any,Partnered,High School,Country 9,Other,>50K,Occupation 24
+60+,Any,Any,Divorced,Bachelor's,Country 11,Unemployed,<=50K,Occupation 31
+60+,Any,Any,Widowed,Doctorate,Country 32,Unemployed,<=50K,Occupation 37
+60+,Any,Any,Partnered,Master's,Country 36,Student,>50K,Occupation 26
+30-39,Any,Any,Single,Some College,Country 18,Government,<=50K,Occupation 25
+60+,Any,Any,Married,Bachelor's,Country 41,Retired,>50K,Occupation 28
+50-59,Any,Any,Other,Master's,Country 28,Government,<=50K,Occupation 18
+<30,Any,Any,Widowed,High School,Country 7,Other,>50K,Occupation 21
+30-39,Any,Any,Partnered,Bachelor's,Country 11,Student,<=50K,Occupation 4
+<30,Any,Any,Single,Some College,Country 25,Other,>50K,Occupation 40
+<30,Any,Any,Divorced,,Country 11,Retired,>50K,Occupation 7
+60+,Any,Any,Single,High School,Country 39,Other,>50K,Occupation 2
+30-39,Any,Any,Divorced,Doctorate,Country 6,Self-Employed,>50K,Occupation 23
+<30,Any,Any,Separated,Master's,Country 8,Retired,>50K,Occupation 17
+<30,Any,Any,Separated,High School,Country 8,Other,>50K,Occupation 11
+60+,Any,Any,Divorced,Master's,Country 38,Student,>50K,Occupation 15
+<30,Any,Any,Partnered,Bachelor's,Country 22,Self-Employed,<=50K,Occupation 15
+50-59,Any,Any,Single,Some College,Country 18,Unemployed,<=50K,Occupation 41
+<30,Any,Any,Partnered,Associate,Country 6,Self-Employed,<=50K,Occupation 16
+60+,Any,Any,Partnered,Bachelor's,Country 12,Student,<=50K,Occupation 32
+60+,Any,Any,Widowed,,Country 13,Private,<=50K,Occupation 30
+<30,Any,Any,Widowed,Master's,Country 1,Self-Employed,<=50K,Occupation 18
+60+,Any,Any,Widowed,Doctorate,Country 32,Retired,>50K,Occupation 8
+60+,Any,Any,Divorced,Associate,Country 25,Other,>50K,Occupation 22
+60+,Any,Any,Separated,High School,Country 20,Other,>50K,Occupation 32
+60+,Any,Any,Divorced,Associate,Country 6,Unemployed,<=50K,Occupation 36
+60+,Any,Any,Widowed,Associate,Country 18,Self-Employed,<=50K,Occupation 6
+60+,Any,Any,Married,High School,Country 23,Government,<=50K,Occupation 33
+50-59,Any,Any,Married,Some College,Country 9,Self-Employed,<=50K,Occupation 28
+<30,Any,Any,Other,High School,Country 37,Private,>50K,Occupation 23
+60+,Any,Any,Single,Master's,Country 37,Private,>50K,Occupation 33
+30-39,Any,Any,Divorced,,Country 28,Private,>50K,Occupation 18
+60+,Any,Any,Married,Bachelor's,Country 13,Self-Employed,>50K,Occupation 22
+60+,Any,Any,Partnered,High School,Country 27,Unemployed,<=50K,Occupation 25
+60+,Any,Any,Single,Associate,Country 33,Private,>50K,Occupation 10
+50-59,Any,Any,Divorced,High School,Country 6,Student,>50K,Occupation 28
+50-59,Any,Any,Widowed,,Country 14,Government,<=50K,Occupation 27
+30-39,Any,Any,Single,Associate,Country 22,Private,<=50K,Occupation 1
+60+,Any,Any,Divorced,Associate,Country 23,Government,>50K,Occupation 3
+60+,Any,Any,Separated,,Country 11,Self-Employed,<=50K,Occupation 25
+<30,Any,Any,Separated,High School,Country 39,Private,>50K,Occupation 29
+60+,Any,Any,Single,,Country 30,Private,<=50K,Occupation 28
+60+,Any,Any,Divorced,,Country 25,Private,>50K,Occupation 41
+<30,Any,Any,Single,Bachelor's,Country 39,Government,>50K,Occupation 38
+40-49,Any,Any,Divorced,Bachelor's,Country 21,Government,<=50K,Occupation 41
+60+,Any,Any,Married,Some College,Country 4,Retired,<=50K,Occupation 31
+60+,Any,Any,Divorced,Master's,Country 38,Government,<=50K,Occupation 9
+50-59,Any,Any,Widowed,,Country 33,Other,>50K,Occupation 12
+<30,Any,Any,Other,Bachelor's,Country 9,Student,>50K,Occupation 11
+60+,Any,Any,Widowed,Master's,Country 37,Retired,>50K,Occupation 16
+60+,Any,Any,Single,Some College,Country 7,Student,>50K,Occupation 11
+50-59,Any,Any,Partnered,Some College,Country 4,Other,<=50K,Occupation 22
+<30,Any,Any,Other,Some College,Country 37,Student,<=50K,Occupation 2
+<30,Any,Any,Partnered,Doctorate,Country 28,Self-Employed,>50K,Occupation 4
+40-49,Any,Any,Partnered,Doctorate,Country 15,Retired,<=50K,Occupation 22
+30-39,Any,Any,Single,Master's,Country 20,Self-Employed,<=50K,Occupation 26
+40-49,Any,Any,Married,Some College,Country 12,Unemployed,<=50K,Occupation 18
+30-39,Any,Any,Married,Doctorate,Country 16,Student,>50K,Occupation 17
+40-49,Any,Any,Other,Some College,Country 41,Government,<=50K,Occupation 7
+50-59,Any,Any,Separated,Doctorate,Country 26,Private,>50K,Occupation 1
+<30,Any,Any,Widowed,High School,Country 31,Retired,>50K,Occupation 39
+60+,Any,Any,Divorced,High School,Country 26,Private,>50K,Occupation 1
+30-39,Any,Any,Partnered,Doctorate,Country 21,Self-Employed,<=50K,Occupation 14
+40-49,Any,Any,Married,Associate,Country 32,Self-Employed,<=50K,Occupation 36
+60+,Any,Any,Partnered,,Country 37,Other,>50K,Occupation 4
+<30,Any,Any,Married,Bachelor's,Country 5,Retired,>50K,Occupation 41
+50-59,Any,Any,Widowed,Bachelor's,Country 6,Retired,<=50K,Occupation 6
+60+,Any,Any,Single,High School,Country 33,Student,<=50K,Occupation 25
+30-39,Any,Any,Married,Bachelor's,Country 26,Other,<=50K,Occupation 31
+30-39,Any,Any,Separated,High School,Country 22,Unemployed,<=50K,Occupation 2
+60+,Any,Any,Single,,Country 2,Unemployed,>50K,Occupation 40
+60+,Any,Any,Divorced,Master's,Country 5,Government,<=50K,Occupation 12
+30-39,Any,Any,Divorced,Some College,Country 13,Other,>50K,Occupation 28
+60+,Any,Any,Other,Bachelor's,Country 13,Retired,>50K,Occupation 10
+40-49,Any,Any,Separated,,Country 9,Self-Employed,>50K,Occupation 6
+30-39,Any,Any,Divorced,Some College,Country 3,Retired,>50K,Occupation 14
+40-49,Any,Any,Separated,Doctorate,Country 36,Government,<=50K,Occupation 22
+50-59,Any,Any,Divorced,Some College,Country 32,Unemployed,>50K,Occupation 14
+60+,Any,Any,Single,Bachelor's,Country 2,Private,<=50K,Occupation 28
+<30,Any,Any,Other,High School,Country 41,Self-Employed,>50K,Occupation 21
+50-59,Any,Any,Separated,Master's,Country 20,Unemployed,>50K,Occupation 21
+60+,Any,Any,Separated,,Country 39,Student,>50K,Occupation 35
+60+,Any,Any,Widowed,Master's,Country 27,Student,<=50K,Occupation 2
+30-39,Any,Any,Other,,Country 2,Unemployed,<=50K,Occupation 40
+40-49,Any,Any,Other,Doctorate,Country 31,Other,>50K,Occupation 6
+60+,Any,Any,Widowed,Doctorate,Country 6,Private,>50K,Occupation 36
+60+,Any,Any,Single,High School,Country 22,Private,>50K,Occupation 20
+60+,Any,Any,Partnered,Bachelor's,Country 6,Retired,>50K,Occupation 12
+60+,Any,Any,Divorced,Bachelor's,Country 18,Unemployed,<=50K,Occupation 14
+30-39,Any,Any,Married,Associate,Country 41,Unemployed,<=50K,Occupation 11
+60+,Any,Any,Married,Master's,Country 23,Retired,>50K,Occupation 11
+60+,Any,Any,Other,Associate,Country 9,Retired,<=50K,Occupation 11
+50-59,Any,Any,Other,Associate,Country 14,Self-Employed,<=50K,Occupation 13
+<30,Any,Any,Married,,Country 41,Government,>50K,Occupation 1
+<30,Any,Any,Married,,Country 38,Private,<=50K,Occupation 27
+60+,Any,Any,Widowed,Doctorate,Country 15,Self-Employed,>50K,Occupation 20
+60+,Any,Any,Other,Bachelor's,Country 29,Unemployed,>50K,Occupation 34
+50-59,Any,Any,Separated,Some College,Country 39,Self-Employed,<=50K,Occupation 7
+60+,Any,Any,Other,High School,Country 20,Private,<=50K,Occupation 10
+40-49,Any,Any,Separated,Doctorate,Country 24,Retired,>50K,Occupation 4
+60+,Any,Any,Other,Master's,Country 35,Government,>50K,Occupation 32
+30-39,Any,Any,Other,,Country 39,Self-Employed,>50K,Occupation 28
+40-49,Any,Any,Widowed,,Country 37,Private,>50K,Occupation 3
+<30,Any,Any,Divorced,Master's,Country 22,Government,<=50K,Occupation 36
+<30,Any,Any,Partnered,Bachelor's,Country 3,Student,>50K,Occupation 41
+60+,Any,Any,Single,Associate,Country 2,Self-Employed,<=50K,Occupation 40
+40-49,Any,Any,Other,Associate,Country 9,Student,>50K,Occupation 2
+60+,Any,Any,Widowed,Master's,Country 5,Self-Employed,<=50K,Occupation 20
+40-49,Any,Any,Married,,Country 23,Self-Employed,<=50K,Occupation 22
+60+,Any,Any,Other,,Country 12,Student,<=50K,Occupation 14
+40-49,Any,Any,Partnered,Some College,Country 15,Private,<=50K,Occupation 15
+50-59,Any,Any,Partnered,Master's,Country 8,Other,<=50K,Occupation 17
+40-49,Any,Any,Partnered,Associate,Country 39,Private,<=50K,Occupation 21
+<30,Any,Any,Other,Master's,Country 1,Government,<=50K,Occupation 12
+<30,Any,Any,Single,Doctorate,Country 12,Self-Employed,<=50K,Occupation 22
+<30,Any,Any,Separated,Bachelor's,Country 29,Private,>50K,Occupation 10
+<30,Any,Any,Other,Associate,Country 6,Unemployed,>50K,Occupation 2
+60+,Any,Any,Single,Doctorate,Country 24,Student,>50K,Occupation 18
+30-39,Any,Any,Married,Some College,Country 8,Other,<=50K,Occupation 35
+<30,Any,Any,Married,High School,Country 15,Unemployed,<=50K,Occupation 19
+60+,Any,Any,Separated,Associate,Country 35,Self-Employed,>50K,Occupation 40
+30-39,Any,Any,Married,Some College,Country 24,Private,<=50K,Occupation 25
+40-49,Any,Any,Partnered,Master's,Country 8,Other,>50K,Occupation 18
+40-49,Any,Any,Divorced,Master's,Country 2,Private,>50K,Occupation 3
+60+,Any,Any,Divorced,Master's,Country 39,Private,<=50K,Occupation 27
+60+,Any,Any,Widowed,Some College,Country 16,Private,>50K,Occupation 30
+50-59,Any,Any,Single,Some College,Country 29,Government,<=50K,Occupation 13
+40-49,Any,Any,Single,,Country 24,Retired,>50K,Occupation 23
+60+,Any,Any,Widowed,Master's,Country 24,Student,>50K,Occupation 11
+60+,Any,Any,Married,,Country 29,Student,<=50K,Occupation 12
+50-59,Any,Any,Widowed,,Country 4,Other,<=50K,Occupation 20
+<30,Any,Any,Single,Associate,Country 37,Retired,<=50K,Occupation 17
+50-59,Any,Any,Divorced,,Country 14,Other,>50K,Occupation 5
+<30,Any,Any,Widowed,High School,Country 29,Government,>50K,Occupation 14
+40-49,Any,Any,Widowed,Some College,Country 36,Student,<=50K,Occupation 14
+60+,Any,Any,Single,High School,Country 9,Self-Employed,>50K,Occupation 30
+40-49,Any,Any,Separated,High School,Country 1,Retired,>50K,Occupation 7
+30-39,Any,Any,Divorced,Bachelor's,Country 1,Self-Employed,<=50K,Occupation 1
+50-59,Any,Any,Partnered,Bachelor's,Country 5,Student,>50K,Occupation 37
+60+,Any,Any,Other,Master's,Country 4,Other,<=50K,Occupation 36
+60+,Any,Any,Divorced,Some College,Country 19,Student,>50K,Occupation 40
+30-39,Any,Any,Partnered,,Country 19,Student,<=50K,Occupation 8
+60+,Any,Any,Widowed,Doctorate,Country 24,Student,<=50K,Occupation 37
+60+,Any,Any,Married,Master's,Country 25,Student,<=50K,Occupation 16
+50-59,Any,Any,Widowed,,Country 20,Retired,<=50K,Occupation 34
+60+,Any,Any,Partnered,Master's,Country 36,Private,>50K,Occupation 39
+60+,Any,Any,Separated,Doctorate,Country 30,Other,>50K,Occupation 9
+60+,Any,Any,Single,Some College,Country 24,Self-Employed,<=50K,Occupation 3
+60+,Any,Any,Single,Doctorate,Country 36,Government,>50K,Occupation 24
+50-59,Any,Any,Other,High School,Country 35,Student,<=50K,Occupation 27
+40-49,Any,Any,Widowed,Doctorate,Country 6,Government,<=50K,Occupation 3
+<30,Any,Any,Married,High School,Country 38,Student,<=50K,Occupation 2
+30-39,Any,Any,Separated,Master's,Country 3,Private,<=50K,Occupation 22
+<30,Any,Any,Married,Bachelor's,Country 15,Private,<=50K,Occupation 35
+60+,Any,Any,Divorced,,Country 23,Student,<=50K,Occupation 21
+60+,Any,Any,Widowed,Bachelor's,Country 13,Government,<=50K,Occupation 32
+40-49,Any,Any,Partnered,Bachelor's,Country 20,Student,>50K,Occupation 7
+<30,Any,Any,Single,Doctorate,Country 16,Other,>50K,Occupation 37
+30-39,Any,Any,Divorced,Associate,Country 12,Other,>50K,Occupation 33
+<30,Any,Any,Separated,Doctorate,Country 3,Self-Employed,>50K,Occupation 27
+60+,Any,Any,Widowed,Bachelor's,Country 27,Other,>50K,Occupation 10
+60+,Any,Any,Other,Associate,Country 21,Retired,<=50K,Occupation 13
+60+,Any,Any,Separated,Some College,Country 10,Self-Employed,<=50K,Occupation 23
+40-49,Any,Any,Divorced,Bachelor's,Country 17,Other,>50K,Occupation 1
+<30,Any,Any,Separated,Associate,Country 2,Retired,<=50K,Occupation 34
+60+,Any,Any,Partnered,Bachelor's,Country 2,Self-Employed,>50K,Occupation 30
+<30,Any,Any,Divorced,,Country 18,Self-Employed,<=50K,Occupation 35
+60+,Any,Any,Other,High School,Country 2,Self-Employed,>50K,Occupation 28
+60+,Any,Any,Other,High School,Country 8,Self-Employed,<=50K,Occupation 37
+40-49,Any,Any,Single,High School,Country 7,Retired,>50K,Occupation 33
+<30,Any,Any,Widowed,Doctorate,Country 8,Retired,<=50K,Occupation 14
+60+,Any,Any,Widowed,Some College,Country 19,Private,<=50K,Occupation 23
+60+,Any,Any,Partnered,High School,Country 14,Self-Employed,>50K,Occupation 41
+50-59,Any,Any,Divorced,,Country 36,Private,<=50K,Occupation 34
+60+,Any,Any,Single,Bachelor's,Country 1,Self-Employed,<=50K,Occupation 8
+50-59,Any,Any,Single,Doctorate,Country 6,Other,<=50K,Occupation 4
+40-49,Any,Any,Partnered,,Country 21,Other,>50K,Occupation 31
+60+,Any,Any,Divorced,,Country 22,Government,>50K,Occupation 20
+<30,Any,Any,Widowed,Some College,Country 14,Government,>50K,Occupation 31
+60+,Any,Any,Separated,Bachelor's,Country 41,Retired,<=50K,Occupation 24
+<30,Any,Any,Widowed,Doctorate,Country 19,Unemployed,>50K,Occupation 5
+60+,Any,Any,Married,High School,Country 33,Retired,>50K,Occupation 15
+30-39,Any,Any,Partnered,Master's,Country 27,Other,>50K,Occupation 9
+50-59,Any,Any,Married,Master's,Country 15,Other,<=50K,Occupation 3
+<30,Any,Any,Partnered,Associate,Country 19,Other,>50K,Occupation 11
+60+,Any,Any,Separated,,Country 22,Unemployed,>50K,Occupation 7
+<30,Any,Any,Divorced,Bachelor's,Country 40,Retired,<=50K,Occupation 30
+50-59,Any,Any,Separated,Some College,Country 5,Student,<=50K,Occupation 6
+60+,Any,Any,Partnered,Some College,Country 8,Private,>50K,Occupation 5
+<30,Any,Any,Partnered,Some College,Country 16,Retired,<=50K,Occupation 20
+60+,Any,Any,Other,Associate,Country 13,Self-Employed,<=50K,Occupation 7
+50-59,Any,Any,Other,Bachelor's,Country 27,Student,>50K,Occupation 39
+50-59,Any,Any,Widowed,Bachelor's,Country 21,Unemployed,<=50K,Occupation 36
+60+,Any,Any,Married,Associate,Country 26,Retired,<=50K,Occupation 4
+60+,Any,Any,Partnered,,Country 5,Government,<=50K,Occupation 9
+60+,Any,Any,Divorced,,Country 41,Student,>50K,Occupation 21
