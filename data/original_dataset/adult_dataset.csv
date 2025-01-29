@@ -1,1001 +1,201 @@
 Age,Gender,Race,Marital Status,Education,Native Country,Work Class,Salary Class,Occupation
-55,Male,Hispanic,Separated,Bachelor's,Country 39,Other,>50K,Occupation 27
-87,Male,White,Other,High School,Country 33,Self-Employed,>50K,Occupation 25
-77,Female,Black,Widowed,Doctorate,Country 37,Self-Employed,>50K,Occupation 39
-88,Female,Black,Single,Doctorate,Country 25,Private,<=50K,Occupation 18
-71,Male,Other,Married,Associate,Country 10,Retired,>50K,Occupation 24
-89,Male,Asian,Partnered,Some College,Country 36,Self-Employed,>50K,Occupation 29
-57,Female,Other,Married,Doctorate,Country 6,Retired,<=50K,Occupation 5
-64,Male,Hispanic,Partnered,None,Country 7,Private,>50K,Occupation 19
-44,Female,Black,Widowed,None,Country 13,Student,>50K,Occupation 18
-59,Female,Hispanic,Single,None,Country 3,Self-Employed,>50K,Occupation 37
-87,Female,Other,Single,None,Country 25,Student,>50K,Occupation 4
-90,Female,White,Other,None,Country 31,Private,>50K,Occupation 4
-73,Female,White,Single,None,Country 15,Other,<=50K,Occupation 39
-50,Female,White,Partnered,Associate,Country 33,Unemployed,>50K,Occupation 17
-66,Male,Other,Divorced,Associate,Country 33,Student,>50K,Occupation 6
-53,Male,Asian,Widowed,Associate,Country 11,Unemployed,<=50K,Occupation 40
-62,Male,White,Widowed,None,Country 40,Unemployed,>50K,Occupation 27
-30,Male,Black,Single,Bachelor's,Country 8,Student,<=50K,Occupation 38
-56,Male,White,Married,Doctorate,Country 26,Retired,<=50K,Occupation 5
-83,Female,White,Married,High School,Country 32,Retired,<=50K,Occupation 9
-32,Female,Black,Separated,High School,Country 2,Government,<=50K,Occupation 32
-45,Male,Black,Other,Doctorate,Country 38,Private,>50K,Occupation 28
-89,Female,White,Partnered,Some College,Country 7,Retired,<=50K,Occupation 1
-22,Female,Other,Married,Bachelor's,Country 17,Government,>50K,Occupation 30
-44,Male,White,Widowed,None,Country 18,Retired,>50K,Occupation 5
-49,Female,Black,Other,None,Country 15,Student,<=50K,Occupation 24
-90,Male,White,Single,Doctorate,Country 3,Unemployed,>50K,Occupation 17
-62,Male,White,Partnered,High School,Country 31,Government,<=50K,Occupation 34
-63,Male,Other,Divorced,Doctorate,Country 30,Retired,<=50K,Occupation 17
-47,Male,Black,Separated,Doctorate,Country 2,Other,>50K,Occupation 15
-70,Female,Hispanic,Married,Master's,Country 4,Unemployed,>50K,Occupation 4
-45,Female,Black,Separated,Associate,Country 37,Student,>50K,Occupation 5
-70,Male,Black,Separated,Bachelor's,Country 17,Retired,<=50K,Occupation 15
-76,Male,Black,Separated,Master's,Country 21,Other,>50K,Occupation 39
-61,Female,Hispanic,Divorced,Some College,Country 10,Unemployed,<=50K,Occupation 7
-90,Male,Hispanic,Divorced,Associate,Country 40,Other,<=50K,Occupation 27
-41,Female,Hispanic,Widowed,Some College,Country 40,Student,<=50K,Occupation 19
-54,Female,Asian,Partnered,Bachelor's,Country 35,Private,>50K,Occupation 7
-60,Male,White,Separated,Bachelor's,Country 12,Private,>50K,Occupation 7
-22,Male,Black,Divorced,Master's,Country 1,Retired,>50K,Occupation 8
-55,Male,Black,Separated,High School,Country 23,Retired,>50K,Occupation 29
-49,Female,Hispanic,Married,None,Country 8,Self-Employed,<=50K,Occupation 11
-82,Male,Asian,Single,Doctorate,Country 27,Unemployed,>50K,Occupation 24
-32,Female,Hispanic,Divorced,Associate,Country 30,Other,<=50K,Occupation 39
-56,Male,Other,Single,Some College,Country 27,Private,<=50K,Occupation 29
-73,Female,Other,Widowed,Master's,Country 24,Private,<=50K,Occupation 27
-90,Male,White,Widowed,Some College,Country 1,Government,>50K,Occupation 17
-47,Male,Other,Widowed,Master's,Country 13,Other,<=50K,Occupation 29
-60,Female,Hispanic,Married,High School,Country 39,Retired,<=50K,Occupation 32
-82,Male,Other,Partnered,Master's,Country 7,Government,<=50K,Occupation 2
-51,Female,White,Partnered,Associate,Country 15,Self-Employed,<=50K,Occupation 31
-39,Female,Black,Partnered,Bachelor's,Country 26,Self-Employed,<=50K,Occupation 31
-79,Female,Hispanic,Partnered,None,Country 14,Student,>50K,Occupation 28
-24,Female,Asian,Divorced,Doctorate,Country 8,Private,>50K,Occupation 39
-84,Female,Hispanic,Married,Master's,Country 2,Government,<=50K,Occupation 34
-21,Female,White,Partnered,None,Country 8,Unemployed,>50K,Occupation 2
-50,Male,Asian,Married,None,Country 5,Private,>50K,Occupation 1
-30,Male,Hispanic,Divorced,Master's,Country 37,Other,<=50K,Occupation 15
-29,Male,Other,Partnered,Associate,Country 11,Student,>50K,Occupation 2
-42,Male,Asian,Married,Doctorate,Country 2,Other,>50K,Occupation 23
-32,Female,Asian,Separated,Master's,Country 7,Self-Employed,<=50K,Occupation 8
-38,Male,White,Other,High School,Country 32,Student,<=50K,Occupation 2
-77,Female,Other,Other,None,Country 13,Self-Employed,<=50K,Occupation 35
-71,Female,Hispanic,Separated,None,Country 30,Unemployed,>50K,Occupation 33
-21,Male,Other,Other,High School,Country 20,Government,<=50K,Occupation 21
-82,Male,White,Single,Master's,Country 32,Student,>50K,Occupation 21
-62,Male,White,Other,Master's,Country 16,Government,<=50K,Occupation 30
-69,Male,Black,Divorced,Associate,Country 32,Retired,>50K,Occupation 31
-59,Female,Hispanic,Single,Some College,Country 6,Unemployed,>50K,Occupation 2
-59,Female,White,Divorced,Master's,Country 3,Unemployed,>50K,Occupation 32
-55,Female,Other,Separated,Associate,Country 7,Unemployed,<=50K,Occupation 4
-34,Female,Other,Other,High School,Country 12,Retired,<=50K,Occupation 27
-73,Female,Asian,Other,Associate,Country 34,Government,<=50K,Occupation 35
-46,Female,Asian,Partnered,Bachelor's,Country 33,Private,<=50K,Occupation 31
-53,Male,Hispanic,Divorced,None,Country 18,Private,<=50K,Occupation 17
-57,Female,White,Married,Associate,Country 1,Private,>50K,Occupation 9
-62,Male,Asian,Divorced,Bachelor's,Country 29,Retired,<=50K,Occupation 31
-44,Female,White,Partnered,Some College,Country 30,Government,<=50K,Occupation 10
-81,Male,Black,Partnered,High School,Country 36,Self-Employed,>50K,Occupation 11
-38,Female,White,Single,Master's,Country 5,Student,<=50K,Occupation 3
-70,Female,Hispanic,Other,Some College,Country 35,Government,>50K,Occupation 36
-57,Male,White,Other,Doctorate,Country 5,Self-Employed,<=50K,Occupation 39
-34,Male,Black,Widowed,Doctorate,Country 28,Self-Employed,<=50K,Occupation 4
-58,Female,Hispanic,Single,Doctorate,Country 32,Government,<=50K,Occupation 4
-89,Female,White,Widowed,Bachelor's,Country 12,Retired,>50K,Occupation 29
-48,Female,Asian,Married,Master's,Country 1,Government,<=50K,Occupation 12
-29,Male,Black,Single,Doctorate,Country 26,Other,<=50K,Occupation 39
-39,Female,Other,Divorced,Doctorate,Country 41,Self-Employed,>50K,Occupation 29
-57,Female,White,Separated,None,Country 34,Private,>50K,Occupation 4
-67,Male,Black,Divorced,None,Country 41,Government,>50K,Occupation 25
-29,Male,Asian,Divorced,Doctorate,Country 21,Government,<=50K,Occupation 36
-38,Male,White,Single,None,Country 14,Student,>50K,Occupation 20
-55,Female,Asian,Separated,Doctorate,Country 11,Student,<=50K,Occupation 30
-61,Female,Black,Other,Bachelor's,Country 36,Unemployed,>50K,Occupation 2
-24,Male,White,Married,Master's,Country 27,Student,<=50K,Occupation 16
-29,Male,Black,Partnered,Associate,Country 18,Other,<=50K,Occupation 7
-45,Female,Black,Married,Master's,Country 39,Retired,>50K,Occupation 19
-85,Male,Other,Partnered,Associate,Country 31,Self-Employed,>50K,Occupation 18
-27,Female,White,Partnered,Bachelor's,Country 25,Unemployed,<=50K,Occupation 33
-88,Female,Hispanic,Separated,Bachelor's,Country 13,Retired,>50K,Occupation 19
-50,Male,Hispanic,Widowed,None,Country 38,Unemployed,<=50K,Occupation 39
-43,Female,Black,Widowed,Bachelor's,Country 7,Retired,>50K,Occupation 10
-85,Male,Black,Partnered,Doctorate,Country 5,Other,<=50K,Occupation 36
-36,Male,Hispanic,Divorced,Some College,Country 28,Self-Employed,>50K,Occupation 12
-82,Female,Hispanic,Partnered,Some College,Country 12,Private,>50K,Occupation 14
-75,Male,Black,Partnered,None,Country 12,Unemployed,>50K,Occupation 2
-87,Female,Hispanic,Married,Doctorate,Country 22,Self-Employed,>50K,Occupation 7
-85,Male,White,Divorced,High School,Country 18,Government,>50K,Occupation 33
-37,Male,White,Divorced,None,Country 5,Student,>50K,Occupation 34
-37,Female,Asian,Single,High School,Country 38,Government,<=50K,Occupation 20
-52,Female,Other,Partnered,Bachelor's,Country 7,Private,>50K,Occupation 39
-28,Female,Other,Single,Bachelor's,Country 5,Retired,<=50K,Occupation 18
-89,Female,Hispanic,Single,None,Country 29,Student,>50K,Occupation 29
-61,Male,Hispanic,Other,Master's,Country 32,Government,>50K,Occupation 2
-33,Male,Black,Widowed,Some College,Country 11,Private,<=50K,Occupation 34
-19,Female,Asian,Widowed,Some College,Country 3,Government,>50K,Occupation 16
-41,Male,Other,Other,Associate,Country 10,Private,>50K,Occupation 18
-51,Male,White,Single,Associate,Country 27,Self-Employed,>50K,Occupation 11
-69,Female,Asian,Separated,Doctorate,Country 20,Unemployed,>50K,Occupation 6
-77,Female,White,Widowed,High School,Country 12,Government,<=50K,Occupation 8
-82,Female,Asian,Separated,None,Country 8,Government,>50K,Occupation 32
-83,Female,Black,Married,Bachelor's,Country 38,Student,>50K,Occupation 39
-48,Female,Hispanic,Other,Master's,Country 20,Unemployed,>50K,Occupation 1
-75,Male,Other,Single,Bachelor's,Country 40,Other,<=50K,Occupation 18
-74,Male,Other,Partnered,High School,Country 30,Private,<=50K,Occupation 41
-30,Male,Asian,Partnered,None,Country 5,Private,>50K,Occupation 30
-60,Male,Hispanic,Separated,Master's,Country 32,Student,<=50K,Occupation 12
-67,Female,Hispanic,Single,None,Country 23,Private,>50K,Occupation 28
-63,Male,Asian,Single,Some College,Country 39,Self-Employed,<=50K,Occupation 15
-49,Female,Black,Widowed,Bachelor's,Country 41,Private,<=50K,Occupation 33
-31,Female,Other,Divorced,Master's,Country 10,Other,<=50K,Occupation 20
-40,Male,White,Married,Doctorate,Country 21,Private,>50K,Occupation 34
-26,Female,White,Widowed,Bachelor's,Country 14,Self-Employed,>50K,Occupation 23
-57,Male,Black,Other,Doctorate,Country 1,Unemployed,<=50K,Occupation 27
-52,Female,Asian,Partnered,Some College,Country 28,Student,<=50K,Occupation 31
-21,Female,Other,Widowed,Some College,Country 4,Private,>50K,Occupation 5
-29,Female,Hispanic,Single,Doctorate,Country 3,Government,<=50K,Occupation 24
-35,Female,Asian,Other,Doctorate,Country 24,Self-Employed,<=50K,Occupation 16
-24,Male,White,Separated,Bachelor's,Country 9,Private,>50K,Occupation 37
-29,Female,White,Single,High School,Country 30,Unemployed,>50K,Occupation 34
-43,Male,Black,Single,Associate,Country 39,Other,>50K,Occupation 5
-18,Male,White,Separated,Associate,Country 33,Government,>50K,Occupation 33
-60,Male,White,Married,None,Country 23,Retired,>50K,Occupation 12
-81,Female,White,Partnered,Master's,Country 23,Government,<=50K,Occupation 7
-76,Female,Other,Single,Some College,Country 25,Student,>50K,Occupation 4
-33,Male,Other,Widowed,Master's,Country 6,Self-Employed,>50K,Occupation 29
-62,Female,Asian,Separated,High School,Country 41,Private,<=50K,Occupation 1
-52,Female,Black,Partnered,Some College,Country 25,Private,>50K,Occupation 39
-27,Male,White,Married,Master's,Country 2,Self-Employed,<=50K,Occupation 10
-79,Male,Black,Other,Master's,Country 31,Government,>50K,Occupation 3
-35,Female,White,Separated,Associate,Country 31,Retired,>50K,Occupation 37
-52,Female,Hispanic,Other,High School,Country 37,Unemployed,<=50K,Occupation 14
-21,Female,Hispanic,Single,None,Country 12,Unemployed,>50K,Occupation 5
-60,Male,Asian,Single,High School,Country 16,Other,>50K,Occupation 5
-27,Male,White,Separated,Associate,Country 3,Other,>50K,Occupation 40
-81,Male,Hispanic,Divorced,None,Country 31,Retired,>50K,Occupation 9
-80,Male,Black,Other,High School,Country 20,Self-Employed,<=50K,Occupation 38
-37,Female,Asian,Other,Some College,Country 20,Unemployed,>50K,Occupation 12
-61,Female,White,Divorced,None,Country 38,Self-Employed,<=50K,Occupation 5
-22,Male,Hispanic,Single,Master's,Country 6,Self-Employed,>50K,Occupation 6
-67,Male,White,Widowed,High School,Country 12,Government,>50K,Occupation 31
-27,Male,Other,Married,Bachelor's,Country 20,Unemployed,>50K,Occupation 18
-31,Male,Asian,Single,Doctorate,Country 35,Unemployed,<=50K,Occupation 22
-18,Female,White,Married,None,Country 40,Other,>50K,Occupation 8
-90,Female,Other,Partnered,None,Country 5,Retired,<=50K,Occupation 10
-43,Female,White,Widowed,Doctorate,Country 13,Retired,<=50K,Occupation 18
-77,Female,Hispanic,Partnered,Doctorate,Country 33,Private,>50K,Occupation 12
-19,Female,Asian,Other,None,Country 19,Government,<=50K,Occupation 2
-51,Male,Other,Other,Some College,Country 40,Retired,>50K,Occupation 22
-59,Male,Hispanic,Partnered,High School,Country 13,Unemployed,<=50K,Occupation 39
-54,Male,Other,Married,Associate,Country 8,Private,<=50K,Occupation 33
-42,Male,White,Married,Some College,Country 22,Student,>50K,Occupation 13
-28,Female,Hispanic,Other,None,Country 18,Student,>50K,Occupation 30
-48,Female,White,Separated,Master's,Country 36,Unemployed,>50K,Occupation 27
-23,Male,Asian,Other,Master's,Country 9,Other,>50K,Occupation 18
-23,Male,Other,Partnered,Bachelor's,Country 32,Unemployed,<=50K,Occupation 23
-20,Female,Other,Other,Bachelor's,Country 1,Retired,>50K,Occupation 15
-67,Male,Asian,Single,High School,Country 10,Unemployed,<=50K,Occupation 29
-27,Female,Black,Partnered,None,Country 41,Government,<=50K,Occupation 37
-42,Female,Other,Widowed,Master's,Country 32,Private,<=50K,Occupation 15
-31,Female,Asian,Single,Bachelor's,Country 28,Unemployed,>50K,Occupation 4
-18,Male,Black,Other,High School,Country 15,Other,>50K,Occupation 30
-34,Female,White,Widowed,Associate,Country 25,Private,>50K,Occupation 25
-59,Female,Asian,Other,Some College,Country 19,Private,>50K,Occupation 32
-19,Female,Other,Partnered,Master's,Country 21,Other,<=50K,Occupation 39
-54,Male,White,Single,Doctorate,Country 37,Other,<=50K,Occupation 21
-31,Female,Black,Married,Doctorate,Country 24,Self-Employed,>50K,Occupation 23
-47,Female,Hispanic,Divorced,Bachelor's,Country 6,Government,<=50K,Occupation 28
-88,Female,White,Separated,High School,Country 41,Private,<=50K,Occupation 39
-78,Female,Asian,Partnered,High School,Country 37,Unemployed,>50K,Occupation 24
-26,Female,Hispanic,Other,None,Country 28,Retired,<=50K,Occupation 23
-39,Female,Hispanic,Divorced,None,Country 20,Government,<=50K,Occupation 33
-34,Male,Black,Single,High School,Country 15,Other,>50K,Occupation 28
-73,Female,Asian,Partnered,Some College,Country 33,Other,>50K,Occupation 34
-43,Male,White,Other,High School,Country 15,Retired,>50K,Occupation 38
-60,Female,White,Separated,None,Country 18,Unemployed,>50K,Occupation 24
-75,Female,Other,Separated,Doctorate,Country 8,Student,<=50K,Occupation 11
-42,Female,Hispanic,Separated,Bachelor's,Country 36,Self-Employed,<=50K,Occupation 3
-66,Male,White,Partnered,Some College,Country 21,Self-Employed,<=50K,Occupation 20
-30,Female,Asian,Widowed,None,Country 4,Self-Employed,>50K,Occupation 1
-73,Female,Other,Single,Some College,Country 41,Unemployed,<=50K,Occupation 34
-42,Female,White,Widowed,Associate,Country 7,Self-Employed,<=50K,Occupation 8
-74,Female,Hispanic,Divorced,Doctorate,Country 9,Unemployed,>50K,Occupation 41
-49,Male,Black,Single,Master's,Country 29,Other,>50K,Occupation 7
-38,Female,White,Married,None,Country 33,Other,>50K,Occupation 4
-46,Female,Other,Married,None,Country 15,Retired,>50K,Occupation 9
-34,Female,Hispanic,Separated,Bachelor's,Country 6,Retired,>50K,Occupation 15
-85,Female,Black,Widowed,None,Country 10,Student,<=50K,Occupation 6
-24,Male,White,Other,High School,Country 38,Unemployed,>50K,Occupation 6
-21,Male,Hispanic,Separated,Associate,Country 3,Self-Employed,>50K,Occupation 14
-18,Male,Other,Single,High School,Country 22,Student,<=50K,Occupation 32
-62,Male,Hispanic,Partnered,None,Country 20,Private,>50K,Occupation 16
-54,Female,Other,Partnered,Master's,Country 22,Student,>50K,Occupation 13
-41,Male,Hispanic,Widowed,Associate,Country 23,Other,<=50K,Occupation 27
-32,Male,White,Single,Bachelor's,Country 37,Private,<=50K,Occupation 12
-74,Female,Asian,Other,Master's,Country 9,Government,<=50K,Occupation 15
-85,Male,White,Widowed,High School,Country 37,Private,<=50K,Occupation 10
-39,Female,Asian,Widowed,Doctorate,Country 12,Self-Employed,>50K,Occupation 17
-68,Male,Other,Divorced,Associate,Country 24,Retired,<=50K,Occupation 6
-55,Male,Black,Single,Associate,Country 32,Government,>50K,Occupation 19
-63,Male,Asian,Married,None,Country 40,Self-Employed,<=50K,Occupation 7
-25,Female,Asian,Partnered,Some College,Country 31,Retired,>50K,Occupation 27
-72,Male,White,Other,Master's,Country 30,Self-Employed,<=50K,Occupation 12
-53,Male,Hispanic,Partnered,Some College,Country 19,Private,<=50K,Occupation 13
-50,Male,Asian,Partnered,Master's,Country 20,Government,<=50K,Occupation 13
-89,Female,White,Single,Some College,Country 19,Government,>50K,Occupation 36
-25,Female,White,Separated,Master's,Country 38,Self-Employed,>50K,Occupation 7
-44,Male,Black,Other,Doctorate,Country 36,Other,<=50K,Occupation 5
-62,Female,Hispanic,Single,None,Country 24,Student,>50K,Occupation 39
-83,Male,Hispanic,Divorced,Doctorate,Country 5,Unemployed,>50K,Occupation 34
-68,Male,Hispanic,Divorced,None,Country 23,Student,<=50K,Occupation 5
-52,Female,Black,Married,Bachelor's,Country 20,Private,<=50K,Occupation 1
-28,Male,Black,Widowed,High School,Country 8,Self-Employed,<=50K,Occupation 29
-42,Female,Other,Partnered,Bachelor's,Country 41,Government,<=50K,Occupation 8
-80,Female,Black,Other,High School,Country 23,Student,<=50K,Occupation 27
-45,Female,Black,Widowed,None,Country 18,Government,<=50K,Occupation 5
-47,Male,Asian,Widowed,None,Country 12,Self-Employed,<=50K,Occupation 32
-29,Female,Other,Other,Associate,Country 15,Private,<=50K,Occupation 39
-81,Female,Black,Widowed,Associate,Country 21,Private,>50K,Occupation 13
-80,Male,Hispanic,Separated,Bachelor's,Country 13,Other,<=50K,Occupation 38
-48,Male,Other,Widowed,None,Country 7,Retired,>50K,Occupation 34
-24,Female,White,Divorced,Associate,Country 13,Other,>50K,Occupation 16
-76,Male,Asian,Single,Some College,Country 8,Private,>50K,Occupation 11
-81,Male,Hispanic,Other,Some College,Country 23,Unemployed,>50K,Occupation 1
-85,Female,Black,Single,None,Country 10,Unemployed,>50K,Occupation 35
-72,Male,Hispanic,Divorced,Bachelor's,Country 29,Private,>50K,Occupation 21
-30,Female,Asian,Widowed,Doctorate,Country 17,Government,<=50K,Occupation 14
-80,Female,Asian,Other,Master's,Country 24,Self-Employed,<=50K,Occupation 4
-75,Female,Black,Married,Doctorate,Country 23,Private,>50K,Occupation 40
-43,Female,Other,Widowed,Master's,Country 26,Retired,<=50K,Occupation 10
-23,Female,Other,Single,Some College,Country 26,Unemployed,>50K,Occupation 36
-29,Male,Other,Partnered,Bachelor's,Country 10,Retired,<=50K,Occupation 25
-89,Male,Black,Divorced,Master's,Country 12,Unemployed,>50K,Occupation 27
-80,Female,Other,Widowed,Master's,Country 34,Self-Employed,<=50K,Occupation 22
-66,Female,Hispanic,Single,Master's,Country 26,Retired,<=50K,Occupation 7
-68,Female,Asian,Other,Associate,Country 2,Government,>50K,Occupation 40
-66,Female,Hispanic,Married,None,Country 31,Private,>50K,Occupation 18
-65,Female,Other,Married,Master's,Country 33,Student,>50K,Occupation 5
-86,Male,Asian,Other,Bachelor's,Country 4,Student,<=50K,Occupation 39
-50,Male,Hispanic,Single,Associate,Country 26,Self-Employed,<=50K,Occupation 9
-61,Female,White,Separated,High School,Country 21,Other,>50K,Occupation 2
-74,Male,Black,Widowed,Bachelor's,Country 20,Student,<=50K,Occupation 22
-68,Male,Hispanic,Widowed,Associate,Country 18,Government,>50K,Occupation 36
-81,Female,Black,Partnered,Bachelor's,Country 17,Other,<=50K,Occupation 13
-49,Female,Black,Married,Bachelor's,Country 30,Unemployed,<=50K,Occupation 1
-53,Female,White,Separated,Some College,Country 19,Retired,<=50K,Occupation 1
-43,Male,Black,Other,None,Country 5,Student,>50K,Occupation 1
-37,Male,White,Single,None,Country 19,Student,>50K,Occupation 7
-56,Male,Black,Married,Doctorate,Country 31,Self-Employed,>50K,Occupation 9
-59,Male,Black,Partnered,Some College,Country 35,Private,<=50K,Occupation 30
-60,Female,White,Partnered,Bachelor's,Country 33,Retired,>50K,Occupation 23
-40,Male,Hispanic,Separated,Bachelor's,Country 12,Self-Employed,<=50K,Occupation 5
-25,Female,Hispanic,Single,Some College,Country 17,Government,>50K,Occupation 9
-44,Female,Black,Single,Some College,Country 14,Retired,<=50K,Occupation 6
-36,Female,Hispanic,Partnered,None,Country 16,Self-Employed,<=50K,Occupation 26
-45,Female,Asian,Divorced,Associate,Country 2,Student,>50K,Occupation 21
-81,Female,Asian,Married,Bachelor's,Country 21,Retired,>50K,Occupation 23
-22,Male,Hispanic,Other,Associate,Country 36,Student,<=50K,Occupation 27
-67,Female,Other,Single,Bachelor's,Country 7,Unemployed,>50K,Occupation 18
-71,Female,Hispanic,Married,None,Country 2,Student,<=50K,Occupation 34
-44,Male,White,Separated,Associate,Country 17,Other,<=50K,Occupation 11
-29,Male,Asian,Married,Some College,Country 17,Other,<=50K,Occupation 6
-72,Male,Black,Partnered,Associate,Country 12,Other,<=50K,Occupation 37
-48,Male,Other,Other,Bachelor's,Country 15,Government,<=50K,Occupation 6
-79,Female,Hispanic,Partnered,Master's,Country 33,Retired,>50K,Occupation 17
-70,Male,Other,Separated,None,Country 38,Student,>50K,Occupation 14
-78,Female,Other,Partnered,Master's,Country 12,Other,<=50K,Occupation 6
-23,Male,Other,Single,Some College,Country 30,Government,<=50K,Occupation 20
-73,Female,Other,Widowed,Doctorate,Country 24,Unemployed,<=50K,Occupation 18
-45,Male,Asian,Partnered,High School,Country 25,Unemployed,<=50K,Occupation 23
-23,Female,White,Other,Master's,Country 41,Government,<=50K,Occupation 12
-43,Female,Hispanic,Partnered,Doctorate,Country 10,Self-Employed,>50K,Occupation 20
-60,Male,Asian,Divorced,Master's,Country 32,Unemployed,<=50K,Occupation 23
-73,Female,Black,Married,Doctorate,Country 34,Student,<=50K,Occupation 4
-55,Male,Asian,Separated,Associate,Country 19,Retired,>50K,Occupation 19
-76,Female,Asian,Divorced,Master's,Country 29,Unemployed,>50K,Occupation 38
-63,Male,White,Divorced,None,Country 34,Private,>50K,Occupation 13
-76,Female,Black,Widowed,High School,Country 18,Private,<=50K,Occupation 35
-54,Female,Black,Single,Some College,Country 23,Other,>50K,Occupation 40
-31,Female,Hispanic,Single,None,Country 3,Government,<=50K,Occupation 17
-23,Female,Black,Separated,High School,Country 28,Unemployed,>50K,Occupation 37
-39,Male,Other,Other,High School,Country 15,Other,<=50K,Occupation 26
-26,Female,Other,Divorced,Bachelor's,Country 31,Self-Employed,<=50K,Occupation 19
-89,Female,Asian,Widowed,Associate,Country 26,Government,>50K,Occupation 1
-67,Male,Asian,Partnered,Associate,Country 36,Government,<=50K,Occupation 31
-51,Female,Other,Single,Some College,Country 40,Private,>50K,Occupation 17
-28,Male,Other,Widowed,Doctorate,Country 24,Retired,>50K,Occupation 34
-58,Female,Other,Widowed,Bachelor's,Country 14,Unemployed,<=50K,Occupation 41
-32,Female,White,Other,Master's,Country 1,Private,<=50K,Occupation 1
-37,Female,Hispanic,Partnered,Some College,Country 31,Unemployed,>50K,Occupation 31
-76,Female,Other,Divorced,High School,Country 31,Other,<=50K,Occupation 14
-49,Male,Black,Married,Associate,Country 16,Self-Employed,>50K,Occupation 31
-48,Male,Other,Single,Associate,Country 3,Other,<=50K,Occupation 2
-84,Male,Black,Divorced,Bachelor's,Country 18,Self-Employed,>50K,Occupation 9
-87,Female,Black,Partnered,Bachelor's,Country 19,Self-Employed,<=50K,Occupation 14
-32,Female,Other,Other,Bachelor's,Country 15,Private,>50K,Occupation 30
-37,Female,White,Single,Doctorate,Country 9,Student,>50K,Occupation 25
-76,Female,Asian,Single,Master's,Country 33,Self-Employed,<=50K,Occupation 20
-31,Male,Black,Single,None,Country 18,Retired,<=50K,Occupation 40
-73,Male,Hispanic,Partnered,High School,Country 18,Retired,<=50K,Occupation 1
-34,Female,Black,Widowed,High School,Country 28,Government,<=50K,Occupation 29
-84,Female,Black,Divorced,Associate,Country 10,Private,>50K,Occupation 41
-37,Male,Asian,Other,Associate,Country 11,Government,>50K,Occupation 1
-68,Male,Hispanic,Widowed,Master's,Country 10,Self-Employed,>50K,Occupation 15
-29,Male,Asian,Separated,Bachelor's,Country 2,Self-Employed,>50K,Occupation 17
-73,Male,Hispanic,Divorced,Master's,Country 9,Self-Employed,<=50K,Occupation 36
-89,Female,Black,Divorced,Some College,Country 25,Retired,>50K,Occupation 37
-58,Male,Other,Separated,None,Country 36,Private,>50K,Occupation 23
-83,Male,Asian,Married,Associate,Country 16,Unemployed,<=50K,Occupation 13
-26,Male,Asian,Divorced,High School,Country 14,Retired,>50K,Occupation 35
-50,Female,Hispanic,Separated,Bachelor's,Country 24,Private,>50K,Occupation 2
-48,Female,Asian,Single,Some College,Country 8,Student,>50K,Occupation 37
-64,Female,Hispanic,Single,None,Country 38,Other,<=50K,Occupation 24
-45,Female,Asian,Married,None,Country 6,Private,>50K,Occupation 25
-28,Female,Other,Separated,Associate,Country 37,Private,<=50K,Occupation 14
-52,Male,Black,Widowed,Bachelor's,Country 4,Student,>50K,Occupation 22
-81,Male,Hispanic,Widowed,Some College,Country 20,Self-Employed,>50K,Occupation 20
-36,Female,White,Widowed,None,Country 10,Government,>50K,Occupation 11
-83,Male,Hispanic,Widowed,None,Country 25,Other,<=50K,Occupation 15
-34,Male,Asian,Partnered,Associate,Country 6,Self-Employed,>50K,Occupation 17
-58,Male,White,Divorced,Bachelor's,Country 3,Retired,<=50K,Occupation 25
-22,Female,Asian,Partnered,Bachelor's,Country 38,Government,<=50K,Occupation 18
-68,Male,Black,Separated,Bachelor's,Country 20,Private,>50K,Occupation 40
-28,Male,Hispanic,Other,Doctorate,Country 16,Student,<=50K,Occupation 5
-64,Female,Black,Single,Some College,Country 13,Self-Employed,>50K,Occupation 25
-80,Female,White,Single,Bachelor's,Country 32,Private,<=50K,Occupation 20
-51,Male,Hispanic,Divorced,Bachelor's,Country 33,Student,>50K,Occupation 36
-80,Female,White,Divorced,Bachelor's,Country 11,Student,>50K,Occupation 25
-45,Male,Other,Married,Doctorate,Country 30,Government,>50K,Occupation 14
-89,Female,White,Partnered,Associate,Country 12,Student,<=50K,Occupation 4
-22,Male,White,Married,Doctorate,Country 3,Self-Employed,<=50K,Occupation 27
-40,Female,Black,Widowed,None,Country 32,Retired,<=50K,Occupation 36
-67,Female,Hispanic,Separated,High School,Country 7,Unemployed,>50K,Occupation 26
-71,Male,Hispanic,Married,Some College,Country 38,Private,<=50K,Occupation 11
-60,Female,Other,Married,High School,Country 38,Self-Employed,>50K,Occupation 21
-38,Female,White,Partnered,Some College,Country 15,Self-Employed,<=50K,Occupation 23
-62,Female,Hispanic,Separated,Master's,Country 17,Other,<=50K,Occupation 19
-23,Female,Black,Other,Master's,Country 8,Government,<=50K,Occupation 36
-69,Female,Other,Partnered,High School,Country 35,Retired,<=50K,Occupation 1
-77,Female,Asian,Partnered,None,Country 9,Government,<=50K,Occupation 3
-19,Female,Other,Married,High School,Country 7,Government,<=50K,Occupation 4
-32,Male,White,Separated,Some College,Country 41,Self-Employed,>50K,Occupation 33
-25,Male,Other,Single,None,Country 35,Student,<=50K,Occupation 12
-20,Male,Hispanic,Single,Associate,Country 25,Private,>50K,Occupation 38
-87,Male,Hispanic,Divorced,High School,Country 4,Student,<=50K,Occupation 39
-64,Male,Black,Separated,Doctorate,Country 9,Other,>50K,Occupation 27
-67,Female,Asian,Married,Bachelor's,Country 37,Retired,>50K,Occupation 4
-25,Female,Asian,Separated,Master's,Country 35,Private,<=50K,Occupation 40
-21,Male,White,Divorced,Associate,Country 20,Unemployed,>50K,Occupation 21
-44,Male,White,Widowed,Doctorate,Country 32,Retired,<=50K,Occupation 14
-63,Female,Asian,Widowed,Bachelor's,Country 12,Unemployed,<=50K,Occupation 15
-43,Female,Black,Partnered,Some College,Country 18,Student,<=50K,Occupation 17
-74,Male,Other,Partnered,Associate,Country 16,Student,>50K,Occupation 30
-54,Male,White,Partnered,Associate,Country 11,Unemployed,<=50K,Occupation 31
-38,Male,Other,Widowed,Doctorate,Country 26,Private,>50K,Occupation 5
-53,Female,Black,Partnered,Doctorate,Country 25,Unemployed,>50K,Occupation 39
-34,Male,Hispanic,Other,High School,Country 13,Unemployed,<=50K,Occupation 33
-32,Male,Hispanic,Partnered,Some College,Country 36,Other,>50K,Occupation 25
-71,Male,Other,Married,Bachelor's,Country 11,Unemployed,<=50K,Occupation 35
-70,Male,Other,Single,Some College,Country 30,Self-Employed,<=50K,Occupation 26
-77,Male,Asian,Single,Doctorate,Country 19,Private,>50K,Occupation 4
-44,Female,Hispanic,Widowed,Bachelor's,Country 27,Student,<=50K,Occupation 14
-73,Male,White,Widowed,Doctorate,Country 24,Retired,<=50K,Occupation 40
-52,Male,Asian,Partnered,Associate,Country 13,Student,>50K,Occupation 27
-69,Male,Asian,Married,Bachelor's,Country 9,Unemployed,>50K,Occupation 11
-66,Male,Other,Divorced,Some College,Country 31,Private,>50K,Occupation 10
-68,Female,Hispanic,Married,Some College,Country 13,Government,<=50K,Occupation 22
-76,Female,Other,Divorced,None,Country 18,Private,<=50K,Occupation 13
-66,Male,White,Other,High School,Country 39,Private,<=50K,Occupation 29
-66,Female,Hispanic,Partnered,Bachelor's,Country 26,Government,<=50K,Occupation 16
-49,Male,Asian,Single,High School,Country 27,Self-Employed,<=50K,Occupation 36
-49,Female,White,Separated,Doctorate,Country 17,Government,<=50K,Occupation 19
-44,Male,Other,Widowed,Bachelor's,Country 38,Student,<=50K,Occupation 25
-31,Female,Black,Married,High School,Country 35,Private,>50K,Occupation 31
-27,Female,Asian,Partnered,Bachelor's,Country 33,Private,>50K,Occupation 21
-31,Male,Black,Married,None,Country 8,Government,>50K,Occupation 1
-50,Male,Other,Single,None,Country 35,Retired,>50K,Occupation 24
-27,Male,White,Widowed,Some College,Country 4,Government,<=50K,Occupation 32
-60,Male,Asian,Single,High School,Country 7,Unemployed,<=50K,Occupation 23
-39,Male,Other,Separated,Bachelor's,Country 32,Unemployed,>50K,Occupation 11
-51,Female,Black,Widowed,Bachelor's,Country 25,Student,>50K,Occupation 10
-77,Female,Hispanic,Partnered,Doctorate,Country 19,Other,>50K,Occupation 11
-80,Male,Hispanic,Other,Associate,Country 1,Government,>50K,Occupation 20
-90,Male,Hispanic,Divorced,Some College,Country 29,Government,<=50K,Occupation 13
-29,Male,White,Partnered,Associate,Country 30,Retired,<=50K,Occupation 33
-34,Male,Hispanic,Other,Some College,Country 29,Student,>50K,Occupation 11
-21,Male,Other,Divorced,Associate,Country 3,Other,>50K,Occupation 13
-29,Female,Asian,Single,Associate,Country 12,Government,<=50K,Occupation 34
-19,Female,Asian,Partnered,Doctorate,Country 36,Student,>50K,Occupation 14
-78,Male,Black,Single,Master's,Country 38,Self-Employed,<=50K,Occupation 37
-82,Male,Hispanic,Divorced,None,Country 4,Government,>50K,Occupation 14
-65,Female,Black,Separated,Master's,Country 3,Government,<=50K,Occupation 31
-41,Male,Hispanic,Other,Associate,Country 26,Retired,>50K,Occupation 2
-44,Female,Asian,Single,High School,Country 20,Private,<=50K,Occupation 8
-67,Male,Black,Partnered,Bachelor's,Country 20,Government,<=50K,Occupation 1
-75,Female,Black,Widowed,Associate,Country 30,Self-Employed,>50K,Occupation 6
-63,Female,Asian,Married,Some College,Country 30,Government,>50K,Occupation 21
-88,Female,Asian,Other,Master's,Country 1,Government,>50K,Occupation 34
-27,Male,Hispanic,Single,Some College,Country 25,Retired,<=50K,Occupation 12
-26,Male,White,Other,None,Country 21,Other,>50K,Occupation 2
-75,Male,Hispanic,Married,Some College,Country 40,Government,>50K,Occupation 18
-80,Male,Black,Partnered,Some College,Country 28,Unemployed,<=50K,Occupation 4
-34,Male,Other,Other,High School,Country 36,Other,>50K,Occupation 12
-18,Female,Hispanic,Married,Some College,Country 22,Self-Employed,>50K,Occupation 19
-65,Female,Hispanic,Other,Some College,Country 25,Other,>50K,Occupation 26
-36,Female,Asian,Widowed,Associate,Country 3,Student,>50K,Occupation 38
-48,Female,Asian,Other,High School,Country 7,Self-Employed,<=50K,Occupation 32
-83,Male,White,Divorced,None,Country 35,Retired,<=50K,Occupation 21
-70,Female,Other,Divorced,Associate,Country 40,Self-Employed,<=50K,Occupation 3
-41,Male,White,Separated,Bachelor's,Country 2,Retired,>50K,Occupation 22
-76,Male,Asian,Married,Associate,Country 2,Unemployed,<=50K,Occupation 12
-86,Male,Hispanic,Widowed,Some College,Country 15,Private,>50K,Occupation 12
-49,Female,White,Separated,None,Country 24,Government,>50K,Occupation 11
-66,Female,Asian,Single,High School,Country 1,Other,<=50K,Occupation 36
-54,Male,Black,Partnered,Associate,Country 9,Student,>50K,Occupation 30
-90,Female,Hispanic,Widowed,High School,Country 35,Student,<=50K,Occupation 19
-76,Male,Hispanic,Partnered,Associate,Country 8,Student,>50K,Occupation 11
-80,Female,White,Other,Associate,Country 22,Private,>50K,Occupation 12
-28,Female,Other,Married,None,Country 27,Private,<=50K,Occupation 20
-73,Male,Other,Other,Bachelor's,Country 9,Self-Employed,<=50K,Occupation 26
-47,Male,Black,Married,Associate,Country 6,Private,>50K,Occupation 40
-79,Female,Other,Widowed,High School,Country 4,Private,>50K,Occupation 8
-64,Male,Black,Separated,None,Country 32,Student,>50K,Occupation 35
-90,Male,Asian,Married,Bachelor's,Country 25,Private,>50K,Occupation 25
-41,Female,Other,Partnered,Doctorate,Country 6,Other,>50K,Occupation 25
-26,Male,Black,Other,Associate,Country 12,Unemployed,<=50K,Occupation 39
-25,Male,Hispanic,Widowed,None,Country 13,Government,<=50K,Occupation 35
-38,Male,Asian,Divorced,None,Country 3,Student,>50K,Occupation 6
-51,Male,Black,Married,High School,Country 40,Government,>50K,Occupation 38
-53,Female,White,Widowed,Bachelor's,Country 6,Government,<=50K,Occupation 26
-64,Male,Other,Separated,Bachelor's,Country 20,Other,>50K,Occupation 20
-59,Male,Hispanic,Separated,Some College,Country 9,Unemployed,<=50K,Occupation 8
-24,Female,Black,Single,Some College,Country 38,Government,<=50K,Occupation 40
-19,Female,Asian,Partnered,Some College,Country 6,Unemployed,<=50K,Occupation 4
-33,Female,Black,Single,Doctorate,Country 22,Private,<=50K,Occupation 35
-41,Male,Other,Other,Associate,Country 40,Student,<=50K,Occupation 7
-53,Male,Black,Single,None,Country 26,Unemployed,>50K,Occupation 15
-41,Female,Asian,Divorced,Some College,Country 28,Private,<=50K,Occupation 12
-63,Female,Hispanic,Divorced,None,Country 32,Student,>50K,Occupation 24
-23,Female,Other,Married,Master's,Country 22,Government,>50K,Occupation 31
-80,Female,Black,Other,Bachelor's,Country 1,Retired,<=50K,Occupation 22
-57,Female,Black,Widowed,Master's,Country 18,Retired,>50K,Occupation 40
-34,Female,Hispanic,Widowed,Master's,Country 21,Retired,<=50K,Occupation 33
-85,Female,Asian,Separated,Bachelor's,Country 9,Unemployed,>50K,Occupation 4
-51,Female,Black,Single,High School,Country 2,Private,<=50K,Occupation 31
-50,Female,Hispanic,Partnered,Doctorate,Country 2,Self-Employed,>50K,Occupation 16
-75,Female,Hispanic,Married,Some College,Country 1,Private,>50K,Occupation 27
-36,Male,Asian,Widowed,Some College,Country 1,Government,<=50K,Occupation 37
-20,Female,Hispanic,Partnered,Associate,Country 19,Unemployed,<=50K,Occupation 3
-70,Female,Other,Single,Associate,Country 36,Self-Employed,>50K,Occupation 22
-85,Male,Hispanic,Other,Some College,Country 20,Other,<=50K,Occupation 21
-43,Male,Asian,Other,Bachelor's,Country 32,Student,<=50K,Occupation 4
-66,Female,White,Separated,High School,Country 21,Other,<=50K,Occupation 34
-52,Male,Black,Married,Some College,Country 5,Private,>50K,Occupation 30
-30,Female,Asian,Single,None,Country 7,Student,>50K,Occupation 40
-37,Female,Asian,Married,Bachelor's,Country 28,Unemployed,<=50K,Occupation 21
-66,Male,White,Divorced,Associate,Country 18,Unemployed,>50K,Occupation 26
-77,Male,Other,Single,Associate,Country 17,Private,>50K,Occupation 29
-83,Female,White,Divorced,Master's,Country 9,Self-Employed,>50K,Occupation 5
-72,Male,Black,Other,None,Country 1,Government,>50K,Occupation 20
-57,Female,Asian,Single,None,Country 13,Student,<=50K,Occupation 27
-65,Male,White,Divorced,Bachelor's,Country 22,Unemployed,>50K,Occupation 41
-52,Female,Hispanic,Other,None,Country 5,Government,>50K,Occupation 12
-50,Male,Other,Divorced,Doctorate,Country 10,Government,<=50K,Occupation 36
-87,Male,Black,Separated,High School,Country 3,Unemployed,<=50K,Occupation 28
-24,Male,Asian,Divorced,None,Country 9,Private,<=50K,Occupation 12
-57,Male,Black,Other,Some College,Country 17,Unemployed,<=50K,Occupation 33
-39,Male,Hispanic,Partnered,Bachelor's,Country 13,Unemployed,<=50K,Occupation 35
-19,Female,Other,Single,Doctorate,Country 16,Self-Employed,>50K,Occupation 38
-25,Male,Asian,Divorced,None,Country 37,Other,<=50K,Occupation 39
-53,Male,Other,Divorced,Bachelor's,Country 29,Student,>50K,Occupation 3
-64,Female,White,Separated,Associate,Country 20,Retired,>50K,Occupation 25
-70,Male,White,Widowed,High School,Country 2,Unemployed,>50K,Occupation 23
-41,Male,Black,Married,Doctorate,Country 18,Retired,>50K,Occupation 35
-87,Female,Hispanic,Single,Doctorate,Country 13,Self-Employed,<=50K,Occupation 28
-78,Female,Hispanic,Single,High School,Country 1,Government,>50K,Occupation 29
-51,Female,Hispanic,Divorced,Associate,Country 40,Private,>50K,Occupation 4
-79,Female,Hispanic,Married,Associate,Country 41,Other,>50K,Occupation 7
-27,Male,Black,Divorced,Bachelor's,Country 27,Other,>50K,Occupation 2
-59,Female,Other,Married,Master's,Country 35,Government,<=50K,Occupation 38
-34,Male,Other,Other,None,Country 6,Self-Employed,<=50K,Occupation 9
-82,Male,Other,Other,High School,Country 33,Self-Employed,>50K,Occupation 33
-61,Male,Other,Single,Associate,Country 25,Student,>50K,Occupation 14
-59,Male,Other,Married,Master's,Country 26,Unemployed,>50K,Occupation 32
-33,Female,Other,Separated,Some College,Country 1,Government,>50K,Occupation 8
-58,Male,Other,Married,High School,Country 36,Student,<=50K,Occupation 27
-25,Female,Asian,Divorced,High School,Country 24,Self-Employed,<=50K,Occupation 33
-35,Female,Black,Partnered,High School,Country 13,Other,>50K,Occupation 39
-81,Female,White,Other,Doctorate,Country 28,Retired,<=50K,Occupation 5
-61,Female,Hispanic,Single,None,Country 8,Unemployed,>50K,Occupation 9
-41,Female,Black,Single,None,Country 16,Government,<=50K,Occupation 10
-34,Female,White,Separated,Doctorate,Country 27,Self-Employed,<=50K,Occupation 36
-77,Female,Hispanic,Partnered,None,Country 24,Government,<=50K,Occupation 27
-46,Female,Black,Single,High School,Country 30,Other,>50K,Occupation 34
-31,Female,Other,Single,Associate,Country 35,Government,<=50K,Occupation 39
-48,Female,Asian,Separated,High School,Country 34,Other,>50K,Occupation 8
-54,Female,White,Separated,Bachelor's,Country 8,Student,<=50K,Occupation 16
-22,Female,Hispanic,Single,Some College,Country 3,Private,<=50K,Occupation 18
-67,Female,Other,Single,High School,Country 14,Private,>50K,Occupation 38
-72,Female,Hispanic,Married,Master's,Country 13,Student,<=50K,Occupation 20
-43,Female,Asian,Married,High School,Country 23,Private,>50K,Occupation 6
-82,Male,Hispanic,Married,Bachelor's,Country 14,Private,<=50K,Occupation 12
-69,Female,White,Other,Master's,Country 9,Private,>50K,Occupation 11
-28,Female,White,Widowed,None,Country 20,Unemployed,>50K,Occupation 32
-80,Female,Black,Widowed,High School,Country 5,Student,<=50K,Occupation 35
-79,Male,Asian,Separated,Doctorate,Country 34,Student,<=50K,Occupation 30
-18,Female,White,Other,Associate,Country 10,Other,>50K,Occupation 40
-49,Male,Hispanic,Other,Doctorate,Country 18,Private,<=50K,Occupation 15
-35,Female,Hispanic,Separated,Doctorate,Country 16,Retired,<=50K,Occupation 15
-56,Male,Hispanic,Widowed,Some College,Country 39,Student,>50K,Occupation 31
-67,Male,Hispanic,Partnered,Associate,Country 32,Self-Employed,<=50K,Occupation 18
-74,Female,Black,Divorced,Some College,Country 5,Student,<=50K,Occupation 14
-19,Male,Other,Separated,Some College,Country 13,Self-Employed,<=50K,Occupation 10
-20,Male,Asian,Separated,Bachelor's,Country 18,Unemployed,<=50K,Occupation 5
-76,Male,Black,Partnered,Associate,Country 16,Student,>50K,Occupation 34
-45,Male,Asian,Partnered,Associate,Country 7,Self-Employed,>50K,Occupation 8
-63,Male,White,Separated,Master's,Country 19,Self-Employed,<=50K,Occupation 26
-33,Male,Hispanic,Other,Associate,Country 24,Retired,<=50K,Occupation 5
-45,Male,Asian,Single,High School,Country 5,Self-Employed,<=50K,Occupation 1
-22,Female,White,Separated,Associate,Country 31,Student,>50K,Occupation 25
-52,Male,White,Other,Master's,Country 41,Unemployed,<=50K,Occupation 5
-56,Male,Other,Married,Master's,Country 11,Government,<=50K,Occupation 10
-24,Female,Black,Partnered,Doctorate,Country 11,Retired,>50K,Occupation 35
-84,Male,Asian,Married,Master's,Country 8,Other,>50K,Occupation 10
-49,Male,Black,Partnered,High School,Country 30,Private,<=50K,Occupation 14
-71,Female,Hispanic,Widowed,Associate,Country 5,Government,>50K,Occupation 36
-49,Female,Other,Married,Doctorate,Country 8,Unemployed,>50K,Occupation 19
-47,Male,Hispanic,Single,High School,Country 11,Student,<=50K,Occupation 11
-83,Female,Asian,Single,None,Country 23,Retired,>50K,Occupation 18
-46,Male,White,Single,Bachelor's,Country 26,Student,>50K,Occupation 10
-76,Female,Black,Divorced,Doctorate,Country 23,Government,<=50K,Occupation 3
-53,Male,Other,Married,Bachelor's,Country 8,Other,<=50K,Occupation 6
-19,Male,Hispanic,Other,Associate,Country 32,Government,>50K,Occupation 19
-28,Female,Hispanic,Married,Master's,Country 8,Government,>50K,Occupation 23
-34,Female,Hispanic,Married,Master's,Country 29,Other,<=50K,Occupation 24
-32,Male,Black,Partnered,Bachelor's,Country 27,Government,>50K,Occupation 30
-22,Female,Other,Separated,Some College,Country 34,Student,<=50K,Occupation 37
-72,Male,Asian,Divorced,Bachelor's,Country 3,Government,>50K,Occupation 41
-58,Male,White,Partnered,None,Country 39,Unemployed,>50K,Occupation 7
-35,Male,Other,Divorced,Bachelor's,Country 13,Other,>50K,Occupation 37
-29,Male,White,Single,Bachelor's,Country 41,Government,<=50K,Occupation 13
-51,Female,Other,Separated,Some College,Country 20,Student,>50K,Occupation 1
-75,Female,Hispanic,Widowed,Some College,Country 25,Student,<=50K,Occupation 40
-32,Male,Hispanic,Single,None,Country 25,Unemployed,>50K,Occupation 21
-37,Female,White,Married,None,Country 7,Private,<=50K,Occupation 13
-35,Male,Other,Single,None,Country 34,Government,<=50K,Occupation 23
-82,Male,Other,Divorced,Bachelor's,Country 41,Unemployed,>50K,Occupation 30
-23,Male,Black,Widowed,None,Country 37,Other,<=50K,Occupation 12
-40,Male,Black,Partnered,Associate,Country 40,Retired,>50K,Occupation 13
-67,Female,Other,Other,Doctorate,Country 16,Other,<=50K,Occupation 10
-89,Female,Asian,Widowed,Associate,Country 13,Government,<=50K,Occupation 2
-62,Male,Black,Married,None,Country 41,Student,<=50K,Occupation 19
-86,Female,Other,Partnered,Bachelor's,Country 27,Private,<=50K,Occupation 3
-37,Male,Black,Divorced,Bachelor's,Country 12,Self-Employed,<=50K,Occupation 7
-51,Male,Asian,Separated,Bachelor's,Country 5,Self-Employed,<=50K,Occupation 24
-67,Female,Black,Single,Associate,Country 27,Private,<=50K,Occupation 25
-30,Female,White,Partnered,Master's,Country 29,Self-Employed,>50K,Occupation 4
-32,Female,Black,Partnered,Bachelor's,Country 36,Other,>50K,Occupation 17
-18,Female,Hispanic,Single,Bachelor's,Country 8,Self-Employed,<=50K,Occupation 3
-49,Female,Asian,Married,High School,Country 7,Other,>50K,Occupation 24
-74,Male,Other,Single,Master's,Country 20,Private,>50K,Occupation 31
-52,Male,Black,Widowed,Master's,Country 14,Student,<=50K,Occupation 15
-75,Male,Hispanic,Widowed,Associate,Country 27,Unemployed,<=50K,Occupation 9
-75,Female,Black,Separated,None,Country 32,Student,<=50K,Occupation 23
-75,Female,Hispanic,Widowed,Doctorate,Country 7,Unemployed,>50K,Occupation 26
-34,Male,Black,Other,High School,Country 6,Retired,>50K,Occupation 24
-31,Male,Other,Widowed,Doctorate,Country 21,Student,<=50K,Occupation 13
-58,Male,Asian,Single,Associate,Country 30,Unemployed,<=50K,Occupation 18
-59,Female,Asian,Single,Bachelor's,Country 41,Retired,>50K,Occupation 4
-66,Female,Other,Partnered,High School,Country 33,Government,>50K,Occupation 21
-47,Female,Hispanic,Married,Some College,Country 36,Unemployed,<=50K,Occupation 15
-44,Female,Black,Separated,High School,Country 34,Government,>50K,Occupation 40
-50,Female,Black,Other,High School,Country 26,Other,<=50K,Occupation 29
-56,Female,Asian,Divorced,Bachelor's,Country 13,Government,<=50K,Occupation 8
-77,Female,White,Single,High School,Country 31,Student,<=50K,Occupation 24
-57,Female,White,Married,Bachelor's,Country 11,Other,<=50K,Occupation 20
-75,Female,White,Partnered,Master's,Country 38,Self-Employed,<=50K,Occupation 15
-79,Male,Other,Married,Master's,Country 9,Private,>50K,Occupation 34
-57,Female,White,Married,Master's,Country 31,Student,>50K,Occupation 35
-58,Male,White,Separated,Bachelor's,Country 21,Other,<=50K,Occupation 29
-85,Female,Black,Widowed,Associate,Country 28,Government,>50K,Occupation 26
-82,Male,White,Partnered,Some College,Country 29,Self-Employed,>50K,Occupation 12
-88,Female,Hispanic,Partnered,High School,Country 15,Private,>50K,Occupation 10
-32,Female,Other,Divorced,None,Country 14,Unemployed,<=50K,Occupation 35
-24,Female,White,Other,High School,Country 5,Student,>50K,Occupation 25
-41,Female,White,Divorced,Master's,Country 21,Student,<=50K,Occupation 36
-89,Female,White,Separated,None,Country 18,Government,<=50K,Occupation 41
-24,Female,White,Partnered,Doctorate,Country 16,Student,<=50K,Occupation 32
-44,Female,Other,Single,Some College,Country 25,Student,<=50K,Occupation 9
-21,Female,Other,Single,High School,Country 20,Unemployed,>50K,Occupation 39
-45,Female,Hispanic,Single,Master's,Country 7,Other,>50K,Occupation 38
-28,Female,Black,Widowed,Master's,Country 28,Unemployed,>50K,Occupation 14
-61,Male,Hispanic,Separated,None,Country 41,Private,>50K,Occupation 1
-52,Female,Black,Divorced,Doctorate,Country 3,Retired,<=50K,Occupation 8
-66,Male,White,Other,None,Country 1,Government,<=50K,Occupation 1
-44,Male,Hispanic,Divorced,Doctorate,Country 23,Government,>50K,Occupation 19
-28,Female,Black,Separated,Some College,Country 32,Retired,>50K,Occupation 3
-28,Male,Other,Widowed,Some College,Country 32,Government,>50K,Occupation 25
-47,Male,White,Single,Some College,Country 15,Unemployed,<=50K,Occupation 41
-41,Male,Hispanic,Single,None,Country 40,Other,>50K,Occupation 15
-68,Male,Asian,Separated,None,Country 39,Other,<=50K,Occupation 26
-81,Female,Hispanic,Partnered,Bachelor's,Country 39,Retired,<=50K,Occupation 9
-79,Female,Asian,Married,High School,Country 22,Self-Employed,<=50K,Occupation 22
-44,Female,Black,Partnered,None,Country 28,Unemployed,>50K,Occupation 30
-46,Male,White,Separated,Some College,Country 24,Government,>50K,Occupation 2
-39,Female,White,Other,Master's,Country 18,Private,>50K,Occupation 25
-21,Female,Other,Separated,Some College,Country 30,Self-Employed,<=50K,Occupation 39
-39,Male,Asian,Separated,Associate,Country 3,Student,>50K,Occupation 30
-26,Female,Asian,Widowed,Doctorate,Country 19,Private,>50K,Occupation 16
-30,Female,Hispanic,Separated,Associate,Country 17,Government,>50K,Occupation 9
-45,Female,Black,Single,Master's,Country 15,Government,>50K,Occupation 5
-48,Female,Other,Single,Master's,Country 26,Other,>50K,Occupation 6
-64,Female,Other,Widowed,Associate,Country 18,Retired,<=50K,Occupation 15
-70,Female,Black,Divorced,Master's,Country 14,Unemployed,>50K,Occupation 12
-20,Female,Black,Single,Associate,Country 2,Other,<=50K,Occupation 3
-47,Male,Other,Married,Some College,Country 21,Private,>50K,Occupation 41
-89,Male,Other,Other,Master's,Country 3,Retired,>50K,Occupation 28
-52,Male,White,Separated,High School,Country 35,Government,>50K,Occupation 22
-19,Male,White,Divorced,Some College,Country 26,Government,<=50K,Occupation 39
-19,Female,Asian,Other,Associate,Country 38,Other,<=50K,Occupation 14
-30,Male,White,Widowed,Master's,Country 9,Unemployed,<=50K,Occupation 16
-48,Male,Hispanic,Single,High School,Country 17,Government,<=50K,Occupation 33
-64,Male,Other,Divorced,Some College,Country 21,Self-Employed,>50K,Occupation 32
-30,Female,Hispanic,Separated,Doctorate,Country 19,Unemployed,<=50K,Occupation 35
-21,Male,Black,Divorced,Associate,Country 40,Government,<=50K,Occupation 17
-38,Female,Asian,Other,None,Country 11,Student,<=50K,Occupation 2
-61,Female,Black,Partnered,High School,Country 35,Other,>50K,Occupation 7
-88,Female,Other,Single,Master's,Country 16,Student,>50K,Occupation 16
-31,Female,Hispanic,Separated,Associate,Country 14,Unemployed,<=50K,Occupation 23
-68,Male,Asian,Separated,Associate,Country 3,Retired,<=50K,Occupation 39
-65,Female,Hispanic,Partnered,Master's,Country 38,Student,<=50K,Occupation 24
-81,Male,Black,Separated,Associate,Country 18,Self-Employed,<=50K,Occupation 4
-47,Male,Black,Divorced,Master's,Country 11,Government,<=50K,Occupation 21
-55,Female,White,Single,High School,Country 38,Unemployed,<=50K,Occupation 20
-70,Female,Asian,Divorced,Doctorate,Country 22,Private,>50K,Occupation 23
-77,Male,White,Partnered,None,Country 41,Government,<=50K,Occupation 9
-85,Female,Other,Divorced,None,Country 21,Other,>50K,Occupation 17
-57,Female,Black,Divorced,Associate,Country 12,Student,<=50K,Occupation 21
-73,Female,Hispanic,Partnered,Some College,Country 23,Other,<=50K,Occupation 13
-40,Female,Hispanic,Married,High School,Country 15,Self-Employed,>50K,Occupation 22
-75,Female,Black,Divorced,High School,Country 28,Government,>50K,Occupation 16
-58,Male,White,Married,Master's,Country 24,Private,<=50K,Occupation 33
-86,Female,White,Married,Some College,Country 12,Retired,<=50K,Occupation 12
-22,Female,White,Divorced,High School,Country 34,Other,>50K,Occupation 21
-68,Male,Black,Married,Some College,Country 18,Other,>50K,Occupation 15
-89,Male,White,Widowed,None,Country 29,Unemployed,>50K,Occupation 37
-72,Female,Hispanic,Divorced,Associate,Country 18,Retired,>50K,Occupation 17
-57,Female,Other,Single,High School,Country 15,Retired,<=50K,Occupation 13
-23,Female,Hispanic,Single,None,Country 22,Self-Employed,>50K,Occupation 16
-78,Male,Other,Married,None,Country 20,Other,<=50K,Occupation 20
-78,Female,Other,Married,Associate,Country 19,Private,>50K,Occupation 15
-22,Male,Hispanic,Divorced,High School,Country 3,Student,>50K,Occupation 30
-68,Female,Hispanic,Partnered,High School,Country 21,Student,>50K,Occupation 40
-58,Female,Hispanic,Divorced,Doctorate,Country 2,Unemployed,<=50K,Occupation 8
-54,Female,Asian,Married,Master's,Country 32,Unemployed,>50K,Occupation 16
-88,Female,Hispanic,Married,Doctorate,Country 8,Government,>50K,Occupation 8
-78,Female,Other,Married,Some College,Country 2,Unemployed,<=50K,Occupation 37
-82,Female,Other,Other,Doctorate,Country 35,Self-Employed,>50K,Occupation 31
-44,Female,White,Separated,Doctorate,Country 15,Student,<=50K,Occupation 14
-57,Female,White,Separated,Bachelor's,Country 25,Retired,<=50K,Occupation 17
-24,Male,Black,Married,Doctorate,Country 6,Retired,<=50K,Occupation 22
-33,Male,Other,Partnered,Doctorate,Country 3,Retired,<=50K,Occupation 31
-61,Female,Hispanic,Partnered,None,Country 28,Other,<=50K,Occupation 9
-63,Male,Hispanic,Single,Doctorate,Country 23,Unemployed,<=50K,Occupation 15
-34,Male,White,Partnered,Bachelor's,Country 21,Student,<=50K,Occupation 12
-43,Female,Hispanic,Divorced,Doctorate,Country 11,Retired,<=50K,Occupation 39
-62,Female,White,Partnered,High School,Country 40,Government,>50K,Occupation 41
-84,Female,Black,Separated,None,Country 23,Private,>50K,Occupation 39
-35,Female,Black,Married,None,Country 29,Student,>50K,Occupation 32
-19,Male,Black,Widowed,Some College,Country 8,Retired,>50K,Occupation 17
-33,Male,White,Widowed,None,Country 36,Government,>50K,Occupation 5
-58,Male,Black,Single,Associate,Country 32,Student,>50K,Occupation 37
-49,Male,Hispanic,Widowed,Bachelor's,Country 22,Student,>50K,Occupation 11
-39,Male,Black,Partnered,Master's,Country 25,Retired,<=50K,Occupation 36
-50,Male,Black,Other,Associate,Country 20,Government,<=50K,Occupation 3
-86,Female,Hispanic,Other,Master's,Country 2,Government,<=50K,Occupation 11
-60,Male,White,Married,Associate,Country 4,Unemployed,>50K,Occupation 13
-33,Male,Hispanic,Single,Doctorate,Country 31,Unemployed,>50K,Occupation 37
-45,Female,Black,Married,Associate,Country 23,Retired,>50K,Occupation 21
-66,Female,Asian,Partnered,Associate,Country 21,Unemployed,>50K,Occupation 5
-86,Female,Asian,Single,Associate,Country 8,Unemployed,>50K,Occupation 26
-79,Male,Asian,Divorced,Some College,Country 9,Other,<=50K,Occupation 39
-79,Female,Hispanic,Partnered,Associate,Country 6,Student,<=50K,Occupation 21
-61,Female,White,Divorced,Master's,Country 34,Self-Employed,>50K,Occupation 11
-39,Female,Black,Separated,Bachelor's,Country 31,Unemployed,<=50K,Occupation 6
-62,Male,Black,Separated,None,Country 7,Government,<=50K,Occupation 40
-78,Female,Hispanic,Widowed,Some College,Country 16,Private,>50K,Occupation 9
-89,Female,Hispanic,Divorced,Associate,Country 19,Self-Employed,>50K,Occupation 24
-44,Male,Black,Partnered,Some College,Country 23,Retired,>50K,Occupation 9
-37,Male,Other,Single,High School,Country 2,Government,<=50K,Occupation 4
-67,Female,White,Single,High School,Country 31,Private,>50K,Occupation 1
-22,Male,Hispanic,Widowed,Bachelor's,Country 34,Government,<=50K,Occupation 14
-60,Male,Black,Married,Master's,Country 10,Retired,>50K,Occupation 8
-63,Male,Hispanic,Separated,Master's,Country 28,Unemployed,>50K,Occupation 38
-83,Female,Hispanic,Separated,None,Country 24,Other,<=50K,Occupation 19
-66,Male,Other,Widowed,Doctorate,Country 14,Unemployed,>50K,Occupation 4
-30,Female,White,Divorced,Doctorate,Country 33,Private,<=50K,Occupation 39
-29,Male,Asian,Separated,Bachelor's,Country 15,Private,>50K,Occupation 1
-33,Male,White,Widowed,Some College,Country 6,Student,<=50K,Occupation 7
-77,Female,Other,Married,Doctorate,Country 9,Self-Employed,>50K,Occupation 33
-86,Male,Other,Divorced,Some College,Country 1,Government,>50K,Occupation 36
-28,Female,White,Married,Some College,Country 12,Private,<=50K,Occupation 31
-58,Female,White,Other,Some College,Country 17,Government,>50K,Occupation 41
-22,Female,White,Divorced,Doctorate,Country 10,Unemployed,<=50K,Occupation 20
-23,Male,Other,Single,Bachelor's,Country 20,Self-Employed,<=50K,Occupation 16
-68,Male,Other,Widowed,Doctorate,Country 6,Student,>50K,Occupation 5
-55,Male,Asian,Widowed,None,Country 30,Other,>50K,Occupation 20
-77,Female,Asian,Partnered,Doctorate,Country 24,Other,>50K,Occupation 7
-83,Female,Hispanic,Partnered,High School,Country 16,Self-Employed,>50K,Occupation 4
-33,Female,Other,Separated,Bachelor's,Country 23,Unemployed,<=50K,Occupation 24
-79,Male,Asian,Widowed,None,Country 5,Government,>50K,Occupation 5
-72,Female,White,Divorced,Bachelor's,Country 39,Retired,>50K,Occupation 27
-23,Female,Black,Separated,Master's,Country 7,Government,>50K,Occupation 6
-52,Male,Other,Separated,Associate,Country 13,Self-Employed,<=50K,Occupation 8
-27,Female,Black,Other,Associate,Country 13,Retired,<=50K,Occupation 29
-78,Male,Asian,Other,High School,Country 23,Unemployed,>50K,Occupation 5
-45,Female,Asian,Partnered,Master's,Country 11,Other,<=50K,Occupation 29
-66,Female,Other,Widowed,Master's,Country 34,Government,<=50K,Occupation 41
-61,Male,White,Divorced,Doctorate,Country 19,Self-Employed,>50K,Occupation 8
-78,Female,Black,Other,Master's,Country 6,Self-Employed,<=50K,Occupation 18
-20,Female,Other,Partnered,Associate,Country 3,Other,>50K,Occupation 36
-81,Female,Other,Single,Master's,Country 11,Student,<=50K,Occupation 11
-57,Male,White,Other,Some College,Country 32,Retired,<=50K,Occupation 9
-44,Male,Other,Partnered,Master's,Country 14,Retired,<=50K,Occupation 22
-40,Female,Black,Married,Bachelor's,Country 8,Government,<=50K,Occupation 21
-81,Male,Black,Separated,Some College,Country 15,Government,<=50K,Occupation 3
-54,Female,Other,Other,Bachelor's,Country 21,Student,>50K,Occupation 22
-63,Male,White,Single,Doctorate,Country 29,Self-Employed,>50K,Occupation 9
-24,Female,Black,Other,Master's,Country 18,Unemployed,>50K,Occupation 4
-25,Male,Black,Single,Associate,Country 6,Retired,>50K,Occupation 32
-88,Male,Hispanic,Widowed,None,Country 37,Unemployed,>50K,Occupation 25
-62,Male,White,Other,Doctorate,Country 17,Private,<=50K,Occupation 41
-73,Female,White,Divorced,Some College,Country 26,Other,<=50K,Occupation 28
-20,Female,Asian,Single,Doctorate,Country 40,Unemployed,>50K,Occupation 37
-47,Male,Hispanic,Separated,Doctorate,Country 35,Unemployed,<=50K,Occupation 32
-27,Male,Asian,Single,Doctorate,Country 3,Unemployed,>50K,Occupation 23
-32,Male,Other,Married,High School,Country 39,Student,>50K,Occupation 13
-42,Male,Black,Married,None,Country 33,Other,<=50K,Occupation 34
-50,Female,Black,Divorced,Master's,Country 29,Other,<=50K,Occupation 40
-20,Female,White,Other,Some College,Country 18,Other,>50K,Occupation 30
-27,Male,White,Widowed,Doctorate,Country 2,Private,<=50K,Occupation 15
-55,Female,Black,Partnered,Master's,Country 34,Other,>50K,Occupation 36
-79,Male,White,Separated,Doctorate,Country 17,Self-Employed,>50K,Occupation 8
-77,Male,Hispanic,Single,Associate,Country 20,Private,>50K,Occupation 39
-56,Male,Black,Widowed,Master's,Country 40,Private,>50K,Occupation 32
-30,Male,Other,Separated,Doctorate,Country 2,Other,>50K,Occupation 14
-61,Female,Black,Separated,Associate,Country 7,Student,>50K,Occupation 12
-25,Male,Hispanic,Divorced,Associate,Country 9,Government,>50K,Occupation 17
-48,Male,Other,Partnered,Bachelor's,Country 14,Other,<=50K,Occupation 24
-32,Female,Hispanic,Divorced,Bachelor's,Country 9,Self-Employed,>50K,Occupation 33
-52,Female,Other,Partnered,Master's,Country 41,Private,>50K,Occupation 36
-89,Male,Black,Separated,Associate,Country 27,Private,<=50K,Occupation 40
-32,Male,White,Widowed,Master's,Country 34,Unemployed,<=50K,Occupation 4
-36,Female,Asian,Divorced,Associate,Country 2,Unemployed,<=50K,Occupation 22
-42,Male,Other,Married,Master's,Country 9,Retired,>50K,Occupation 11
-87,Male,Other,Widowed,None,Country 20,Other,>50K,Occupation 33
-83,Male,White,Single,Some College,Country 30,Government,<=50K,Occupation 31
-31,Male,Hispanic,Separated,High School,Country 15,Private,>50K,Occupation 2
-74,Female,Black,Partnered,Master's,Country 16,Student,<=50K,Occupation 26
-31,Female,Black,Other,None,Country 10,Unemployed,<=50K,Occupation 4
-39,Male,Black,Partnered,Associate,Country 2,Retired,>50K,Occupation 4
-54,Female,Asian,Divorced,Some College,Country 9,Private,<=50K,Occupation 13
-64,Female,Black,Partnered,High School,Country 37,Unemployed,>50K,Occupation 18
-28,Female,Asian,Married,Doctorate,Country 2,Self-Employed,<=50K,Occupation 32
-70,Female,Asian,Partnered,None,Country 22,Other,<=50K,Occupation 37
-79,Female,Hispanic,Other,Master's,Country 23,Student,>50K,Occupation 40
-33,Female,Other,Separated,Master's,Country 32,Unemployed,<=50K,Occupation 13
-90,Female,White,Other,Doctorate,Country 7,Government,>50K,Occupation 18
-27,Male,Other,Separated,Bachelor's,Country 41,Self-Employed,<=50K,Occupation 22
-27,Male,White,Separated,Associate,Country 37,Government,<=50K,Occupation 23
-64,Female,Black,Widowed,None,Country 31,Self-Employed,<=50K,Occupation 34
-36,Female,Other,Widowed,Master's,Country 25,Other,<=50K,Occupation 4
-64,Male,Asian,Divorced,None,Country 19,Student,<=50K,Occupation 27
-18,Male,Hispanic,Separated,Doctorate,Country 11,Government,>50K,Occupation 7
-27,Female,White,Partnered,Associate,Country 33,Student,<=50K,Occupation 39
-26,Male,White,Single,High School,Country 32,Self-Employed,<=50K,Occupation 17
-59,Female,Hispanic,Widowed,High School,Country 24,Retired,<=50K,Occupation 4
-81,Female,Hispanic,Single,Doctorate,Country 7,Retired,<=50K,Occupation 30
-43,Male,Black,Partnered,Associate,Country 38,Other,>50K,Occupation 39
-80,Male,Asian,Separated,Some College,Country 10,Other,>50K,Occupation 26
-90,Female,Hispanic,Partnered,Master's,Country 14,Retired,<=50K,Occupation 20
-72,Male,White,Widowed,High School,Country 14,Self-Employed,<=50K,Occupation 12
-43,Male,Hispanic,Partnered,Bachelor's,Country 18,Unemployed,<=50K,Occupation 7
-51,Female,Black,Other,None,Country 24,Private,>50K,Occupation 11
-20,Female,Other,Partnered,High School,Country 30,Government,>50K,Occupation 6
-71,Female,Hispanic,Single,High School,Country 15,Self-Employed,>50K,Occupation 33
-88,Male,Hispanic,Separated,Doctorate,Country 10,Retired,<=50K,Occupation 39
-71,Female,Black,Single,Some College,Country 6,Other,<=50K,Occupation 11
-39,Female,Hispanic,Other,Associate,Country 38,Retired,<=50K,Occupation 15
-19,Male,Black,Other,Doctorate,Country 9,Self-Employed,>50K,Occupation 23
-86,Female,Hispanic,Other,Associate,Country 31,Other,<=50K,Occupation 30
-27,Male,Black,Single,Some College,Country 5,Student,>50K,Occupation 5
-66,Male,White,Separated,High School,Country 40,Other,>50K,Occupation 18
-60,Male,Black,Partnered,Associate,Country 16,Self-Employed,>50K,Occupation 33
-87,Male,Asian,Separated,Associate,Country 5,Other,>50K,Occupation 18
-27,Male,Black,Single,Some College,Country 30,Private,<=50K,Occupation 15
-41,Female,White,Widowed,Doctorate,Country 23,Retired,<=50K,Occupation 7
-72,Female,Black,Separated,Master's,Country 5,Government,>50K,Occupation 5
-55,Male,Asian,Widowed,Bachelor's,Country 17,Student,<=50K,Occupation 25
-45,Female,Hispanic,Widowed,Some College,Country 23,Self-Employed,>50K,Occupation 12
-21,Male,Asian,Single,High School,Country 5,Self-Employed,>50K,Occupation 13
-80,Male,Black,Married,Master's,Country 41,Other,<=50K,Occupation 22
-37,Male,Black,Married,Doctorate,Country 22,Retired,<=50K,Occupation 39
-48,Male,White,Divorced,Some College,Country 41,Self-Employed,>50K,Occupation 3
-23,Female,Hispanic,Widowed,Bachelor's,Country 39,Unemployed,>50K,Occupation 23
-79,Female,Other,Other,None,Country 17,Unemployed,<=50K,Occupation 23
-42,Male,Hispanic,Separated,Doctorate,Country 39,Private,>50K,Occupation 10
-87,Female,Black,Divorced,Master's,Country 28,Other,<=50K,Occupation 29
-46,Female,Other,Single,Bachelor's,Country 39,Student,<=50K,Occupation 1
-87,Male,Other,Widowed,Doctorate,Country 23,Government,>50K,Occupation 39
-22,Male,Other,Married,Bachelor's,Country 37,Other,<=50K,Occupation 25
-32,Male,Hispanic,Divorced,Associate,Country 2,Government,>50K,Occupation 20
-88,Female,Other,Divorced,Associate,Country 35,Student,<=50K,Occupation 38
-42,Male,Hispanic,Single,Bachelor's,Country 26,Self-Employed,>50K,Occupation 2
-67,Male,Hispanic,Divorced,Master's,Country 20,Retired,>50K,Occupation 18
-89,Female,Black,Separated,None,Country 15,Other,<=50K,Occupation 5
-39,Female,Asian,Other,Associate,Country 33,Unemployed,<=50K,Occupation 25
-88,Male,Hispanic,Partnered,None,Country 38,Other,<=50K,Occupation 13
-42,Female,Other,Divorced,Some College,Country 11,Other,<=50K,Occupation 3
-70,Male,White,Single,Associate,Country 24,Private,>50K,Occupation 21
-37,Male,Black,Partnered,Some College,Country 17,Private,<=50K,Occupation 27
-58,Male,Other,Partnered,None,Country 30,Other,<=50K,Occupation 41
-31,Male,Asian,Other,Doctorate,Country 13,Student,>50K,Occupation 20
-35,Female,Other,Single,Some College,Country 2,Self-Employed,<=50K,Occupation 40
-54,Female,Black,Partnered,Bachelor's,Country 27,Retired,>50K,Occupation 25
-47,Female,Asian,Other,High School,Country 24,Student,<=50K,Occupation 21
-61,Male,Asian,Other,Bachelor's,Country 17,Unemployed,<=50K,Occupation 8
-34,Female,Other,Separated,Master's,Country 13,Self-Employed,<=50K,Occupation 30
-56,Female,Hispanic,Single,Doctorate,Country 33,Student,<=50K,Occupation 18
-64,Male,White,Other,None,Country 20,Student,>50K,Occupation 2
-23,Male,Asian,Divorced,None,Country 21,Self-Employed,>50K,Occupation 33
-50,Female,White,Divorced,Some College,Country 27,Private,>50K,Occupation 3
-22,Female,Other,Other,Some College,Country 16,Government,>50K,Occupation 34
-72,Male,Hispanic,Partnered,High School,Country 41,Private,>50K,Occupation 5
-20,Female,Black,Partnered,Some College,Country 19,Government,<=50K,Occupation 22
-62,Male,Black,Married,Doctorate,Country 22,Self-Employed,>50K,Occupation 40
-74,Male,Other,Partnered,None,Country 12,Self-Employed,>50K,Occupation 8
-34,Female,Black,Widowed,High School,Country 9,Government,>50K,Occupation 27
-28,Male,Asian,Partnered,Doctorate,Country 41,Student,>50K,Occupation 27
-65,Female,White,Separated,Doctorate,Country 16,Government,<=50K,Occupation 5
-86,Male,Black,Partnered,Bachelor's,Country 21,Other,>50K,Occupation 26
-24,Male,Hispanic,Other,Associate,Country 11,Other,<=50K,Occupation 1
-86,Male,White,Single,None,Country 36,Other,<=50K,Occupation 17
-35,Male,Asian,Divorced,Master's,Country 39,Student,<=50K,Occupation 9
-83,Male,Other,Partnered,High School,Country 4,Other,<=50K,Occupation 17
-64,Female,Black,Married,Doctorate,Country 13,Unemployed,<=50K,Occupation 17
-84,Female,Hispanic,Partnered,Doctorate,Country 5,Other,>50K,Occupation 15
-88,Male,White,Single,Bachelor's,Country 15,Unemployed,<=50K,Occupation 4
-46,Male,White,Widowed,Associate,Country 14,Government,>50K,Occupation 31
-63,Male,White,Other,Associate,Country 12,Other,>50K,Occupation 35
-21,Male,Other,Other,Bachelor's,Country 30,Student,<=50K,Occupation 29
-48,Female,Black,Married,Associate,Country 5,Government,>50K,Occupation 5
-83,Female,Hispanic,Separated,Some College,Country 1,Other,>50K,Occupation 7
-86,Female,Hispanic,Other,Bachelor's,Country 30,Retired,>50K,Occupation 29
-54,Female,Asian,Widowed,Doctorate,Country 35,Retired,<=50K,Occupation 3
-59,Male,White,Separated,Some College,Country 24,Unemployed,<=50K,Occupation 27
-33,Female,White,Divorced,None,Country 17,Self-Employed,>50K,Occupation 20
-57,Male,Asian,Other,Associate,Country 18,Unemployed,<=50K,Occupation 14
-18,Male,White,Separated,Bachelor's,Country 16,Unemployed,<=50K,Occupation 28
-66,Male,Other,Partnered,Associate,Country 39,Other,<=50K,Occupation 2
-75,Female,Other,Married,Master's,Country 37,Retired,>50K,Occupation 34
-84,Male,Black,Single,None,Country 38,Retired,>50K,Occupation 20
-68,Male,Hispanic,Separated,Associate,Country 21,Private,>50K,Occupation 16
-46,Male,Hispanic,Other,High School,Country 26,Self-Employed,<=50K,Occupation 37
-42,Female,Black,Single,Doctorate,Country 32,Unemployed,<=50K,Occupation 34
-61,Female,Hispanic,Married,High School,Country 26,Student,<=50K,Occupation 24
-60,Male,Hispanic,Married,High School,Country 3,Unemployed,<=50K,Occupation 20
-55,Male,Black,Partnered,Doctorate,Country 32,Unemployed,>50K,Occupation 4
-76,Male,White,Divorced,Some College,Country 19,Retired,<=50K,Occupation 28
-34,Female,Other,Divorced,None,Country 5,Other,>50K,Occupation 40
-41,Male,Asian,Widowed,High School,Country 1,Private,>50K,Occupation 6
-54,Female,Black,Single,Associate,Country 8,Retired,<=50K,Occupation 39
-88,Female,Black,Married,Associate,Country 34,Unemployed,<=50K,Occupation 25
-87,Male,Other,Married,High School,Country 30,Government,>50K,Occupation 28
-69,Male,Asian,Divorced,High School,Country 12,Unemployed,>50K,Occupation 21
-75,Female,Asian,Other,Some College,Country 37,Self-Employed,<=50K,Occupation 19
-32,Female,Hispanic,Partnered,Doctorate,Country 41,Self-Employed,<=50K,Occupation 5
-30,Female,Asian,Married,Some College,Country 20,Self-Employed,>50K,Occupation 35
-47,Male,Asian,Other,Master's,Country 12,Private,<=50K,Occupation 20
-22,Male,White,Widowed,Doctorate,Country 13,Government,>50K,Occupation 35
-45,Female,Black,Partnered,Doctorate,Country 6,Unemployed,>50K,Occupation 34
-38,Female,Black,Married,Master's,Country 18,Unemployed,>50K,Occupation 37
-47,Male,White,Divorced,None,Country 38,Unemployed,>50K,Occupation 29
-60,Female,White,Other,Bachelor's,Country 17,Private,<=50K,Occupation 3
-70,Female,Asian,Separated,None,Country 3,Unemployed,<=50K,Occupation 10
-31,Male,Asian,Widowed,Bachelor's,Country 24,Private,>50K,Occupation 38
-31,Female,Other,Married,Doctorate,Country 20,Unemployed,>50K,Occupation 3
-87,Female,Asian,Partnered,Some College,Country 30,Government,<=50K,Occupation 32
-73,Female,Other,Other,Doctorate,Country 37,Unemployed,<=50K,Occupation 1
-80,Male,Hispanic,Single,Associate,Country 5,Private,<=50K,Occupation 11
-46,Male,Black,Divorced,None,Country 17,Student,<=50K,Occupation 34
-68,Male,Asian,Married,Associate,Country 24,Retired,>50K,Occupation 25
-75,Male,Hispanic,Partnered,Bachelor's,Country 15,Unemployed,<=50K,Occupation 25
-51,Female,Hispanic,Divorced,Bachelor's,Country 25,Student,<=50K,Occupation 30
-41,Female,Other,Partnered,Some College,Country 15,Student,>50K,Occupation 19
-24,Male,Hispanic,Single,Associate,Country 33,Unemployed,<=50K,Occupation 14
-75,Male,Other,Widowed,None,Country 15,Unemployed,>50K,Occupation 23
-25,Female,Asian,Divorced,Doctorate,Country 37,Private,<=50K,Occupation 15
-48,Male,Other,Separated,Master's,Country 20,Private,<=50K,Occupation 37
-23,Female,White,Partnered,Associate,Country 3,Self-Employed,>50K,Occupation 39
-60,Male,Other,Other,Master's,Country 26,Student,<=50K,Occupation 15
-43,Male,White,Other,Associate,Country 16,Retired,<=50K,Occupation 25
-33,Male,Asian,Separated,None,Country 20,Retired,<=50K,Occupation 6
-89,Male,White,Married,Associate,Country 29,Student,<=50K,Occupation 18
-18,Female,Hispanic,Separated,Doctorate,Country 38,Retired,<=50K,Occupation 23
-30,Female,Asian,Other,Doctorate,Country 9,Student,<=50K,Occupation 39
-28,Male,Asian,Married,Master's,Country 30,Retired,<=50K,Occupation 12
-35,Male,Other,Divorced,High School,Country 40,Retired,>50K,Occupation 3
-43,Female,Hispanic,Other,Master's,Country 7,Government,>50K,Occupation 24
-46,Female,Asian,Married,Master's,Country 11,Self-Employed,>50K,Occupation 22
-60,Male,Other,Married,Some College,Country 13,Private,<=50K,Occupation 41
-25,Female,Hispanic,Married,Doctorate,Country 7,Other,<=50K,Occupation 1
-84,Female,Other,Widowed,Bachelor's,Country 36,Self-Employed,<=50K,Occupation 12
-68,Male,White,Partnered,Associate,Country 21,Self-Employed,<=50K,Occupation 34
-57,Female,Asian,Other,High School,Country 19,Retired,>50K,Occupation 7
-48,Female,Other,Widowed,Associate,Country 8,Private,>50K,Occupation 10
-39,Female,Other,Partnered,High School,Country 34,Retired,<=50K,Occupation 28
-59,Male,Other,Married,Bachelor's,Country 30,Private,>50K,Occupation 5
-88,Female,Black,Other,None,Country 21,Student,<=50K,Occupation 5
-28,Female,Black,Other,None,Country 39,Retired,<=50K,Occupation 6
-26,Male,Other,Single,Some College,Country 10,Retired,<=50K,Occupation 12
-36,Male,White,Separated,Bachelor's,Country 36,Retired,>50K,Occupation 2
-34,Female,Asian,Other,Master's,Country 27,Unemployed,<=50K,Occupation 25
-42,Female,Other,Single,Master's,Country 36,Student,>50K,Occupation 9
-62,Female,Hispanic,Married,Some College,Country 35,Retired,>50K,Occupation 25
-79,Male,White,Widowed,Associate,Country 39,Self-Employed,>50K,Occupation 20
-87,Male,Asian,Partnered,High School,Country 16,Unemployed,>50K,Occupation 7
-41,Male,White,Widowed,Master's,Country 25,Retired,>50K,Occupation 34
-49,Female,White,Separated,Associate,Country 14,Retired,<=50K,Occupation 31
-50,Male,Hispanic,Divorced,Master's,Country 20,Student,>50K,Occupation 19
-52,Male,Asian,Separated,Master's,Country 6,Retired,>50K,Occupation 41
-44,Female,Black,Married,Doctorate,Country 10,Retired,>50K,Occupation 32
-77,Male,Hispanic,Other,Some College,Country 12,Other,<=50K,Occupation 41
-62,Female,Hispanic,Separated,Some College,Country 11,Private,>50K,Occupation 18
-87,Male,Black,Separated,Master's,Country 8,Government,>50K,Occupation 41
-20,Male,White,Married,Associate,Country 20,Self-Employed,>50K,Occupation 28
-71,Male,White,Other,High School,Country 23,Self-Employed,>50K,Occupation 40
-37,Female,Hispanic,Partnered,None,Country 11,Private,>50K,Occupation 28
-68,Male,Hispanic,Single,Associate,Country 19,Self-Employed,>50K,Occupation 21
-36,Female,Other,Widowed,Associate,Country 18,Unemployed,<=50K,Occupation 10
-60,Female,Hispanic,Single,Some College,Country 21,Self-Employed,<=50K,Occupation 39
-42,Female,Black,Divorced,High School,Country 35,Private,<=50K,Occupation 34
-42,Female,Hispanic,Other,Master's,Country 30,Unemployed,>50K,Occupation 40
-88,Female,Hispanic,Other,Associate,Country 14,Self-Employed,<=50K,Occupation 27
-51,Male,Asian,Single,Associate,Country 30,Unemployed,<=50K,Occupation 20
-52,Male,Black,Married,High School,Country 31,Government,<=50K,Occupation 1
-37,Male,Asian,Widowed,Doctorate,Country 17,Other,>50K,Occupation 7
-21,Male,White,Divorced,None,Country 2,Other,>50K,Occupation 40
-83,Female,White,Partnered,High School,Country 18,Retired,>50K,Occupation 38
-39,Female,Other,Married,High School,Country 27,Government,>50K,Occupation 6
-87,Female,Hispanic,Married,Associate,Country 29,Student,<=50K,Occupation 33
-37,Male,Other,Widowed,Associate,Country 7,Government,<=50K,Occupation 3
-46,Male,Other,Widowed,Some College,Country 26,Self-Employed,<=50K,Occupation 39
-58,Female,Asian,Married,Master's,Country 33,Unemployed,<=50K,Occupation 11
-47,Male,Other,Married,Bachelor's,Country 13,Unemployed,<=50K,Occupation 17
-35,Female,Hispanic,Separated,Associate,Country 20,Self-Employed,>50K,Occupation 40
-25,Male,Other,Partnered,Master's,Country 9,Government,>50K,Occupation 15
-81,Female,Asian,Single,Associate,Country 15,Retired,<=50K,Occupation 16
-46,Female,Hispanic,Single,Associate,Country 1,Government,>50K,Occupation 24
-74,Female,Black,Widowed,Doctorate,Country 29,Retired,<=50K,Occupation 33
-34,Male,Hispanic,Separated,Doctorate,Country 12,Retired,>50K,Occupation 19
-44,Male,Other,Single,Doctorate,Country 24,Private,>50K,Occupation 18
-85,Male,White,Separated,Master's,Country 6,Unemployed,<=50K,Occupation 35
-34,Female,Other,Single,Some College,Country 29,Other,<=50K,Occupation 3
-90,Male,Asian,Divorced,Some College,Country 29,Self-Employed,>50K,Occupation 29
-18,Male,Hispanic,Separated,Associate,Country 12,Student,>50K,Occupation 18
-52,Male,Asian,Single,Doctorate,Country 34,Student,>50K,Occupation 38
-36,Female,Asian,Other,Some College,Country 20,Self-Employed,>50K,Occupation 2
-42,Male,Asian,Partnered,Doctorate,Country 35,Retired,<=50K,Occupation 5
-74,Male,Hispanic,Separated,Doctorate,Country 19,Unemployed,<=50K,Occupation 31
-66,Female,Asian,Single,Bachelor's,Country 6,Retired,<=50K,Occupation 25
-32,Male,Other,Separated,Bachelor's,Country 24,Student,<=50K,Occupation 29
-70,Female,Hispanic,Widowed,Associate,Country 29,Self-Employed,>50K,Occupation 4
-66,Male,Black,Married,Doctorate,Country 27,Other,<=50K,Occupation 23
-60,Female,White,Other,Doctorate,Country 6,Self-Employed,<=50K,Occupation 23
-18,Male,White,Single,High School,Country 5,Student,>50K,Occupation 22
-47,Male,White,Separated,None,Country 9,Unemployed,<=50K,Occupation 35
-36,Male,Hispanic,Other,Doctorate,Country 9,Private,<=50K,Occupation 39
-67,Female,Other,Separated,None,Country 4,Student,<=50K,Occupation 11
-63,Male,Asian,Married,Bachelor's,Country 39,Retired,>50K,Occupation 21
+62,Female,Hispanic,Single,Master's,Country 3,Other,<=50K,Occupation 33
+46,Female,Hispanic,Widowed,None,Country 32,Government,<=50K,Occupation 35
+21,Male,Asian,Separated,Bachelor's,Country 25,Other,>50K,Occupation 13
+36,Male,Black,Other,Some College,Country 23,Unemployed,<=50K,Occupation 10
+46,Male,Hispanic,Single,Associate,Country 28,Government,>50K,Occupation 25
+26,Male,Black,Partnered,Associate,Country 15,Government,>50K,Occupation 22
+41,Male,White,Married,Associate,Country 3,Self-Employed,>50K,Occupation 37
+81,Female,Hispanic,Partnered,None,Country 1,Student,<=50K,Occupation 37
+72,Male,Asian,Divorced,Some College,Country 20,Unemployed,>50K,Occupation 13
+55,Male,Hispanic,Single,Some College,Country 27,Other,>50K,Occupation 29
+78,Male,White,Separated,None,Country 32,Self-Employed,<=50K,Occupation 6
+76,Male,White,Partnered,Some College,Country 35,Unemployed,<=50K,Occupation 27
+55,Male,Asian,Single,Bachelor's,Country 41,Student,<=50K,Occupation 26
+82,Male,Other,Single,Master's,Country 36,Retired,>50K,Occupation 38
+26,Female,Asian,Single,Doctorate,Country 18,Student,>50K,Occupation 17
+77,Female,Other,Single,Bachelor's,Country 33,Self-Employed,>50K,Occupation 8
+49,Female,Hispanic,Single,Bachelor's,Country 28,Unemployed,<=50K,Occupation 12
+84,Female,Hispanic,Married,Some College,Country 13,Other,>50K,Occupation 22
+90,Male,Other,Divorced,Master's,Country 35,Self-Employed,<=50K,Occupation 29
+88,Female,Hispanic,Partnered,Doctorate,Country 34,Government,>50K,Occupation 29
+76,Male,Hispanic,Widowed,None,Country 13,Unemployed,<=50K,Occupation 17
+90,Female,Asian,Divorced,High School,Country 32,Private,<=50K,Occupation 35
+24,Female,White,Partnered,Bachelor's,Country 8,Retired,<=50K,Occupation 8
+54,Female,Asian,Other,High School,Country 8,Other,>50K,Occupation 14
+90,Female,White,Married,Associate,Country 19,Unemployed,<=50K,Occupation 26
+62,Male,Other,Partnered,Some College,Country 21,Private,>50K,Occupation 31
+65,Male,Hispanic,Separated,High School,Country 12,Other,<=50K,Occupation 8
+59,Female,Other,Married,Doctorate,Country 19,Government,<=50K,Occupation 7
+90,Male,Other,Separated,Doctorate,Country 27,Retired,<=50K,Occupation 5
+19,Female,Other,Partnered,Master's,Country 27,Other,<=50K,Occupation 38
+25,Female,White,Single,None,Country 33,Self-Employed,>50K,Occupation 24
+24,Male,Black,Single,Some College,Country 35,Government,>50K,Occupation 8
+73,Male,Hispanic,Widowed,Doctorate,Country 30,Government,>50K,Occupation 3
+72,Male,White,Married,Master's,Country 41,Other,<=50K,Occupation 26
+88,Female,White,Single,Master's,Country 7,Government,>50K,Occupation 3
+46,Female,Asian,Divorced,Bachelor's,Country 33,Other,>50K,Occupation 37
+24,Male,Other,Widowed,Master's,Country 24,Student,<=50K,Occupation 8
+48,Male,Other,Widowed,Bachelor's,Country 36,Retired,>50K,Occupation 12
+45,Female,Asian,Single,Bachelor's,Country 41,Self-Employed,<=50K,Occupation 4
+41,Female,Black,Single,Bachelor's,Country 24,Other,<=50K,Occupation 19
+74,Female,White,Other,Bachelor's,Country 34,Retired,>50K,Occupation 27
+49,Male,Black,Widowed,Doctorate,Country 30,Self-Employed,<=50K,Occupation 5
+58,Female,Asian,Other,Bachelor's,Country 3,Self-Employed,>50K,Occupation 21
+38,Female,Other,Married,High School,Country 25,Private,>50K,Occupation 38
+64,Male,Hispanic,Partnered,High School,Country 24,Self-Employed,<=50K,Occupation 16
+70,Female,Other,Widowed,Some College,Country 22,Unemployed,<=50K,Occupation 28
+19,Female,Hispanic,Married,Doctorate,Country 1,Other,<=50K,Occupation 20
+36,Male,White,Other,Doctorate,Country 23,Private,<=50K,Occupation 40
+39,Male,Black,Married,None,Country 37,Student,<=50K,Occupation 11
+41,Male,Other,Partnered,Doctorate,Country 23,Government,<=50K,Occupation 3
+84,Male,Black,Married,Doctorate,Country 9,Student,>50K,Occupation 24
+65,Female,Black,Single,Doctorate,Country 32,Government,>50K,Occupation 26
+80,Female,Asian,Single,Bachelor's,Country 41,Unemployed,>50K,Occupation 5
+87,Male,Other,Single,Doctorate,Country 1,Self-Employed,<=50K,Occupation 31
+84,Female,White,Other,Bachelor's,Country 34,Retired,>50K,Occupation 7
+32,Female,Other,Married,Master's,Country 40,Retired,<=50K,Occupation 18
+85,Female,Other,Partnered,Bachelor's,Country 13,Unemployed,>50K,Occupation 40
+43,Male,Asian,Single,High School,Country 28,Self-Employed,>50K,Occupation 39
+90,Male,Other,Partnered,Some College,Country 22,Self-Employed,<=50K,Occupation 6
+84,Female,Black,Separated,Master's,Country 3,Self-Employed,>50K,Occupation 36
+31,Male,Asian,Other,Doctorate,Country 25,Other,>50K,Occupation 24
+22,Female,Asian,Married,None,Country 19,Self-Employed,>50K,Occupation 27
+86,Female,Hispanic,Divorced,Bachelor's,Country 31,Unemployed,<=50K,Occupation 7
+27,Female,Asian,Partnered,None,Country 8,Retired,>50K,Occupation 13
+53,Female,White,Single,None,Country 25,Government,>50K,Occupation 32
+78,Male,White,Widowed,High School,Country 37,Retired,>50K,Occupation 41
+19,Female,Asian,Single,Doctorate,Country 39,Other,>50K,Occupation 30
+81,Male,Black,Married,Some College,Country 41,Self-Employed,<=50K,Occupation 10
+35,Male,Other,Other,None,Country 2,Self-Employed,<=50K,Occupation 16
+66,Female,Black,Widowed,Bachelor's,Country 28,Self-Employed,>50K,Occupation 28
+78,Female,Asian,Separated,Master's,Country 40,Unemployed,>50K,Occupation 27
+82,Female,Asian,Other,None,Country 28,Unemployed,>50K,Occupation 23
+64,Male,Hispanic,Other,Bachelor's,Country 19,Retired,>50K,Occupation 1
+46,Male,Other,Other,Doctorate,Country 11,Private,<=50K,Occupation 30
+71,Female,Asian,Widowed,Some College,Country 30,Other,>50K,Occupation 22
+60,Male,Black,Partnered,Some College,Country 23,Government,>50K,Occupation 8
+50,Female,Asian,Widowed,None,Country 5,Government,>50K,Occupation 23
+73,Female,Hispanic,Partnered,High School,Country 23,Retired,<=50K,Occupation 3
+48,Female,Asian,Partnered,High School,Country 15,Unemployed,>50K,Occupation 29
+69,Male,Asian,Partnered,Bachelor's,Country 18,Retired,<=50K,Occupation 16
+78,Female,Black,Partnered,Master's,Country 7,Government,>50K,Occupation 14
+80,Male,Black,Separated,None,Country 31,Private,<=50K,Occupation 27
+30,Female,Black,Single,Master's,Country 26,Government,<=50K,Occupation 20
+31,Female,Black,Separated,Associate,Country 34,Other,<=50K,Occupation 37
+90,Male,White,Other,Bachelor's,Country 26,Unemployed,>50K,Occupation 27
+52,Female,Black,Separated,Some College,Country 21,Unemployed,>50K,Occupation 6
+81,Male,Hispanic,Divorced,Bachelor's,Country 18,Student,<=50K,Occupation 18
+39,Male,Asian,Married,Master's,Country 29,Retired,>50K,Occupation 15
+27,Male,Asian,Other,Doctorate,Country 4,Retired,<=50K,Occupation 7
+80,Female,Asian,Married,Some College,Country 12,Student,>50K,Occupation 24
+44,Male,Hispanic,Widowed,Master's,Country 35,Self-Employed,>50K,Occupation 12
+63,Male,Other,Widowed,Bachelor's,Country 24,Student,<=50K,Occupation 34
+49,Male,Hispanic,Widowed,Doctorate,Country 29,Government,<=50K,Occupation 40
+90,Male,Hispanic,Separated,Associate,Country 15,Retired,<=50K,Occupation 3
+52,Male,White,Widowed,Doctorate,Country 34,Student,>50K,Occupation 3
+33,Female,Other,Other,Bachelor's,Country 21,Retired,<=50K,Occupation 37
+20,Male,Asian,Divorced,Associate,Country 32,Unemployed,>50K,Occupation 33
+48,Female,Black,Partnered,Some College,Country 35,Retired,<=50K,Occupation 11
+62,Male,Black,Separated,Associate,Country 19,Self-Employed,<=50K,Occupation 19
+68,Female,Hispanic,Other,High School,Country 30,Retired,<=50K,Occupation 41
+68,Male,Hispanic,Widowed,High School,Country 26,Private,<=50K,Occupation 21
+34,Female,Other,Partnered,Bachelor's,Country 19,Retired,>50K,Occupation 38
+23,Male,Other,Divorced,Bachelor's,Country 14,Government,>50K,Occupation 29
+23,Female,Black,Single,Some College,Country 16,Other,<=50K,Occupation 29
+67,Female,Black,Separated,None,Country 21,Other,<=50K,Occupation 12
+35,Female,Black,Separated,High School,Country 29,Other,<=50K,Occupation 18
+25,Male,Asian,Partnered,High School,Country 7,Self-Employed,<=50K,Occupation 38
+53,Male,Hispanic,Married,Doctorate,Country 11,Private,<=50K,Occupation 13
+73,Male,Hispanic,Single,None,Country 34,Retired,<=50K,Occupation 16
+73,Male,White,Partnered,High School,Country 4,Student,>50K,Occupation 8
+68,Male,Asian,Widowed,Bachelor's,Country 5,Private,>50K,Occupation 25
+83,Male,Black,Partnered,None,Country 16,Other,<=50K,Occupation 30
+48,Female,Black,Other,None,Country 38,Private,<=50K,Occupation 34
+64,Male,White,Other,Associate,Country 21,Student,>50K,Occupation 36
+36,Male,Black,Separated,Some College,Country 13,Private,<=50K,Occupation 29
+45,Male,Other,Single,High School,Country 14,Government,<=50K,Occupation 18
+57,Male,Asian,Married,None,Country 30,Government,>50K,Occupation 14
+44,Male,Other,Widowed,Some College,Country 11,Government,>50K,Occupation 31
+48,Female,Asian,Widowed,Master's,Country 20,Private,>50K,Occupation 37
+82,Female,Black,Single,Some College,Country 8,Other,<=50K,Occupation 4
+30,Male,Hispanic,Separated,Associate,Country 20,Private,>50K,Occupation 22
+66,Male,Hispanic,Separated,None,Country 5,Government,<=50K,Occupation 26
+72,Female,Other,Single,None,Country 15,Retired,<=50K,Occupation 20
+25,Male,Asian,Separated,Associate,Country 15,Government,>50K,Occupation 35
+71,Female,Other,Widowed,None,Country 5,Private,<=50K,Occupation 24
+83,Male,Asian,Married,High School,Country 26,Government,>50K,Occupation 31
+57,Male,Hispanic,Widowed,None,Country 2,Government,>50K,Occupation 12
+21,Male,Hispanic,Widowed,Bachelor's,Country 26,Self-Employed,>50K,Occupation 21
+72,Male,White,Divorced,Master's,Country 30,Self-Employed,>50K,Occupation 27
+85,Male,Hispanic,Partnered,Associate,Country 16,Unemployed,>50K,Occupation 31
+28,Male,White,Other,High School,Country 35,Student,<=50K,Occupation 23
+58,Male,White,Divorced,Associate,Country 16,Government,<=50K,Occupation 10
+50,Male,Hispanic,Single,Bachelor's,Country 1,Self-Employed,<=50K,Occupation 28
+39,Male,White,Widowed,High School,Country 31,Retired,>50K,Occupation 21
+54,Male,Hispanic,Other,Bachelor's,Country 5,Other,>50K,Occupation 5
+34,Male,White,Separated,Bachelor's,Country 27,Unemployed,>50K,Occupation 31
+68,Male,Black,Married,Associate,Country 23,Unemployed,<=50K,Occupation 10
+52,Male,Other,Partnered,Associate,Country 26,Retired,>50K,Occupation 39
+25,Male,Hispanic,Separated,Bachelor's,Country 27,Unemployed,>50K,Occupation 6
+29,Male,Other,Widowed,None,Country 33,Self-Employed,>50K,Occupation 32
+47,Female,Asian,Single,Bachelor's,Country 8,Private,>50K,Occupation 35
+89,Female,Black,Partnered,Some College,Country 21,Retired,>50K,Occupation 4
+18,Female,Other,Single,Doctorate,Country 1,Self-Employed,>50K,Occupation 4
+78,Male,Other,Married,Bachelor's,Country 39,Retired,<=50K,Occupation 20
+80,Male,Black,Other,High School,Country 18,Retired,<=50K,Occupation 25
+62,Male,Asian,Separated,Some College,Country 39,Self-Employed,<=50K,Occupation 26
+36,Male,Hispanic,Widowed,None,Country 37,Retired,<=50K,Occupation 13
+89,Female,Hispanic,Partnered,Associate,Country 9,Government,>50K,Occupation 30
+25,Female,Black,Separated,None,Country 18,Other,<=50K,Occupation 16
+33,Female,Black,Divorced,High School,Country 8,Government,<=50K,Occupation 40
+47,Male,White,Separated,Some College,Country 29,Other,>50K,Occupation 28
+53,Male,Black,Single,None,Country 22,Student,>50K,Occupation 3
+65,Male,Asian,Widowed,None,Country 32,Self-Employed,<=50K,Occupation 8
+23,Male,White,Partnered,High School,Country 6,Retired,>50K,Occupation 26
+71,Female,Other,Married,Bachelor's,Country 21,Government,<=50K,Occupation 7
+52,Female,Black,Single,High School,Country 10,Unemployed,>50K,Occupation 14
+55,Male,Black,Separated,High School,Country 20,Unemployed,<=50K,Occupation 23
+49,Male,Other,Divorced,None,Country 18,Self-Employed,<=50K,Occupation 19
+75,Female,White,Widowed,Some College,Country 34,Student,>50K,Occupation 34
+66,Female,Hispanic,Other,None,Country 27,Unemployed,<=50K,Occupation 14
+48,Female,White,Single,None,Country 26,Self-Employed,<=50K,Occupation 9
+50,Male,Asian,Partnered,Some College,Country 15,Private,<=50K,Occupation 31
+42,Female,Other,Other,None,Country 8,Self-Employed,>50K,Occupation 14
+31,Female,White,Other,High School,Country 24,Student,<=50K,Occupation 3
+34,Female,White,Divorced,Associate,Country 16,Unemployed,>50K,Occupation 17
+38,Female,Hispanic,Other,None,Country 32,Retired,<=50K,Occupation 1
+18,Male,Black,Divorced,Doctorate,Country 35,Retired,<=50K,Occupation 24
+78,Female,White,Other,Some College,Country 28,Other,>50K,Occupation 30
+80,Male,Other,Single,Master's,Country 3,Unemployed,>50K,Occupation 21
+82,Male,Asian,Separated,None,Country 7,Retired,>50K,Occupation 26
+73,Female,Black,Divorced,Master's,Country 2,Private,>50K,Occupation 41
+32,Male,Black,Separated,Master's,Country 22,Student,<=50K,Occupation 39
+30,Female,Black,Partnered,Some College,Country 30,Retired,>50K,Occupation 1
+49,Male,White,Other,None,Country 27,Other,>50K,Occupation 29
+48,Female,Black,Separated,Some College,Country 15,Government,>50K,Occupation 1
+42,Male,Black,Married,Doctorate,Country 4,Other,>50K,Occupation 30
+78,Female,Hispanic,Widowed,None,Country 19,Retired,>50K,Occupation 5
+39,Female,Asian,Other,Bachelor's,Country 24,Other,<=50K,Occupation 21
+29,Female,Hispanic,Widowed,Bachelor's,Country 7,Private,>50K,Occupation 3
+59,Male,Other,Partnered,None,Country 34,Government,>50K,Occupation 4
+74,Female,Other,Single,Doctorate,Country 40,Student,>50K,Occupation 2
+50,Female,Other,Married,Associate,Country 41,Student,<=50K,Occupation 1
+53,Female,Asian,Separated,None,Country 2,Other,>50K,Occupation 7
+79,Male,Black,Widowed,Associate,Country 8,Self-Employed,>50K,Occupation 10
+72,Male,Asian,Single,Associate,Country 23,Other,>50K,Occupation 34
+78,Male,Other,Separated,None,Country 3,Private,>50K,Occupation 25
+75,Female,Other,Other,Master's,Country 41,Self-Employed,<=50K,Occupation 10
+59,Female,Asian,Widowed,Master's,Country 38,Government,<=50K,Occupation 4
+66,Female,Asian,Single,Bachelor's,Country 37,Retired,<=50K,Occupation 3
+62,Female,Black,Partnered,Doctorate,Country 5,Student,>50K,Occupation 3
+36,Male,White,Married,High School,Country 40,Retired,>50K,Occupation 21
+68,Male,Other,Partnered,None,Country 14,Self-Employed,<=50K,Occupation 22
+24,Female,Hispanic,Widowed,Doctorate,Country 11,Self-Employed,<=50K,Occupation 10
+81,Female,Black,Other,Some College,Country 7,Self-Employed,<=50K,Occupation 39
+26,Male,White,Other,Doctorate,Country 22,Self-Employed,>50K,Occupation 7
+83,Female,White,Divorced,Doctorate,Country 13,Other,<=50K,Occupation 1
+42,Male,Asian,Other,Some College,Country 6,Student,>50K,Occupation 13
+37,Male,Asian,Divorced,Doctorate,Country 35,Private,<=50K,Occupation 39
+77,Female,White,Single,Associate,Country 27,Self-Employed,>50K,Occupation 39
+55,Female,Black,Widowed,Some College,Country 5,Retired,<=50K,Occupation 23

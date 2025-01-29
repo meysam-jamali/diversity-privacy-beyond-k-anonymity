@@ -1,201 +1,201 @@
 Age,Gender,Race,Marital Status,Education,Native Country,Work Class,Salary Class,Occupation
-20-29,Female,*,Single,High School,Country 11,Private,<=50K,Occupation 39
-40-49,Male,*,Single,Master's,Country 11,Student,<=50K,Occupation 34
-50-59,Male,*,Single,Associate,Country 14,Unemployed,>50K,Occupation 40
-40-49,Male,*,Single,,Country 37,Other,<=50K,Occupation 13
-80-89,Male,*,Single,Master's,Country 23,Unemployed,>50K,Occupation 37
-30-39,Female,*,Single,High School,Country 18,Government,<=50K,Occupation 27
-30-39,Female,*,Single,Bachelor's,Country 5,Government,>50K,Occupation 23
-80-89,Female,*,Single,Some College,Country 41,Unemployed,>50K,Occupation 6
-30-39,Female,*,Single,Doctorate,Country 40,Government,>50K,Occupation 15
-30-39,Female,*,Single,Some College,Country 34,Other,<=50K,Occupation 21
-30-39,Male,*,Single,High School,Country 36,Student,>50K,Occupation 14
-30-39,Female,*,Single,,Country 32,Private,>50K,Occupation 11
-60-69,Male,*,Single,High School,Country 25,Unemployed,<=50K,Occupation 38
-40-49,Female,*,Single,Master's,Country 1,Student,>50K,Occupation 16
-80-89,Female,*,Single,Bachelor's,Country 11,Unemployed,>50K,Occupation 11
-30-39,Female,*,Single,Bachelor's,Country 28,Government,<=50K,Occupation 29
-10-19,Male,*,Single,Doctorate,Country 37,Government,<=50K,Occupation 12
-40-49,Female,*,Single,Bachelor's,Country 25,Self-Employed,>50K,Occupation 15
-70-79,Female,*,Single,,Country 34,Government,<=50K,Occupation 32
-60-69,Female,*,Single,Master's,Country 18,Unemployed,<=50K,Occupation 15
-20-29,Male,*,Single,,Country 12,Retired,<=50K,Occupation 34
-30-39,Male,*,Single,Associate,Country 8,Retired,<=50K,Occupation 34
-50-59,Female,*,Single,Bachelor's,Country 21,Self-Employed,>50K,Occupation 30
-60-69,Male,*,Single,Master's,Country 14,Other,>50K,Occupation 17
-50-59,Male,*,Single,High School,Country 30,Government,>50K,Occupation 8
-30-39,Female,*,Single,,Country 38,Retired,>50K,Occupation 27
-50-59,Female,*,Single,High School,Country 1,Unemployed,<=50K,Occupation 6
-30-39,Female,*,Single,Master's,Country 11,Unemployed,>50K,Occupation 17
-80-89,Female,*,Single,Some College,Country 4,Other,<=50K,Occupation 18
-70-79,Male,*,Single,Master's,Country 6,Student,>50K,Occupation 41
-30-39,Male,*,Single,High School,Country 4,Other,<=50K,Occupation 7
-20-29,Male,*,Single,Some College,Country 2,Self-Employed,>50K,Occupation 1
-50-59,Female,*,Single,Doctorate,Country 37,Student,>50K,Occupation 15
-60-69,Male,*,Single,Master's,Country 15,Government,>50K,Occupation 17
-20-29,Female,*,Single,Some College,Country 17,Self-Employed,>50K,Occupation 41
-40-49,Male,*,Single,Some College,Country 6,Student,>50K,Occupation 41
-50-59,Male,*,Single,Doctorate,Country 29,Self-Employed,>50K,Occupation 31
-70-79,Male,*,Single,Master's,Country 26,Other,>50K,Occupation 33
-40-49,Female,*,Single,Master's,Country 26,Other,<=50K,Occupation 30
-30-39,Female,*,Single,Master's,Country 15,Other,>50K,Occupation 19
-50-59,Male,*,Single,Bachelor's,Country 2,Self-Employed,<=50K,Occupation 24
-30-39,Male,*,Single,Some College,Country 26,Other,<=50K,Occupation 17
-30-39,Male,*,Single,Master's,Country 15,Self-Employed,>50K,Occupation 35
-60-69,Female,*,Single,Associate,Country 37,Other,>50K,Occupation 32
-80-89,Female,*,Single,Master's,Country 31,Other,<=50K,Occupation 4
-20-29,Female,*,Single,Associate,Country 12,Government,>50K,Occupation 15
-20-29,Male,*,Single,,Country 13,Retired,>50K,Occupation 9
-40-49,Male,*,Single,Some College,Country 37,Government,>50K,Occupation 27
-20-29,Male,*,Single,Doctorate,Country 3,Government,<=50K,Occupation 11
-80-89,Female,*,Single,High School,Country 22,Unemployed,<=50K,Occupation 2
-30-39,Male,*,Single,Some College,Country 26,Unemployed,>50K,Occupation 39
-20-29,Female,*,Single,Associate,Country 12,Unemployed,<=50K,Occupation 4
-30-39,Male,*,Single,,Country 39,Student,>50K,Occupation 30
-30-39,Male,*,Single,Associate,Country 17,Private,<=50K,Occupation 7
-40-49,Female,*,Single,,Country 31,Student,>50K,Occupation 28
-40-49,Female,*,Single,High School,Country 14,Unemployed,<=50K,Occupation 40
-20-29,Female,*,Single,Doctorate,Country 22,Other,<=50K,Occupation 1
-50-59,Male,*,Single,,Country 5,Private,>50K,Occupation 37
-10-19,Male,*,Single,High School,Country 7,Other,<=50K,Occupation 23
-80-89,Female,*,Single,High School,Country 35,Other,<=50K,Occupation 6
-20-29,Male,*,Single,,Country 22,Self-Employed,<=50K,Occupation 11
-70-79,Female,*,Single,Some College,Country 14,Private,>50K,Occupation 16
-80-89,Female,*,Single,Doctorate,Country 3,Government,>50K,Occupation 30
-30-39,Male,*,Single,Doctorate,Country 9,Self-Employed,>50K,Occupation 12
-20-29,Male,*,Single,Bachelor's,Country 20,Unemployed,>50K,Occupation 23
-70-79,Male,*,Single,Doctorate,Country 5,Retired,>50K,Occupation 41
-30-39,Male,*,Single,Doctorate,Country 6,Unemployed,<=50K,Occupation 15
-30-39,Female,*,Single,High School,Country 5,Other,>50K,Occupation 8
-20-29,Female,*,Single,Associate,Country 16,Unemployed,>50K,Occupation 24
-20-29,Female,*,Single,Associate,Country 31,Private,>50K,Occupation 38
-70-79,Male,*,Single,Master's,Country 15,Unemployed,>50K,Occupation 23
-50-59,Female,*,Single,Doctorate,Country 32,Student,>50K,Occupation 20
-80-89,Female,*,Single,Master's,Country 18,Self-Employed,<=50K,Occupation 16
-20-29,Male,*,Single,Doctorate,Country 27,Student,>50K,Occupation 32
-60-69,Female,*,Single,Master's,Country 6,Retired,>50K,Occupation 37
-40-49,Male,*,Single,Master's,Country 13,Self-Employed,>50K,Occupation 34
-60-69,Male,*,Single,Doctorate,Country 24,Self-Employed,>50K,Occupation 24
-20-29,Female,*,Single,Doctorate,Country 41,Retired,>50K,Occupation 6
-50-59,Female,*,Single,High School,Country 24,Unemployed,>50K,Occupation 4
-70-79,Female,*,Single,Some College,Country 16,Other,>50K,Occupation 29
-80-89,Male,*,Single,,Country 23,Other,<=50K,Occupation 11
-70-79,Female,*,Single,Some College,Country 26,Retired,>50K,Occupation 40
-40-49,Male,*,Single,Bachelor's,Country 40,Student,>50K,Occupation 12
-60-69,Male,*,Single,Doctorate,Country 15,Student,>50K,Occupation 6
-50-59,Female,*,Single,Doctorate,Country 7,Private,<=50K,Occupation 39
-60-69,Female,*,Single,Associate,Country 41,Unemployed,>50K,Occupation 2
-50-59,Male,*,Single,,Country 1,Other,>50K,Occupation 30
-60-69,Female,*,Single,Associate,Country 17,Self-Employed,>50K,Occupation 26
-40-49,Female,*,Single,,Country 23,Private,>50K,Occupation 22
-80-89,Male,*,Single,Some College,Country 14,Student,<=50K,Occupation 10
-40-49,Female,*,Single,,Country 19,Government,>50K,Occupation 11
-70-79,Female,*,Single,Bachelor's,Country 32,Self-Employed,>50K,Occupation 7
-30-39,Male,*,Single,High School,Country 8,Private,<=50K,Occupation 39
-50-59,Male,*,Single,,Country 13,Student,<=50K,Occupation 28
-20-29,Female,*,Single,Some College,Country 6,Unemployed,>50K,Occupation 17
-80-89,Male,*,Single,Doctorate,Country 5,Government,>50K,Occupation 29
-20-29,Male,*,Single,Master's,Country 12,Unemployed,<=50K,Occupation 30
-20-29,Female,*,Single,,Country 34,Private,>50K,Occupation 40
-10-19,Male,*,Single,Master's,Country 7,Retired,>50K,Occupation 41
-50-59,Female,*,Single,Doctorate,Country 7,Unemployed,>50K,Occupation 22
-50-59,Female,*,Single,Associate,Country 1,Government,<=50K,Occupation 27
-50-59,Male,*,Single,,Country 12,Private,>50K,Occupation 7
-50-59,Male,*,Single,Doctorate,Country 10,Other,<=50K,Occupation 19
-20-29,Male,*,Single,,Country 21,Private,>50K,Occupation 24
-20-29,Male,*,Single,,Country 15,Government,<=50K,Occupation 5
-40-49,Female,*,Single,High School,Country 1,Retired,>50K,Occupation 33
-50-59,Male,*,Single,High School,Country 39,Student,<=50K,Occupation 37
-60-69,Female,*,Single,High School,Country 2,Other,>50K,Occupation 38
-50-59,Female,*,Single,Some College,Country 13,Self-Employed,>50K,Occupation 3
-40-49,Female,*,Single,,Country 21,Unemployed,<=50K,Occupation 36
-10-19,Male,*,Single,Some College,Country 26,Unemployed,>50K,Occupation 11
-30-39,Female,*,Single,Doctorate,Country 33,Self-Employed,<=50K,Occupation 28
-50-59,Male,*,Single,Master's,Country 19,Government,<=50K,Occupation 15
-60-69,Male,*,Single,Associate,Country 32,Retired,<=50K,Occupation 29
-50-59,Male,*,Single,Associate,Country 7,Student,<=50K,Occupation 2
-70-79,Female,*,Single,Master's,Country 38,Government,<=50K,Occupation 32
-50-59,Female,*,Single,Associate,Country 11,Student,<=50K,Occupation 17
-50-59,Female,*,Single,High School,Country 19,Student,<=50K,Occupation 31
-20-29,Female,*,Single,Doctorate,Country 25,Student,>50K,Occupation 14
-50-59,Female,*,Single,Doctorate,Country 29,Self-Employed,>50K,Occupation 39
-70-79,Female,*,Single,Some College,Country 6,Private,>50K,Occupation 3
-20-29,Male,*,Single,,Country 13,Unemployed,>50K,Occupation 39
-40-49,Male,*,Single,High School,Country 41,Retired,>50K,Occupation 13
-30-39,Female,*,Single,Doctorate,Country 41,Retired,>50K,Occupation 41
-30-39,Female,*,Single,,Country 26,Other,<=50K,Occupation 25
-30-39,Female,*,Single,,Country 36,Government,>50K,Occupation 36
-40-49,Female,*,Single,Associate,Country 27,Private,>50K,Occupation 21
-20-29,Female,*,Single,Some College,Country 9,Unemployed,<=50K,Occupation 38
-30-39,Male,*,Single,Doctorate,Country 1,Self-Employed,>50K,Occupation 36
-80-89,Female,*,Single,Some College,Country 31,Unemployed,<=50K,Occupation 8
-80-89,Female,*,Single,Doctorate,Country 38,Government,<=50K,Occupation 22
-70-79,Female,*,Single,Master's,Country 23,Government,>50K,Occupation 19
-60-69,Female,*,Single,Doctorate,Country 38,Self-Employed,>50K,Occupation 21
-50-59,Female,*,Single,Master's,Country 35,Private,>50K,Occupation 18
-80-89,Male,*,Single,Some College,Country 30,Retired,<=50K,Occupation 8
-80-89,Female,*,Single,Doctorate,Country 30,Self-Employed,<=50K,Occupation 17
-80-89,Male,*,Single,High School,Country 31,Retired,<=50K,Occupation 32
-20-29,Female,*,Single,Doctorate,Country 19,Private,>50K,Occupation 17
-80-89,Female,*,Single,Some College,Country 2,Government,<=50K,Occupation 34
-30-39,Male,*,Single,Doctorate,Country 11,Government,>50K,Occupation 34
-40-49,Male,*,Single,,Country 28,Unemployed,<=50K,Occupation 25
-70-79,Male,*,Single,High School,Country 9,Other,<=50K,Occupation 4
-50-59,Female,*,Single,Some College,Country 30,Other,<=50K,Occupation 11
-40-49,Female,*,Single,Some College,Country 3,Unemployed,<=50K,Occupation 24
-50-59,Male,*,Single,High School,Country 19,Self-Employed,>50K,Occupation 40
-70-79,Female,*,Single,Associate,Country 28,Retired,>50K,Occupation 19
-60-69,Female,*,Single,Master's,Country 10,Self-Employed,>50K,Occupation 31
-20-29,Male,*,Single,Some College,Country 36,Student,>50K,Occupation 14
-30-39,Female,*,Single,High School,Country 41,Self-Employed,<=50K,Occupation 26
-60-69,Male,*,Single,Doctorate,Country 9,Other,>50K,Occupation 8
-Suppressed,Suppressed,Suppressed,Suppressed,Bachelor's,Country 9,Self-Employed,<=50K,Occupation 25
-30-39,Male,*,Single,Master's,Country 23,Private,>50K,Occupation 1
-40-49,Male,*,Single,Bachelor's,Country 35,Unemployed,<=50K,Occupation 28
-30-39,Female,*,Single,Bachelor's,Country 4,Unemployed,>50K,Occupation 15
-20-29,Male,*,Single,Master's,Country 23,Private,>50K,Occupation 27
-80-89,Female,*,Single,Some College,Country 23,Self-Employed,<=50K,Occupation 8
-Suppressed,Suppressed,Suppressed,Suppressed,Master's,Country 17,Student,>50K,Occupation 2
-60-69,Female,*,Single,Master's,Country 10,Self-Employed,<=50K,Occupation 33
-70-79,Male,*,Single,Doctorate,Country 12,Unemployed,<=50K,Occupation 25
-40-49,Female,*,Single,Bachelor's,Country 27,Unemployed,>50K,Occupation 38
-60-69,Male,*,Single,,Country 20,Unemployed,<=50K,Occupation 38
-60-69,Female,*,Single,,Country 14,Student,>50K,Occupation 10
-30-39,Female,*,Single,Doctorate,Country 34,Government,<=50K,Occupation 7
-50-59,Male,*,Single,Doctorate,Country 26,Private,>50K,Occupation 6
-70-79,Male,*,Single,,Country 24,Other,>50K,Occupation 36
-20-29,Female,*,Single,Master's,Country 7,Government,>50K,Occupation 25
-50-59,Female,*,Single,Master's,Country 3,Other,<=50K,Occupation 26
-80-89,Male,*,Single,Master's,Country 15,Private,>50K,Occupation 2
-60-69,Female,*,Single,Bachelor's,Country 3,Government,<=50K,Occupation 29
-70-79,Female,*,Single,Some College,Country 18,Student,<=50K,Occupation 16
-80-89,Male,*,Single,,Country 30,Other,<=50K,Occupation 4
-40-49,Female,*,Single,Bachelor's,Country 41,Self-Employed,<=50K,Occupation 9
-70-79,Male,*,Single,,Country 26,Private,<=50K,Occupation 29
-70-79,Male,*,Single,Some College,Country 34,Unemployed,>50K,Occupation 20
-70-79,Female,*,Single,Master's,Country 23,Unemployed,>50K,Occupation 15
-80-89,Female,*,Single,High School,Country 26,Government,>50K,Occupation 2
-50-59,Female,*,Single,Associate,Country 16,Unemployed,<=50K,Occupation 28
-70-79,Female,*,Single,Some College,Country 12,Government,<=50K,Occupation 17
-80-89,Male,*,Single,Associate,Country 17,Other,<=50K,Occupation 37
-Suppressed,Suppressed,Suppressed,Suppressed,Bachelor's,Country 8,Government,<=50K,Occupation 25
-80-89,Male,*,Single,Associate,Country 32,Student,>50K,Occupation 26
-30-39,Male,*,Single,High School,Country 30,Other,<=50K,Occupation 12
-30-39,Female,*,Single,,Country 18,Self-Employed,<=50K,Occupation 25
-70-79,Male,*,Single,,Country 30,Student,>50K,Occupation 9
-70-79,Male,*,Single,,Country 5,Self-Employed,>50K,Occupation 24
-70-79,Male,*,Single,Associate,Country 32,Government,<=50K,Occupation 19
-80-89,Male,*,Single,Bachelor's,Country 5,Retired,<=50K,Occupation 41
-50-59,Male,*,Single,High School,Country 11,Private,<=50K,Occupation 17
-60-69,Female,*,Single,Master's,Country 9,Private,<=50K,Occupation 41
-50-59,Female,*,Single,Associate,Country 26,Unemployed,>50K,Occupation 27
-50-59,Male,*,Single,Associate,Country 11,Government,<=50K,Occupation 25
-70-79,Male,*,Single,Associate,Country 3,Other,>50K,Occupation 7
-20-29,Male,*,Single,High School,Country 18,Government,<=50K,Occupation 25
-Suppressed,Suppressed,Suppressed,Suppressed,Associate,Country 14,Student,<=50K,Occupation 33
-80-89,Female,*,Single,Associate,Country 28,Unemployed,<=50K,Occupation 22
-60-69,Male,*,Single,,Country 38,Private,>50K,Occupation 18
-10-19,Male,*,Single,Some College,Country 28,Government,>50K,Occupation 25
-50-59,Female,*,Single,Some College,Country 29,Private,<=50K,Occupation 37
-30-39,Male,*,Single,High School,Country 39,Government,<=50K,Occupation 40
-40-49,Female,*,Single,,Country 12,Student,>50K,Occupation 1
+60-69,Female,*,Single,Master's,Country 3,Other,<=50K,Occupation 33
+40-49,Female,*,Single,,Country 32,Government,<=50K,Occupation 35
+20-29,Male,*,Single,Bachelor's,Country 25,Other,>50K,Occupation 13
+30-39,Male,*,Single,Some College,Country 23,Unemployed,<=50K,Occupation 10
+40-49,Male,*,Single,Associate,Country 28,Government,>50K,Occupation 25
+20-29,Male,*,Single,Associate,Country 15,Government,>50K,Occupation 22
+40-49,Male,*,Single,Associate,Country 3,Self-Employed,>50K,Occupation 37
+80-89,Female,*,Single,,Country 1,Student,<=50K,Occupation 37
+70-79,Male,*,Single,Some College,Country 20,Unemployed,>50K,Occupation 13
+50-59,Male,*,Single,Some College,Country 27,Other,>50K,Occupation 29
+70-79,Male,*,Single,,Country 32,Self-Employed,<=50K,Occupation 6
+70-79,Male,*,Single,Some College,Country 35,Unemployed,<=50K,Occupation 27
+50-59,Male,*,Single,Bachelor's,Country 41,Student,<=50K,Occupation 26
+80-89,Male,*,Single,Master's,Country 36,Retired,>50K,Occupation 38
+20-29,Female,*,Single,Doctorate,Country 18,Student,>50K,Occupation 17
+70-79,Female,*,Single,Bachelor's,Country 33,Self-Employed,>50K,Occupation 8
+40-49,Female,*,Single,Bachelor's,Country 28,Unemployed,<=50K,Occupation 12
+80-89,Female,*,Single,Some College,Country 13,Other,>50K,Occupation 22
+90-99,Male,*,Single,Master's,Country 35,Self-Employed,<=50K,Occupation 29
+80-89,Female,*,Single,Doctorate,Country 34,Government,>50K,Occupation 29
+70-79,Male,*,Single,,Country 13,Unemployed,<=50K,Occupation 17
+Suppressed,Suppressed,Suppressed,Suppressed,High School,Country 32,Private,<=50K,Occupation 35
+20-29,Female,*,Single,Bachelor's,Country 8,Retired,<=50K,Occupation 8
+50-59,Female,*,Single,High School,Country 8,Other,>50K,Occupation 14
+Suppressed,Suppressed,Suppressed,Suppressed,Associate,Country 19,Unemployed,<=50K,Occupation 26
+60-69,Male,*,Single,Some College,Country 21,Private,>50K,Occupation 31
+60-69,Male,*,Single,High School,Country 12,Other,<=50K,Occupation 8
+50-59,Female,*,Single,Doctorate,Country 19,Government,<=50K,Occupation 7
+90-99,Male,*,Single,Doctorate,Country 27,Retired,<=50K,Occupation 5
+10-19,Female,*,Single,Master's,Country 27,Other,<=50K,Occupation 38
+20-29,Female,*,Single,,Country 33,Self-Employed,>50K,Occupation 24
+20-29,Male,*,Single,Some College,Country 35,Government,>50K,Occupation 8
+70-79,Male,*,Single,Doctorate,Country 30,Government,>50K,Occupation 3
+70-79,Male,*,Single,Master's,Country 41,Other,<=50K,Occupation 26
+80-89,Female,*,Single,Master's,Country 7,Government,>50K,Occupation 3
+40-49,Female,*,Single,Bachelor's,Country 33,Other,>50K,Occupation 37
+20-29,Male,*,Single,Master's,Country 24,Student,<=50K,Occupation 8
+40-49,Male,*,Single,Bachelor's,Country 36,Retired,>50K,Occupation 12
+40-49,Female,*,Single,Bachelor's,Country 41,Self-Employed,<=50K,Occupation 4
+40-49,Female,*,Single,Bachelor's,Country 24,Other,<=50K,Occupation 19
+70-79,Female,*,Single,Bachelor's,Country 34,Retired,>50K,Occupation 27
+40-49,Male,*,Single,Doctorate,Country 30,Self-Employed,<=50K,Occupation 5
+50-59,Female,*,Single,Bachelor's,Country 3,Self-Employed,>50K,Occupation 21
+30-39,Female,*,Single,High School,Country 25,Private,>50K,Occupation 38
+60-69,Male,*,Single,High School,Country 24,Self-Employed,<=50K,Occupation 16
+70-79,Female,*,Single,Some College,Country 22,Unemployed,<=50K,Occupation 28
+10-19,Female,*,Single,Doctorate,Country 1,Other,<=50K,Occupation 20
+30-39,Male,*,Single,Doctorate,Country 23,Private,<=50K,Occupation 40
+30-39,Male,*,Single,,Country 37,Student,<=50K,Occupation 11
+40-49,Male,*,Single,Doctorate,Country 23,Government,<=50K,Occupation 3
+80-89,Male,*,Single,Doctorate,Country 9,Student,>50K,Occupation 24
+60-69,Female,*,Single,Doctorate,Country 32,Government,>50K,Occupation 26
+80-89,Female,*,Single,Bachelor's,Country 41,Unemployed,>50K,Occupation 5
+80-89,Male,*,Single,Doctorate,Country 1,Self-Employed,<=50K,Occupation 31
+80-89,Female,*,Single,Bachelor's,Country 34,Retired,>50K,Occupation 7
+30-39,Female,*,Single,Master's,Country 40,Retired,<=50K,Occupation 18
+80-89,Female,*,Single,Bachelor's,Country 13,Unemployed,>50K,Occupation 40
+40-49,Male,*,Single,High School,Country 28,Self-Employed,>50K,Occupation 39
+90-99,Male,*,Single,Some College,Country 22,Self-Employed,<=50K,Occupation 6
+80-89,Female,*,Single,Master's,Country 3,Self-Employed,>50K,Occupation 36
+30-39,Male,*,Single,Doctorate,Country 25,Other,>50K,Occupation 24
+20-29,Female,*,Single,,Country 19,Self-Employed,>50K,Occupation 27
+80-89,Female,*,Single,Bachelor's,Country 31,Unemployed,<=50K,Occupation 7
+20-29,Female,*,Single,,Country 8,Retired,>50K,Occupation 13
+50-59,Female,*,Single,,Country 25,Government,>50K,Occupation 32
+70-79,Male,*,Single,High School,Country 37,Retired,>50K,Occupation 41
+10-19,Female,*,Single,Doctorate,Country 39,Other,>50K,Occupation 30
+80-89,Male,*,Single,Some College,Country 41,Self-Employed,<=50K,Occupation 10
+30-39,Male,*,Single,,Country 2,Self-Employed,<=50K,Occupation 16
+60-69,Female,*,Single,Bachelor's,Country 28,Self-Employed,>50K,Occupation 28
+70-79,Female,*,Single,Master's,Country 40,Unemployed,>50K,Occupation 27
+80-89,Female,*,Single,,Country 28,Unemployed,>50K,Occupation 23
+60-69,Male,*,Single,Bachelor's,Country 19,Retired,>50K,Occupation 1
+40-49,Male,*,Single,Doctorate,Country 11,Private,<=50K,Occupation 30
+70-79,Female,*,Single,Some College,Country 30,Other,>50K,Occupation 22
+60-69,Male,*,Single,Some College,Country 23,Government,>50K,Occupation 8
+50-59,Female,*,Single,,Country 5,Government,>50K,Occupation 23
+70-79,Female,*,Single,High School,Country 23,Retired,<=50K,Occupation 3
+40-49,Female,*,Single,High School,Country 15,Unemployed,>50K,Occupation 29
+60-69,Male,*,Single,Bachelor's,Country 18,Retired,<=50K,Occupation 16
+70-79,Female,*,Single,Master's,Country 7,Government,>50K,Occupation 14
+80-89,Male,*,Single,,Country 31,Private,<=50K,Occupation 27
+30-39,Female,*,Single,Master's,Country 26,Government,<=50K,Occupation 20
+30-39,Female,*,Single,Associate,Country 34,Other,<=50K,Occupation 37
+90-99,Male,*,Single,Bachelor's,Country 26,Unemployed,>50K,Occupation 27
+50-59,Female,*,Single,Some College,Country 21,Unemployed,>50K,Occupation 6
+80-89,Male,*,Single,Bachelor's,Country 18,Student,<=50K,Occupation 18
+30-39,Male,*,Single,Master's,Country 29,Retired,>50K,Occupation 15
+20-29,Male,*,Single,Doctorate,Country 4,Retired,<=50K,Occupation 7
+80-89,Female,*,Single,Some College,Country 12,Student,>50K,Occupation 24
+40-49,Male,*,Single,Master's,Country 35,Self-Employed,>50K,Occupation 12
+60-69,Male,*,Single,Bachelor's,Country 24,Student,<=50K,Occupation 34
+40-49,Male,*,Single,Doctorate,Country 29,Government,<=50K,Occupation 40
+90-99,Male,*,Single,Associate,Country 15,Retired,<=50K,Occupation 3
+50-59,Male,*,Single,Doctorate,Country 34,Student,>50K,Occupation 3
+30-39,Female,*,Single,Bachelor's,Country 21,Retired,<=50K,Occupation 37
+20-29,Male,*,Single,Associate,Country 32,Unemployed,>50K,Occupation 33
+40-49,Female,*,Single,Some College,Country 35,Retired,<=50K,Occupation 11
+60-69,Male,*,Single,Associate,Country 19,Self-Employed,<=50K,Occupation 19
+60-69,Female,*,Single,High School,Country 30,Retired,<=50K,Occupation 41
+60-69,Male,*,Single,High School,Country 26,Private,<=50K,Occupation 21
+30-39,Female,*,Single,Bachelor's,Country 19,Retired,>50K,Occupation 38
+20-29,Male,*,Single,Bachelor's,Country 14,Government,>50K,Occupation 29
+20-29,Female,*,Single,Some College,Country 16,Other,<=50K,Occupation 29
+60-69,Female,*,Single,,Country 21,Other,<=50K,Occupation 12
+30-39,Female,*,Single,High School,Country 29,Other,<=50K,Occupation 18
+20-29,Male,*,Single,High School,Country 7,Self-Employed,<=50K,Occupation 38
+50-59,Male,*,Single,Doctorate,Country 11,Private,<=50K,Occupation 13
+70-79,Male,*,Single,,Country 34,Retired,<=50K,Occupation 16
+70-79,Male,*,Single,High School,Country 4,Student,>50K,Occupation 8
+60-69,Male,*,Single,Bachelor's,Country 5,Private,>50K,Occupation 25
+80-89,Male,*,Single,,Country 16,Other,<=50K,Occupation 30
+40-49,Female,*,Single,,Country 38,Private,<=50K,Occupation 34
+60-69,Male,*,Single,Associate,Country 21,Student,>50K,Occupation 36
+30-39,Male,*,Single,Some College,Country 13,Private,<=50K,Occupation 29
+40-49,Male,*,Single,High School,Country 14,Government,<=50K,Occupation 18
+50-59,Male,*,Single,,Country 30,Government,>50K,Occupation 14
+40-49,Male,*,Single,Some College,Country 11,Government,>50K,Occupation 31
+40-49,Female,*,Single,Master's,Country 20,Private,>50K,Occupation 37
+80-89,Female,*,Single,Some College,Country 8,Other,<=50K,Occupation 4
+30-39,Male,*,Single,Associate,Country 20,Private,>50K,Occupation 22
+60-69,Male,*,Single,,Country 5,Government,<=50K,Occupation 26
+70-79,Female,*,Single,,Country 15,Retired,<=50K,Occupation 20
+20-29,Male,*,Single,Associate,Country 15,Government,>50K,Occupation 35
+70-79,Female,*,Single,,Country 5,Private,<=50K,Occupation 24
+80-89,Male,*,Single,High School,Country 26,Government,>50K,Occupation 31
+50-59,Male,*,Single,,Country 2,Government,>50K,Occupation 12
+20-29,Male,*,Single,Bachelor's,Country 26,Self-Employed,>50K,Occupation 21
+70-79,Male,*,Single,Master's,Country 30,Self-Employed,>50K,Occupation 27
+80-89,Male,*,Single,Associate,Country 16,Unemployed,>50K,Occupation 31
+20-29,Male,*,Single,High School,Country 35,Student,<=50K,Occupation 23
+50-59,Male,*,Single,Associate,Country 16,Government,<=50K,Occupation 10
+50-59,Male,*,Single,Bachelor's,Country 1,Self-Employed,<=50K,Occupation 28
+30-39,Male,*,Single,High School,Country 31,Retired,>50K,Occupation 21
+50-59,Male,*,Single,Bachelor's,Country 5,Other,>50K,Occupation 5
+30-39,Male,*,Single,Bachelor's,Country 27,Unemployed,>50K,Occupation 31
+60-69,Male,*,Single,Associate,Country 23,Unemployed,<=50K,Occupation 10
+50-59,Male,*,Single,Associate,Country 26,Retired,>50K,Occupation 39
+20-29,Male,*,Single,Bachelor's,Country 27,Unemployed,>50K,Occupation 6
+20-29,Male,*,Single,,Country 33,Self-Employed,>50K,Occupation 32
+40-49,Female,*,Single,Bachelor's,Country 8,Private,>50K,Occupation 35
+80-89,Female,*,Single,Some College,Country 21,Retired,>50K,Occupation 4
+10-19,Female,*,Single,Doctorate,Country 1,Self-Employed,>50K,Occupation 4
+70-79,Male,*,Single,Bachelor's,Country 39,Retired,<=50K,Occupation 20
+80-89,Male,*,Single,High School,Country 18,Retired,<=50K,Occupation 25
+60-69,Male,*,Single,Some College,Country 39,Self-Employed,<=50K,Occupation 26
+30-39,Male,*,Single,,Country 37,Retired,<=50K,Occupation 13
+80-89,Female,*,Single,Associate,Country 9,Government,>50K,Occupation 30
+20-29,Female,*,Single,,Country 18,Other,<=50K,Occupation 16
+30-39,Female,*,Single,High School,Country 8,Government,<=50K,Occupation 40
+40-49,Male,*,Single,Some College,Country 29,Other,>50K,Occupation 28
+50-59,Male,*,Single,,Country 22,Student,>50K,Occupation 3
+60-69,Male,*,Single,,Country 32,Self-Employed,<=50K,Occupation 8
+20-29,Male,*,Single,High School,Country 6,Retired,>50K,Occupation 26
+70-79,Female,*,Single,Bachelor's,Country 21,Government,<=50K,Occupation 7
+50-59,Female,*,Single,High School,Country 10,Unemployed,>50K,Occupation 14
+50-59,Male,*,Single,High School,Country 20,Unemployed,<=50K,Occupation 23
+40-49,Male,*,Single,,Country 18,Self-Employed,<=50K,Occupation 19
+70-79,Female,*,Single,Some College,Country 34,Student,>50K,Occupation 34
+60-69,Female,*,Single,,Country 27,Unemployed,<=50K,Occupation 14
+40-49,Female,*,Single,,Country 26,Self-Employed,<=50K,Occupation 9
+50-59,Male,*,Single,Some College,Country 15,Private,<=50K,Occupation 31
+40-49,Female,*,Single,,Country 8,Self-Employed,>50K,Occupation 14
+30-39,Female,*,Single,High School,Country 24,Student,<=50K,Occupation 3
+30-39,Female,*,Single,Associate,Country 16,Unemployed,>50K,Occupation 17
+30-39,Female,*,Single,,Country 32,Retired,<=50K,Occupation 1
+Suppressed,Suppressed,Suppressed,Suppressed,Doctorate,Country 35,Retired,<=50K,Occupation 24
+70-79,Female,*,Single,Some College,Country 28,Other,>50K,Occupation 30
+80-89,Male,*,Single,Master's,Country 3,Unemployed,>50K,Occupation 21
+80-89,Male,*,Single,,Country 7,Retired,>50K,Occupation 26
+70-79,Female,*,Single,Master's,Country 2,Private,>50K,Occupation 41
+30-39,Male,*,Single,Master's,Country 22,Student,<=50K,Occupation 39
+30-39,Female,*,Single,Some College,Country 30,Retired,>50K,Occupation 1
+40-49,Male,*,Single,,Country 27,Other,>50K,Occupation 29
+40-49,Female,*,Single,Some College,Country 15,Government,>50K,Occupation 1
+40-49,Male,*,Single,Doctorate,Country 4,Other,>50K,Occupation 30
+70-79,Female,*,Single,,Country 19,Retired,>50K,Occupation 5
+30-39,Female,*,Single,Bachelor's,Country 24,Other,<=50K,Occupation 21
+20-29,Female,*,Single,Bachelor's,Country 7,Private,>50K,Occupation 3
+50-59,Male,*,Single,,Country 34,Government,>50K,Occupation 4
+70-79,Female,*,Single,Doctorate,Country 40,Student,>50K,Occupation 2
+50-59,Female,*,Single,Associate,Country 41,Student,<=50K,Occupation 1
+50-59,Female,*,Single,,Country 2,Other,>50K,Occupation 7
+70-79,Male,*,Single,Associate,Country 8,Self-Employed,>50K,Occupation 10
+70-79,Male,*,Single,Associate,Country 23,Other,>50K,Occupation 34
+70-79,Male,*,Single,,Country 3,Private,>50K,Occupation 25
+70-79,Female,*,Single,Master's,Country 41,Self-Employed,<=50K,Occupation 10
+50-59,Female,*,Single,Master's,Country 38,Government,<=50K,Occupation 4
+60-69,Female,*,Single,Bachelor's,Country 37,Retired,<=50K,Occupation 3
+60-69,Female,*,Single,Doctorate,Country 5,Student,>50K,Occupation 3
+30-39,Male,*,Single,High School,Country 40,Retired,>50K,Occupation 21
+60-69,Male,*,Single,,Country 14,Self-Employed,<=50K,Occupation 22
+20-29,Female,*,Single,Doctorate,Country 11,Self-Employed,<=50K,Occupation 10
+80-89,Female,*,Single,Some College,Country 7,Self-Employed,<=50K,Occupation 39
+20-29,Male,*,Single,Doctorate,Country 22,Self-Employed,>50K,Occupation 7
+80-89,Female,*,Single,Doctorate,Country 13,Other,<=50K,Occupation 1
+40-49,Male,*,Single,Some College,Country 6,Student,>50K,Occupation 13
+30-39,Male,*,Single,Doctorate,Country 35,Private,<=50K,Occupation 39
+70-79,Female,*,Single,Associate,Country 27,Self-Employed,>50K,Occupation 39
+50-59,Female,*,Single,Some College,Country 5,Retired,<=50K,Occupation 23

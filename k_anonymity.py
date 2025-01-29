@@ -46,36 +46,60 @@ def generalize_marital_status(status, level=1):
 
 # k-Anonymity Implementation
 def apply_k_anonymity(data, quasi_identifiers, k, generalization_levels=None):
+    """
+    Apply k-Anonymity to a dataset by generalizing quasi-identifiers and suppressing small groups.
+
+    Args:
+        data (pd.DataFrame): The input dataset.
+        quasi_identifiers (list): List of quasi-identifiers.
+        k (int): The k-anonymity threshold.
+        generalization_levels (dict, optional): Mapping of quasi-identifiers to their generalization levels.
+
+    Returns:
+        pd.DataFrame: The k-anonymized dataset.
+    """
     if generalization_levels is None:
         generalization_levels = {qi: 1 for qi in quasi_identifiers}
 
-    print(Fore.BLUE + "Applying k-Anonymity..." + Style.RESET_ALL)
+    print(Fore.BLUE + "🔒 Applying k-Anonymity..." + Style.RESET_ALL)
 
+    # Copy data to prevent modification of original dataset
     anonymized_data = data.copy()
 
+    # ✅ Step 1: Apply Generalization Based on Levels
     for qi in quasi_identifiers:
         level = generalization_levels.get(qi, 1)
         if qi == "Age":
             anonymized_data[qi] = anonymized_data[qi].apply(lambda x: generalize_age(x, level))
-        if qi == "Gender":
+        elif qi == "Gender":
             anonymized_data[qi] = anonymized_data[qi].apply(lambda x: generalize_gender(x, level))
-        if qi == "Race":
+        elif qi == "Race":
             anonymized_data[qi] = anonymized_data[qi].apply(lambda x: generalize_race(x, level))
-        if qi == "Marital Status":
+        elif qi == "Marital Status":
             anonymized_data[qi] = anonymized_data[qi].apply(lambda x: generalize_marital_status(x, level))
 
+    # ✅ Step 2: Identify and Suppress Small Groups
     grouped = anonymized_data.groupby(quasi_identifiers)
     group_sizes = grouped.size()
     under_sized_groups = group_sizes[group_sizes < k]
 
     if not under_sized_groups.empty:
-        print(Fore.RED + f"{len(under_sized_groups)} groups failed k-anonymity. Suppressing these groups." + Style.RESET_ALL)
+        print(Fore.RED + f"❌ {len(under_sized_groups)} groups failed k-anonymity. Merging into a 'Suppressed' group." + Style.RESET_ALL)
+
+        # ✅ Convert numeric columns to string before suppression to avoid dtype conflicts
+        for qi in quasi_identifiers:
+            if anonymized_data[qi].dtype != "object":
+                anonymized_data[qi] = anonymized_data[qi].astype(str)
+
+        # ✅ Merge all failing groups into one general 'Suppressed' category
         for group, size in under_sized_groups.items():
             indices = grouped.groups[group]
             anonymized_data.loc[indices, quasi_identifiers] = "Suppressed"
 
-    print(Fore.GREEN + "k-Anonymity successfully applied!" + Style.RESET_ALL)
+    print(Fore.GREEN + "✅ k-Anonymity successfully applied!" + Style.RESET_ALL)
+    
     return anonymized_data
+
 
 # Display Anonymized Groups
 def display_k_groups(data, quasi_identifiers, dataset_name="Dataset"):
