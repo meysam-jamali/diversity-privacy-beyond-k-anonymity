@@ -701,7 +701,8 @@ if __name__ == "__main__":
     adult_quasi_identifiers = ["Age", "Gender", "Education", "Work Class"]
     # adult_quasi_identifiers = ["Age", "Gender", "Education"]
     # adult_quasi_identifiers = ["Age", "Gender"]
-    adult_sensitive_attr = ["Salary Class"]  # Multi-attribute ℓ-diversity support
+    # adult_sensitive_attr = ["Salary Class"]  # Multi-attribute ℓ-diversity support
+    adult_sensitive_attr = ["Occupation"]  # Multi-attribute ℓ-diversity support
 
     # Parameters for Lands End Dataset
     lands_end_params = {
