@@ -20,15 +20,15 @@ Age,Gender,Race,Marital Status,Education,Native Country,Work Class,Salary Class,
 90-99,Male,*,Single,Level-1,Country 35,Level-1,<=50K,Occupation 29
 80-89,Female,*,Single,Level-1,Country 34,Level-1,>50K,Occupation 29
 70-79,Male,*,Single,,Country 13,Level-1,<=50K,Occupation 17
-Suppressed,Suppressed,Suppressed,Suppressed,Suppressed,Country 32,Suppressed,<=50K,Occupation 35
+Suppressed,Suppressed,Suppressed,Suppressed,Level-1,Country 32,Level-1,<=50K,Occupation 35
 20-29,Female,*,Single,Level-1,Country 8,Level-1,<=50K,Occupation 8
 50-59,Female,*,Single,Level-1,Country 8,Level-1,>50K,Occupation 14
-Suppressed,Suppressed,Suppressed,Suppressed,Suppressed,Country 19,Suppressed,<=50K,Occupation 26
+Suppressed,Suppressed,Suppressed,Suppressed,Level-1,Country 19,Level-1,<=50K,Occupation 26
 60-69,Male,*,Single,Level-1,Country 21,Level-1,>50K,Occupation 31
 60-69,Male,*,Single,Level-1,Country 12,Level-1,<=50K,Occupation 8
 50-59,Female,*,Single,Level-1,Country 19,Level-1,<=50K,Occupation 7
 90-99,Male,*,Single,Level-1,Country 27,Level-1,<=50K,Occupation 5
-Suppressed,Suppressed,*,Single,Suppressed,Country 27,Suppressed,<=50K,Occupation 38
+10-19,Female,*,Single,Level-1,Country 27,Level-1,<=50K,Occupation 38
 20-29,Female,*,Single,,Country 33,Level-1,>50K,Occupation 24
 20-29,Male,*,Single,Level-1,Country 35,Level-1,>50K,Occupation 8
 70-79,Male,*,Single,Level-1,Country 30,Level-1,>50K,Occupation 3
@@ -45,7 +45,7 @@ Suppressed,Suppressed,*,Single,Suppressed,Country 27,Suppressed,<=50K,Occupation
 30-39,Female,*,Single,Level-1,Country 25,Level-1,>50K,Occupation 38
 60-69,Male,*,Single,Level-1,Country 24,Level-1,<=50K,Occupation 16
 70-79,Female,*,Single,Level-1,Country 22,Level-1,<=50K,Occupation 28
-Suppressed,Suppressed,*,Single,Suppressed,Country 1,Suppressed,<=50K,Occupation 20
+10-19,Female,*,Single,Level-1,Country 1,Level-1,<=50K,Occupation 20
 30-39,Male,*,Single,Level-1,Country 23,Level-1,<=50K,Occupation 40
 30-39,Male,*,Single,,Country 37,Level-1,<=50K,Occupation 11
 40-49,Male,*,Single,Level-1,Country 23,Level-1,<=50K,Occupation 3
@@ -65,7 +65,7 @@ Suppressed,Suppressed,*,Single,Suppressed,Country 1,Suppressed,<=50K,Occupation 
 20-29,Female,*,Single,,Country 8,Level-1,>50K,Occupation 13
 50-59,Female,*,Single,,Country 25,Level-1,>50K,Occupation 32
 70-79,Male,*,Single,Level-1,Country 37,Level-1,>50K,Occupation 41
-Suppressed,Suppressed,*,Single,Suppressed,Country 39,Suppressed,>50K,Occupation 30
+10-19,Female,*,Single,Level-1,Country 39,Level-1,>50K,Occupation 30
 80-89,Male,*,Single,Level-1,Country 41,Level-1,<=50K,Occupation 10
 30-39,Male,*,Single,,Country 2,Level-1,<=50K,Occupation 16
 60-69,Female,*,Single,Level-1,Country 28,Level-1,>50K,Occupation 28
@@ -141,7 +141,7 @@ Suppressed,Suppressed,*,Single,Suppressed,Country 39,Suppressed,>50K,Occupation 
 20-29,Male,*,Single,,Country 33,Level-1,>50K,Occupation 32
 40-49,Female,*,Single,Level-1,Country 8,Level-1,>50K,Occupation 35
 80-89,Female,*,Single,Level-1,Country 21,Level-1,>50K,Occupation 4
-Suppressed,Suppressed,*,Single,Suppressed,Country 1,Suppressed,>50K,Occupation 4
+10-19,Female,*,Single,Level-1,Country 1,Level-1,>50K,Occupation 4
 70-79,Male,*,Single,Level-1,Country 39,Level-1,<=50K,Occupation 20
 80-89,Male,*,Single,Level-1,Country 18,Level-1,<=50K,Occupation 25
 60-69,Male,*,Single,Level-1,Country 39,Level-1,<=50K,Occupation 26
@@ -165,7 +165,7 @@ Suppressed,Suppressed,*,Single,Suppressed,Country 1,Suppressed,>50K,Occupation 4
 30-39,Female,*,Single,Level-1,Country 24,Level-1,<=50K,Occupation 3
 30-39,Female,*,Single,Level-1,Country 16,Level-1,>50K,Occupation 17
 30-39,Female,*,Single,,Country 32,Level-1,<=50K,Occupation 1
-Suppressed,Suppressed,Suppressed,Suppressed,Suppressed,Country 35,Suppressed,<=50K,Occupation 24
+Suppressed,Suppressed,Suppressed,Suppressed,Level-1,Country 35,Level-1,<=50K,Occupation 24
 70-79,Female,*,Single,Level-1,Country 28,Level-1,>50K,Occupation 30
 80-89,Male,*,Single,Level-1,Country 3,Level-1,>50K,Occupation 21
 80-89,Male,*,Single,,Country 7,Level-1,>50K,Occupation 26

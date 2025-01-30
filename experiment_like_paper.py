@@ -7,7 +7,7 @@ import os
 from colorama import Fore, Style
 import matplotlib.pyplot as plt
 from k_anonymity import apply_k_anonymity
-from l_diversity_using_k_anonymity_dataset import apply_l_diversity 
+import l_diversity 
 
 # Utility functions for metrics
 def calculate_generalization_height(original_data, anonymized_data, quasi_identifiers):
@@ -55,17 +55,12 @@ def add_combined_columns(data, quasi_identifiers, max_levels, hierarchies, gener
             hierarchies.append("taxonomy")
             generalization_levels["Zipcode + Order Date"] = 3  # Add the new column to generalization levels
 
-# Utility experiments
-def run_utility_experiments(
-    dataset, dataset_name, quasi_identifiers, sensitive_attr, ks, ls, c_values, output_dir, generalization_levels=None, max_levels=None, hierarchies=None
-):
-    """
-    Run utility experiments for k-anonymity and ℓ-diversity with an optional generalization level.
-    """
+# Run Utility Experiments
+def run_utility_experiments(dataset, dataset_name, quasi_identifiers, sensitive_attr, ks, ls, c_values, output_dir, generalization_levels=None, max_levels=None, hierarchies=None):
+    """Run utility experiments for k-anonymity and ℓ-diversity with metrics calculations."""
+    
     if max_levels is None:
         raise ValueError("max_levels must be provided to apply ℓ-diversity.")
-
-    # Initialize generalization levels if not provided
     if generalization_levels is None:
         generalization_levels = {qi: 1 for qi in quasi_identifiers}
 
@@ -77,49 +72,73 @@ def run_utility_experiments(
             for c in c_values:
                 print(Fore.CYAN + f"Processing k={k}, l={l}, c={c} for {dataset_name}..." + Style.RESET_ALL)
 
-                # Apply k-anonymity with generalization levels
-                k_anonymized = apply_k_anonymity(dataset, quasi_identifiers, k)
+                try:
+                    # Apply k-anonymity
+                    k_anonymized = apply_k_anonymity(dataset, quasi_identifiers, k)
 
-                # Apply entropy ℓ-diversity
-                entropy_l_diverse = apply_l_diversity(
-                    k_anonymized, quasi_identifiers, sensitive_attr, l, max_levels=max_levels, method="entropy", hierarchies=hierarchies
-                )
+                    # Apply ℓ-diversity once
+                    l_diverse_data = l_diversity.apply_l_diversity(
+                        k_anonymized, quasi_identifiers, sensitive_attr, l, max_levels=max_levels, hierarchies=hierarchies
+                    )
 
-                # Apply recursive ℓ-diversity
-                recursive_l_diverse = apply_l_diversity(
-                    k_anonymized, quasi_identifiers, sensitive_attr, l, max_levels=max_levels, method="recursive", c=c, hierarchies=hierarchies
-                )
+                    # Initialize pass counts
+                    basic_pass_count = 0
+                    entropy_pass_count = 0
+                    recursive_pass_count = 0
+                    total_groups = 0
 
-                # Calculate metrics
-                metrics = {
-                    "k": k,
-                    "l": l,
-                    "c": c,
-                    "Generalization Height (k-Anonymity)": calculate_generalization_height(dataset, k_anonymized, quasi_identifiers),
-                    "Generalization Height (Entropy)": calculate_generalization_height(dataset, entropy_l_diverse, quasi_identifiers) if entropy_l_diverse is not None else None,
-                    "Generalization Height (Recursive)": calculate_generalization_height(dataset, recursive_l_diverse, quasi_identifiers) if recursive_l_diverse is not None else None,
-                    "Min. Avg. Group Size (Entropy)": calculate_average_qblock_size(entropy_l_diverse, quasi_identifiers) if entropy_l_diverse is not None else None,
-                    "Min. Avg. Group Size (Recursive)": calculate_average_qblock_size(recursive_l_diverse, quasi_identifiers) if recursive_l_diverse is not None else None,
-                    "Discernibility Metric (k-Anonymity)": calculate_discernibility_metric(k_anonymized, quasi_identifiers),
-                    "Discernibility Metric (Entropy)": calculate_discernibility_metric(entropy_l_diverse, quasi_identifiers) if entropy_l_diverse is not None else None,
-                    "Discernibility Metric (Recursive)": calculate_discernibility_metric(recursive_l_diverse, quasi_identifiers) if recursive_l_diverse is not None else None,
-                }
+                    # Iterate over groups to calculate ℓ-diversity metrics
+                    groups = l_diverse_data.groupby(quasi_identifiers)
+                    for group_name, group in groups:
+                        total_groups += 1
 
-                # Debug output for metrics
-                print(Fore.YELLOW + f"Metrics for k={k}, l={l}, c={c}:" + Style.RESET_ALL)
-                for key, value in metrics.items():
-                    print(f"{key}: {value}")
+                        # Perform ℓ-diversity checks
+                        basic_pass = l_diversity.basic_l_diversity(group, sensitive_attr, l)
+                        entropy_pass, entropy_value, log_l = l_diversity.entropy_l_diversity(group, sensitive_attr, l)
+                        recursive_pass, top_value, sum_of_others = l_diversity.recursive_l_diversity(group, sensitive_attr, l)
 
-                results.append(metrics)
+                        # Update pass counts
+                        if basic_pass:
+                            basic_pass_count += 1
+                        if entropy_pass:
+                            entropy_pass_count += 1
+                        if recursive_pass:
+                            recursive_pass_count += 1
 
-    # Convert results into a DataFrame
+                    # **Updated Metrics Calculation**
+                    metrics = {
+                        "k": k,
+                        "l": l,
+                        "c": c,
+                        "Basic ℓ-Diversity Satisfaction": f"{basic_pass_count / total_groups:.2%}",
+                        "Entropy ℓ-Diversity Satisfaction": f"{entropy_pass_count / total_groups:.2%}",
+                        "Recursive ℓ-Diversity Satisfaction": f"{recursive_pass_count / total_groups:.2%}",
+                        "Generalization Height (k-Anonymity)": calculate_generalization_height(dataset, k_anonymized, quasi_identifiers),
+                        "Generalization Height (Entropy)": calculate_generalization_height(dataset, l_diverse_data, quasi_identifiers) if l_diverse_data is not None else 0,
+                        "Generalization Height (Recursive)": calculate_generalization_height(dataset, l_diverse_data, quasi_identifiers) if l_diverse_data is not None else 0,
+                        "Min. Avg. Group Size (Entropy)": calculate_average_qblock_size(l_diverse_data, quasi_identifiers) if l_diverse_data is not None else 0,
+                        "Min. Avg. Group Size (Recursive)": calculate_average_qblock_size(l_diverse_data, quasi_identifiers) if l_diverse_data is not None else 0,
+                        "Discernibility Metric (k-Anonymity)": calculate_discernibility_metric(k_anonymized, quasi_identifiers),
+                        "Discernibility Metric (Entropy)": calculate_discernibility_metric(l_diverse_data, quasi_identifiers) if l_diverse_data is not None else 0,
+                        "Discernibility Metric (Recursive)": calculate_discernibility_metric(l_diverse_data, quasi_identifiers) if l_diverse_data is not None else 0,
+                    }
+
+                    print(Fore.YELLOW + f"Metrics for k={k}, l={l}, c={c}:" + Style.RESET_ALL)
+                    for key, value in metrics.items():
+                        print(f"{key}: {value}")
+
+                    results.append(metrics)
+
+                except Exception as e:
+                    print(Fore.RED + f"Error in utility experiment for k={k}, l={l}, c={c}: {e}" + Style.RESET_ALL)
+
+    # Convert results to DataFrame and display
     results_df = pd.DataFrame(results)
-
-    # Debug: Ensure results DataFrame contains all calculated metrics
     print(Fore.GREEN + "Final Utility Results DataFrame:" + Style.RESET_ALL)
     print(results_df.head())
-
     return results_df
+
+
 
 def run_performance_experiments_fixed_k_l(
     dataset, dataset_name, quasi_identifiers, sensitive_attr, ks_ls, qi_levels, generalization_levels, output_dir, max_levels=None, hierarchies=None
@@ -130,41 +149,53 @@ def run_performance_experiments_fixed_k_l(
     if max_levels is None or hierarchies is None:
         raise ValueError("Both max_levels and hierarchies must be provided.")
 
-    if generalization_levels is None:
-        generalization_levels = {qi: 1 for qi in quasi_identifiers}
-
     results = []
     os.makedirs(output_dir, exist_ok=True)
 
-    for k in ks_ls:  # Corrected loop variable
+    for k in ks_ls:  # Iterate over provided k and l values
         for qi_level in qi_levels:
             print(Fore.GREEN + f"Running performance experiment for k = l = {k}, QI level = {qi_level}" + Style.RESET_ALL)
 
+            # Subset of quasi-identifiers and levels based on current experiment configuration
             qis_subset = quasi_identifiers[:qi_level]
             max_levels_subset = max_levels[:qi_level]
             hierarchies_subset = hierarchies[:qi_level]
 
             try:
-                # Apply k-anonymity
+                # Step 1: Apply k-anonymity
                 k_start_time = time.time()
-                k_anonymized = apply_k_anonymity(dataset, qis_subset, k)  # Ensure correct call
+                k_anonymized = apply_k_anonymity(dataset, qis_subset, k)
                 k_execution_time = time.time() - k_start_time
 
-                # Apply entropy ℓ-diversity
+                # Step 2: Apply entropy ℓ-diversity on the k-anonymized dataset
                 entropy_start_time = time.time()
-                entropy_l_diverse = apply_l_diversity(
-                    k_anonymized, qis_subset, sensitive_attr, k, max_levels=max_levels_subset, method="entropy", hierarchies=hierarchies_subset
+                entropy_l_diverse = l_diversity.apply_l_diversity(
+                    data=k_anonymized,
+                    quasi_identifiers=qis_subset,
+                    sensitive_attr=sensitive_attr,
+                    l=k,
+                    max_levels=max_levels_subset,
+                    hierarchies=hierarchies_subset,
+                    redistributed_records=None,
+                    max_iterations=10
                 )
                 entropy_execution_time = time.time() - entropy_start_time
 
-                # Apply recursive ℓ-diversity
+                # Step 3: Apply recursive ℓ-diversity on the k-anonymized dataset
                 recursive_start_time = time.time()
-                recursive_l_diverse = apply_l_diversity(
-                    k_anonymized, qis_subset, sensitive_attr, k, max_levels=max_levels_subset, method="recursive", hierarchies=hierarchies_subset, c=3
+                recursive_l_diverse = l_diversity.apply_l_diversity(
+                    data=k_anonymized,
+                    quasi_identifiers=qis_subset,
+                    sensitive_attr=sensitive_attr,
+                    l=k,
+                    max_levels=max_levels_subset,
+                    hierarchies=hierarchies_subset,
+                    redistributed_records=None,
+                    max_iterations=10
                 )
                 recursive_execution_time = time.time() - recursive_start_time
 
-                # Append results
+                # Collect and store performance results
                 results.append({
                     "k": k,
                     "l": k,
@@ -177,12 +208,14 @@ def run_performance_experiments_fixed_k_l(
             except Exception as e:
                 print(Fore.RED + f"Error processing k = l = {k}, QI level = {qi_level}: {e}" + Style.RESET_ALL)
 
-    # Save results
+    # Save results to a CSV file
     results_df = pd.DataFrame(results)
     results_file = os.path.join(output_dir, f"{dataset_name}_performance_results.csv")
     results_df.to_csv(results_file, index=False)
     print(Fore.GREEN + f"Performance results saved to {results_file}" + Style.RESET_ALL)
+
     return results_df
+
 
 # Save Datasets
 def save_datasets(output_dir, dataset_name, k, l, c, k_anonymized, entropy_l_diverse, recursive_l_diverse, qis_subset):
@@ -362,97 +395,91 @@ def main():
     # Define parameters
     ks = [2, 4, 6, 8]  # Values of k for utility and performance experiments
     ls = [2, 4, 6, 8]  # Values of l for ℓ-diversity
-    c_values = [3]      # Fixed c for recursive ℓ-diversity
-    ks_ls = ks          # For performance experiments (k = l)
-    qi_levels = range(3, 9)  # QI generalization levels for performance experiments
+    c_values = [3]  # Fixed c for recursive ℓ-diversity
     output_dir = "./data/results"
 
     # Quasi-identifiers and sensitive attributes
     adult_qis = ["Age", "Gender", "Education", "Work Class"]
     lands_end_qis = ["Zipcode", "Gender", "Style", "Price"]
-    adult_sensitive_attr = "Salary Class"
+    adult_sensitive_attr = "Occupation"
     lands_end_sensitive_attr = "Cost"
 
-    # Generalization hierarchies and maximum levels
-    adult_hierarchies = ["range", "suppression", "taxonomy", "taxonomy"]
-    adult_max_levels = [4, 2, 3, 2]
-    lands_end_hierarchies = ["range", "suppression", "taxonomy", "taxonomy"]
-    lands_end_max_levels = [3, 2, 2, 2]
+    # Generalization hierarchies and maximum levels (without QI range levels)
+    adult_hierarchies = ["suppression", "taxonomy", "taxonomy", "taxonomy"]
+    adult_max_levels = [4, 1, 1, 2]
+    lands_end_hierarchies = ["suppression", "taxonomy", "taxonomy", "taxonomy"]
+    lands_end_max_levels = [2, 2, 2, 2]
 
     os.makedirs(output_dir, exist_ok=True)  # Ensure output directory exists
 
     # ---- Adult Dataset ----
     print(Fore.BLUE + "Running experiments for Adult Dataset..." + Style.RESET_ALL)
-    try:
-        # Utility experiments
-        adult_utility_results = run_utility_experiments(
-            dataset=adult_df,
-            dataset_name="Adult",
-            quasi_identifiers=adult_qis,
-            sensitive_attr=adult_sensitive_attr,
-            ks=ks,
-            ls=ls,
-            c_values=c_values,
-            output_dir=output_dir,
-            max_levels=adult_max_levels,
-            hierarchies=adult_hierarchies,
-        )
-        # Performance experiments
-        adult_performance_results = run_performance_experiments_fixed_k_l(
-            dataset=adult_df,
-            dataset_name="Adult",
-            quasi_identifiers=adult_qis,
-            sensitive_attr=adult_sensitive_attr,
-            ks_ls=ks_ls,
-            qi_levels=qi_levels,
-            generalization_levels=None,
-            output_dir=output_dir,
-            max_levels=adult_max_levels,
-            hierarchies=adult_hierarchies,
-        )
-        # Save and visualize results
-        adult_utility_results.to_csv(os.path.join(output_dir, "adult_utility_results.csv"), index=False)
-        adult_performance_results.to_csv(os.path.join(output_dir, "adult_performance_results.csv"), index=False)
-        visualize_utility_results(adult_utility_results, output_dir, "Adult")
-        visualize_performance_results(adult_performance_results, output_dir, "Adult")
-    except Exception as e:
-        print(Fore.RED + f"Error in Adult Dataset experiments: {e}" + Style.RESET_ALL)
+    
+    # Utility experiments
+    adult_utility_results = run_utility_experiments(
+        dataset=adult_df,
+        dataset_name="Adult",
+        quasi_identifiers=adult_qis,
+        sensitive_attr=adult_sensitive_attr,
+        ks=ks,
+        ls=ls,
+        c_values=c_values,
+        output_dir=output_dir,
+        max_levels=adult_max_levels,
+        hierarchies=adult_hierarchies,
+    )
+    # Performance experiments
+    # Run Performance Experiments
+    adult_performance_results = run_performance_experiments_fixed_k_l(
+        dataset=adult_df,
+        dataset_name="Adult",
+        quasi_identifiers=adult_qis,
+        sensitive_attr=adult_sensitive_attr,
+        ks_ls=ks,
+        qi_levels=range(1, len(adult_qis) + 1),  # Define levels from 1 to total number of QIs
+        generalization_levels={qi: 1 for qi in adult_qis},  # Initialize generalization levels
+        output_dir=output_dir,
+        max_levels=adult_max_levels,
+        hierarchies=adult_hierarchies,
+    )
 
-    # ---- Lands End Dataset ----
-    print(Fore.BLUE + "Running experiments for Lands End Dataset..." + Style.RESET_ALL)
-    try:
-        # Utility experiments
-        lands_end_utility_results = run_utility_experiments(
-            dataset=lands_end_df,
-            dataset_name="Lands End",
-            quasi_identifiers=lands_end_qis,
-            sensitive_attr=lands_end_sensitive_attr,
-            ks=ks,
-            ls=ls,
-            c_values=c_values,
-            output_dir=output_dir,
-            max_levels=lands_end_max_levels,
-            hierarchies=lands_end_hierarchies,
-        )
-        # Performance experiments
-        lands_end_performance_results = run_performance_experiments_fixed_k_l(
-            dataset=lands_end_df,
-            dataset_name="Lands End",
-            quasi_identifiers=lands_end_qis,
-            sensitive_attr=lands_end_sensitive_attr,
-            ks_ls=ks_ls,
-            qi_levels=qi_levels,
-            generalization_levels=None,
-            output_dir=output_dir,
-            max_levels=lands_end_max_levels,
-            hierarchies=lands_end_hierarchies,
-        )
-        # Save and visualize results
-        lands_end_utility_results.to_csv(os.path.join(output_dir, "lands_end_utility_results.csv"), index=False)
-        lands_end_performance_results.to_csv(os.path.join(output_dir, "lands_end_performance_results.csv"), index=False)
-        visualize_utility_results(lands_end_utility_results, output_dir, "Lands End")
-        visualize_performance_results(lands_end_performance_results, output_dir, "Lands End")
-    except Exception as e:
-        print(Fore.RED + f"Error in Lands End Dataset experiments: {e}" + Style.RESET_ALL)
+    # Save and visualize results
+    adult_utility_results.to_csv(os.path.join(output_dir, "adult_utility_results.csv"), index=False)
+    adult_performance_results.to_csv(os.path.join(output_dir, "adult_performance_results.csv"), index=False)
+    visualize_utility_results(adult_utility_results, output_dir, "Adult")
+    visualize_performance_results(adult_performance_results, output_dir, "Adult")
+
+    # # ---- Lands End Dataset ----
+    # print(Fore.BLUE + "Running experiments for Lands End Dataset..." + Style.RESET_ALL)
+
+    # # Utility experiments
+    # lands_end_utility_results = run_utility_experiments(
+    #     dataset=lands_end_df,
+    #     dataset_name="Lands End",
+    #     quasi_identifiers=lands_end_qis,
+    #     sensitive_attr=lands_end_sensitive_attr,
+    #     ks=ks,
+    #     ls=ls,
+    #     c_values=c_values,
+    #     output_dir=output_dir,
+    #     max_levels=lands_end_max_levels,
+    #     hierarchies=lands_end_hierarchies,
+    # )
+    # # Performance experiments
+    # lands_end_performance_results = run_performance_experiments_fixed_k_l(
+    #     dataset=lands_end_df,
+    #     dataset_name="Lands End",
+    #     quasi_identifiers=lands_end_qis,
+    #     sensitive_attr=lands_end_sensitive_attr,
+    #     ks_ls=ks,
+    #     output_dir=output_dir,
+    #     max_levels=lands_end_max_levels,
+    #     hierarchies=lands_end_hierarchies,
+    # )
+    # # Save and visualize results
+    # lands_end_utility_results.to_csv(os.path.join(output_dir, "lands_end_utility_results.csv"), index=False)
+    # lands_end_performance_results.to_csv(os.path.join(output_dir, "lands_end_performance_results.csv"), index=False)
+    # visualize_utility_results(lands_end_utility_results, output_dir, "Lands End")
+    # visualize_performance_results(lands_end_performance_results, output_dir, "Lands End")
 
 main()

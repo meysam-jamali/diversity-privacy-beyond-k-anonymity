@@ -1,0 +1,7 @@
+k,l,c,Basic ℓ-Diversity Satisfaction,Entropy ℓ-Diversity Satisfaction,Recursive ℓ-Diversity Satisfaction,Generalization Height (k-Anonymity),Generalization Height (Entropy),Generalization Height (Recursive),Min. Avg. Group Size (Entropy),Min. Avg. Group Size (Recursive),Discernibility Metric (k-Anonymity),Discernibility Metric (Entropy),Discernibility Metric (Recursive)
+6,2,3,100.00%,100.00%,100.00%,14.0,14.0,14.0,344.0,344.0,2869806,2869806,2869806
+6,4,3,100.00%,100.00%,100.00%,14.0,14.0,14.0,344.0,344.0,2869806,2869806,2869806
+8,2,3,100.00%,100.00%,100.00%,14.75,14.75,14.75,1720.0,1720.0,2958400,2958400,2958400
+8,4,3,100.00%,100.00%,100.00%,14.75,14.75,14.75,1720.0,1720.0,2958400,2958400,2958400
+8,6,3,100.00%,100.00%,100.00%,14.75,14.75,14.75,1720.0,1720.0,2958400,2958400,2958400
+8,8,3,100.00%,100.00%,100.00%,14.75,14.75,14.75,1720.0,1720.0,2958400,2958400,2958400
