@@ -395,7 +395,7 @@ def main():
     # Define parameters
     ks = [2, 4, 6, 8]  # Values of k for utility and performance experiments
     ls = [2, 4, 6, 8]  # Values of l for ℓ-diversity
-    c_values = [3]  # Fixed c for recursive ℓ-diversity
+    c_values = [2]  # Fixed c for recursive ℓ-diversity
     output_dir = "./data/results"
 
     # Quasi-identifiers and sensitive attributes

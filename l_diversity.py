@@ -261,6 +261,143 @@ def recursive_l_diversity(group, sensitive_attr, l):
 
 
 
+# def apply_l_diversity(data, quasi_identifiers, sensitive_attr, l, max_levels, hierarchies, redistributed_records=None, max_iterations=10):
+#     """
+#     Ensure ℓ-diversity by dynamically adjusting generalization levels and redistributing sensitive values.
+
+#     Args:
+#         data (pd.DataFrame): The k-anonymized dataset.
+#         quasi_identifiers (list): List of quasi-identifier columns.
+#         sensitive_attr (str): Sensitive attribute column name.
+#         l (int): ℓ-diversity threshold.
+#         max_levels (list): Maximum generalization levels for each quasi-identifier.
+#         hierarchies (list): Generalization hierarchies for each quasi-identifier.
+#         redistributed_records (list): List to track redistributed record indices.
+#         max_iterations (int): Maximum number of iterations to avoid infinite loops.
+
+#     Returns:
+#         pd.DataFrame: Refined dataset satisfying ℓ-diversity.
+#     """
+#     divider = Fore.LIGHTBLACK_EX + "-" * 80 + Style.RESET_ALL
+
+#     if redistributed_records is None:
+#         redistributed_records = []
+
+#     refined_data = data.copy()  # Start with k-anonymized data
+#     iteration = 0
+#     epsilon = 1e-5  # Tolerance for floating-point comparisons
+
+#     # Initialize counters for percentage evaluation
+#     group_stats = {
+#         "basic_passed": 0,
+#         "entropy_passed": 0,
+#         "recursive_passed": 0,
+#         "k_anonymity_satisfied_basic": 0,
+#         "k_anonymity_satisfied_entropy": 0,
+#         "k_anonymity_satisfied_recursive": 0,
+#         "total_groups": 0,
+#     }
+
+
+#     # ✅ Step 1: Check ℓ-Diversity on K-Anonymized Data
+#     print(Fore.CYAN + "\n📌 Checking ℓ-Diversity on Initial K-Anonymized Data..." + Style.RESET_ALL)
+#     groups = data.groupby(quasi_identifiers)
+
+#     for group_name, group in groups:
+#         sensitive_counts = group[sensitive_attr].value_counts()
+
+#         # Check ℓ-diversity conditions
+#         basic_pass = basic_l_diversity(group, sensitive_attr, l)
+#         entropy_pass, entropy, log_l = entropy_l_diversity(group, sensitive_attr, l)
+#         recursive_pass, top_value, sum_of_others = recursive_l_diversity(group, sensitive_attr, l)
+
+#         group_stats["total_groups"] += 1
+#         # Track k-anonymity separately for each ℓ-diversity check
+#         if basic_pass:
+#             group_stats["basic_passed"] += 1
+#             group_stats["k_anonymity_satisfied_basic"] += 1
+
+#         if entropy_pass:
+#             group_stats["entropy_passed"] += 1
+#             group_stats["k_anonymity_satisfied_entropy"] += 1
+
+#         if recursive_pass:
+#             group_stats["recursive_passed"] += 1
+#             group_stats["k_anonymity_satisfied_recursive"] += 1
+
+#     # ✅ If all groups satisfy any of the ℓ-diversity checks, stop here
+#     if (
+#         group_stats["k_anonymity_satisfied_basic"] == group_stats["total_groups"] or
+#         group_stats["k_anonymity_satisfied_entropy"] == group_stats["total_groups"] or
+#         group_stats["k_anonymity_satisfied_recursive"] == group_stats["total_groups"]
+#     ):
+#         print(Fore.GREEN + "✅ All groups satisfy ℓ-diversity for at least one type of check in the k-anonymized dataset." + Style.RESET_ALL)
+#         return refined_data
+
+#     # Step 2: Generalization and redistribution phase for failed groups
+#     refined_data = data.copy()  # Now generalize only if needed
+#     iteration = 0
+
+#     while iteration < max_iterations:
+#         iteration += 1
+#         print(Fore.YELLOW + f"\nℓ-Diversity - Iteration {iteration}" + Style.RESET_ALL)
+
+#         groups_after_redistribution = refined_data.groupby(quasi_identifiers)
+#         all_groups_satisfy = True  # Flag to check if all groups satisfy ℓ-diversity
+
+#         for group_name, group in groups_after_redistribution:
+#             if group_name == "Suppressed":
+#                 continue
+
+#             # Re-run ℓ-diversity checks after generalization and redistribution
+#             basic_pass = basic_l_diversity(group, sensitive_attr, l)
+#             entropy_pass, entropy, log_l = entropy_l_diversity(group, sensitive_attr, l)
+#             recursive_pass, top_value, sum_of_others = recursive_l_diversity(group, sensitive_attr, l)
+
+#             # Update flags and stats
+#             if not (basic_pass and entropy_pass and recursive_pass):
+#                 all_groups_satisfy = False
+
+#             print(Fore.CYAN + f"\n🔍 Re-checking ℓ-Diversity for Group {group_name}" + Style.RESET_ALL)
+#             print(Fore.LIGHTBLUE_EX + f"  {sensitive_attr} Counts: {group[sensitive_attr].value_counts().to_dict()}" + Style.RESET_ALL)
+
+#             if basic_pass:
+#                 print(Fore.GREEN + "✅ [Basic ℓ-Diversity Passed]" + Style.RESET_ALL)
+#             else:
+#                 print(Fore.RED + "❌ [Basic ℓ-Diversity Failed]" + Style.RESET_ALL)
+
+#             if entropy_pass:
+#                 print(Fore.GREEN + f"✅ [Entropy ℓ-Diversity Passed] (Entropy = {entropy:.6f}, log(ℓ) = {log_l:.6f})" + Style.RESET_ALL)
+#             else:
+#                 print(Fore.RED + f"❌ [Entropy ℓ-Diversity Failed] (Entropy = {entropy:.6f}, log(ℓ) = {log_l:.6f})" + Style.RESET_ALL)
+
+#             if recursive_pass:
+#                 print(Fore.GREEN + f"✅ [Recursive ℓ-Diversity Passed] (Top Probability = {top_value:.4f}, Sum of Others = {sum_of_others:.4f})" + Style.RESET_ALL)
+#             else:
+#                 print(Fore.RED + f"❌ [Recursive ℓ-Diversity Failed] (Top Probability = {top_value:.4f}, Sum of Others = {sum_of_others:.4f})" + Style.RESET_ALL)
+
+#         if all_groups_satisfy:
+#             print(Fore.GREEN + f"✅ All groups satisfy ℓ-diversity after {iteration} iterations." + Style.RESET_ALL)
+#             break
+
+#     if iteration == max_iterations:
+#         print(Fore.RED + f"⚠ Maximum iterations reached. Some groups may still fail ℓ-diversity." + Style.RESET_ALL)
+
+#     # Final summary with percentages
+#     total_groups = group_stats["total_groups"]
+#     print(divider)
+#     print(Fore.GREEN + "\n✅ Final Summary of ℓ-Diversity Satisfaction Across Groups:" + Style.RESET_ALL)
+#     print(Fore.LIGHTBLUE_EX + f"  K-Anonymity (Basic Check) → {group_stats['k_anonymity_satisfied_basic'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+#     print(Fore.LIGHTCYAN_EX + f"  K-Anonymity (Entropy Check) → {group_stats['k_anonymity_satisfied_entropy'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+#     print(Fore.LIGHTMAGENTA_EX + f"  K-Anonymity (Recursive Check) → {group_stats['k_anonymity_satisfied_recursive'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+#     print(Fore.LIGHTYELLOW_EX + f"  Basic ℓ-Diversity → {group_stats['basic_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+#     print(Fore.LIGHTCYAN_EX + f"  Entropy ℓ-Diversity → {group_stats['entropy_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+#     print(Fore.LIGHTMAGENTA_EX + f"  Recursive ℓ-Diversity → {group_stats['recursive_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+#     print(divider)
+    
+#     return refined_data
+
+
 def apply_l_diversity(data, quasi_identifiers, sensitive_attr, l, max_levels, hierarchies, redistributed_records=None, max_iterations=10):
     """
     Ensure ℓ-diversity by dynamically adjusting generalization levels and redistributing sensitive values.
@@ -278,112 +415,136 @@ def apply_l_diversity(data, quasi_identifiers, sensitive_attr, l, max_levels, hi
     Returns:
         pd.DataFrame: Refined dataset satisfying ℓ-diversity.
     """
+    divider = Fore.LIGHTBLACK_EX + "-" * 80 + Style.RESET_ALL
     if redistributed_records is None:
         redistributed_records = []
 
-    refined_data = data.copy()  # Start with k-anonymized data
+    refined_data = data.copy()
+    total_groups = len(refined_data.groupby(quasi_identifiers))
+
+    # Initial ℓ-Diversity Check
+    print(Fore.CYAN + "\n📌 Checking Initial ℓ-Diversity on Dataset..." + Style.RESET_ALL)
+    initial_stats = check_l_diversity(refined_data, quasi_identifiers, sensitive_attr, l)
+
+    # Display initial summary
+    print(divider)
+    print(Fore.GREEN + "\n✅ Initial Summary of ℓ-Diversity Satisfaction Across Groups:" + Style.RESET_ALL)
+    display_l_diversity_stats(initial_stats, total_groups)
+    print(divider)
+
+    # Step 2: Redistribution phase
     iteration = 0
-    epsilon = 1e-5  # Tolerance for floating-point comparisons
-
-    # Initialize counters for percentage evaluation
-    group_stats = {
-        "basic_passed": 0,
-        "entropy_passed": 0,
-        "recursive_passed": 0,
-        "k_anonymity_satisfied": 0,
-        "total_groups": 0,
-    }
-
-    # ✅ Step 1: Check ℓ-Diversity on K-Anonymized Data
-    print(Fore.CYAN + "\n📌 Checking ℓ-Diversity on Initial K-Anonymized Data..." + Style.RESET_ALL)
-    groups = data.groupby(quasi_identifiers)
-
-    for group_name, group in groups:
-        sensitive_counts = group[sensitive_attr].value_counts()
-
-        # Check ℓ-diversity conditions
-        basic_pass = basic_l_diversity(group, sensitive_attr, l)
-        entropy_pass, entropy, log_l = entropy_l_diversity(group, sensitive_attr, l)
-        recursive_pass, top_value, sum_of_others = recursive_l_diversity(group, sensitive_attr, l)
-
-        group_stats["total_groups"] += 1
-
-        # Update statistics for k-anonymized groups
-        if basic_pass:
-            group_stats["basic_passed"] += 1
-        if entropy_pass:
-            group_stats["entropy_passed"] += 1
-        if recursive_pass:
-            group_stats["recursive_passed"] += 1
-
-        if basic_pass and entropy_pass and recursive_pass:
-            group_stats["k_anonymity_satisfied"] += 1
-
-    # ✅ If all groups satisfy ℓ-diversity, stop here
-    if group_stats["k_anonymity_satisfied"] == group_stats["total_groups"]:
-        print(Fore.GREEN + "✅ All groups satisfy ℓ-diversity in the k-anonymized dataset." + Style.RESET_ALL)
-        return refined_data
-
-    # Step 2: Generalization and redistribution phase for failed groups
-    refined_data = data.copy()  # Now generalize only if needed
-    iteration = 0
-
     while iteration < max_iterations:
         iteration += 1
         print(Fore.YELLOW + f"\nℓ-Diversity - Iteration {iteration}" + Style.RESET_ALL)
 
-        groups_after_redistribution = refined_data.groupby(quasi_identifiers)
-        all_groups_satisfy = True  # Flag to check if all groups satisfy ℓ-diversity
+        groups = refined_data.groupby(quasi_identifiers)
+        all_groups_satisfy = True
 
-        for group_name, group in groups_after_redistribution:
+        for group_name, group in groups:
             if group_name == "Suppressed":
                 continue
 
-            # Re-run ℓ-diversity checks after generalization and redistribution
+            # Re-run ℓ-diversity checks after redistribution
             basic_pass = basic_l_diversity(group, sensitive_attr, l)
-            entropy_pass, entropy, log_l = entropy_l_diversity(group, sensitive_attr, l)
-            recursive_pass, top_value, sum_of_others = recursive_l_diversity(group, sensitive_attr, l)
+            entropy_pass, _, _ = entropy_l_diversity(group, sensitive_attr, l)
+            recursive_pass, _, _ = recursive_l_diversity(group, sensitive_attr, l)
 
-            # Update flags and stats
             if not (basic_pass and entropy_pass and recursive_pass):
                 all_groups_satisfy = False
 
+            # Group logging output
             print(Fore.CYAN + f"\n🔍 Re-checking ℓ-Diversity for Group {group_name}" + Style.RESET_ALL)
             print(Fore.LIGHTBLUE_EX + f"  {sensitive_attr} Counts: {group[sensitive_attr].value_counts().to_dict()}" + Style.RESET_ALL)
 
-            if basic_pass:
-                print(Fore.GREEN + "✅ [Basic ℓ-Diversity Passed]" + Style.RESET_ALL)
-            else:
-                print(Fore.RED + "❌ [Basic ℓ-Diversity Failed]" + Style.RESET_ALL)
+            log_diversity_checks(basic_pass, entropy_pass, recursive_pass)
 
-            if entropy_pass:
-                print(Fore.GREEN + f"✅ [Entropy ℓ-Diversity Passed] (Entropy = {entropy:.6f}, log(ℓ) = {log_l:.6f})" + Style.RESET_ALL)
-            else:
-                print(Fore.RED + f"❌ [Entropy ℓ-Diversity Failed] (Entropy = {entropy:.6f}, log(ℓ) = {log_l:.6f})" + Style.RESET_ALL)
-
-            if recursive_pass:
-                print(Fore.GREEN + f"✅ [Recursive ℓ-Diversity Passed] (Top Probability = {top_value:.4f}, Sum of Others = {sum_of_others:.4f})" + Style.RESET_ALL)
-            else:
-                print(Fore.RED + f"❌ [Recursive ℓ-Diversity Failed] (Top Probability = {top_value:.4f}, Sum of Others = {sum_of_others:.4f})" + Style.RESET_ALL)
-
+        # Stop if all groups satisfy ℓ-diversity
         if all_groups_satisfy:
             print(Fore.GREEN + f"✅ All groups satisfy ℓ-diversity after {iteration} iterations." + Style.RESET_ALL)
             break
 
+    # Maximum iterations reached
     if iteration == max_iterations:
         print(Fore.RED + f"⚠ Maximum iterations reached. Some groups may still fail ℓ-diversity." + Style.RESET_ALL)
 
-    # Final summary with percentages
-    total_groups = group_stats["total_groups"]
+    # Final summary
+    final_stats = check_l_diversity(refined_data, quasi_identifiers, sensitive_attr, l)
+
+    improvement_tracking = calculate_improvements(initial_stats, final_stats)
+
     print(divider)
     print(Fore.GREEN + "\n✅ Final Summary of ℓ-Diversity Satisfaction Across Groups:" + Style.RESET_ALL)
-    print(Fore.LIGHTBLUE_EX + f"  K-Anonymity (with ℓ-diversity checks) → {group_stats['k_anonymity_satisfied'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
-    print(Fore.LIGHTYELLOW_EX + f"  Basic ℓ-Diversity → {group_stats['basic_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
-    print(Fore.LIGHTCYAN_EX + f"  Entropy ℓ-Diversity → {group_stats['entropy_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
-    print(Fore.LIGHTMAGENTA_EX + f"  Recursive ℓ-Diversity → {group_stats['recursive_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+    display_l_diversity_stats(final_stats, total_groups)
     print(divider)
-    
+
+    print(Fore.BLUE + "\n📈 Improvements after redistribution:" + Style.RESET_ALL)
+    print_improvement_stats(improvement_tracking)
+
     return refined_data
+
+
+def check_l_diversity(data, quasi_identifiers, sensitive_attr, l):
+    """Check and return ℓ-diversity statistics."""
+    stats = {"basic_passed": 0, "entropy_passed": 0, "recursive_passed": 0}
+    groups = data.groupby(quasi_identifiers)
+
+    for _, group in groups:
+        basic_pass = basic_l_diversity(group, sensitive_attr, l)
+        entropy_pass, _, _ = entropy_l_diversity(group, sensitive_attr, l)
+        recursive_pass, _, _ = recursive_l_diversity(group, sensitive_attr, l)
+
+        if basic_pass:
+            stats["basic_passed"] += 1
+        if entropy_pass:
+            stats["entropy_passed"] += 1
+        if recursive_pass:
+            stats["recursive_passed"] += 1
+
+    return stats
+
+
+def calculate_improvements(initial_stats, final_stats):
+    """Calculate improvements in ℓ-diversity satisfaction."""
+    improvements = {}
+    for key in initial_stats:
+        initial_rate = initial_stats[key]
+        final_rate = final_stats[key]
+        improvements[key] = final_rate - initial_rate
+    return improvements
+
+
+def display_l_diversity_stats(stats, total_groups):
+    """Display ℓ-diversity satisfaction statistics."""
+    print(Fore.LIGHTYELLOW_EX + f"  Basic ℓ-Diversity → {stats['basic_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+    print(Fore.LIGHTCYAN_EX + f"  Entropy ℓ-Diversity → {stats['entropy_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+    print(Fore.LIGHTMAGENTA_EX + f"  Recursive ℓ-Diversity → {stats['recursive_passed'] / total_groups:.2%} satisfied" + Style.RESET_ALL)
+
+
+def print_improvement_stats(improvements):
+    """Print improvement statistics."""
+    print(Fore.LIGHTYELLOW_EX + f"  Basic ℓ-Diversity Improvement → {improvements['basic_passed']}% increase" + Style.RESET_ALL)
+    print(Fore.LIGHTCYAN_EX + f"  Entropy ℓ-Diversity Improvement → {improvements['entropy_passed']}% increase" + Style.RESET_ALL)
+    print(Fore.LIGHTMAGENTA_EX + f"  Recursive ℓ-Diversity Improvement → {improvements['recursive_passed']}% increase" + Style.RESET_ALL)
+
+
+def log_diversity_checks(basic_pass, entropy_pass, recursive_pass):
+    """Log the results of diversity checks for a group."""
+    if basic_pass:
+        print(Fore.GREEN + "✅ [Basic ℓ-Diversity Passed]" + Style.RESET_ALL)
+    else:
+        print(Fore.RED + "❌ [Basic ℓ-Diversity Failed]" + Style.RESET_ALL)
+
+    if entropy_pass:
+        print(Fore.GREEN + "✅ [Entropy ℓ-Diversity Passed]" + Style.RESET_ALL)
+    else:
+        print(Fore.RED + "❌ [Entropy ℓ-Diversity Failed]" + Style.RESET_ALL)
+
+    if recursive_pass:
+        print(Fore.GREEN + "✅ [Recursive ℓ-Diversity Passed]" + Style.RESET_ALL)
+    else:
+        print(Fore.RED + "❌ [Recursive ℓ-Diversity Failed]" + Style.RESET_ALL)
+
 
 
 def redistribute_sensitive_values(refined_data, quasi_identifiers, sensitive_attr, l, redistributed_records):
@@ -451,6 +612,7 @@ def display_l_diverse_groups(k_anonymous_data, l_diverse_data, quasi_identifiers
         dataset_name (str): Name of the dataset (default: "Dataset").
         l (int): ℓ-diversity threshold.
     """
+    divider = Fore.LIGHTBLACK_EX + "-" * 80 + Style.RESET_ALL
 
     k_anonymous_groups = k_anonymous_data.groupby(quasi_identifiers)
     l_diverse_groups = l_diverse_data.groupby(quasi_identifiers)
@@ -525,6 +687,8 @@ if __name__ == "__main__":
     adult_data_path = "./data/k_anonymity_dataset/adult_k_anonymized.csv"
     lands_end_data_path = "./data/k_anonymity_dataset/lands_end_k_anonymized.csv"
 
+    divider = Fore.LIGHTBLACK_EX + "-" * 80 + Style.RESET_ALL
+
     # Ensure raw datasets exist
     if not os.path.exists(adult_data_path) or not os.path.exists(lands_end_data_path):
         print(Fore.RED + "Required raw datasets are missing." + Style.RESET_ALL)
@@ -571,7 +735,6 @@ if __name__ == "__main__":
     redistributed_records = []
 
     # Step 2: Apply ℓ-Diversity for the Adult Dataset
-    divider = Fore.LIGHTBLACK_EX + "-" * 80 + Style.RESET_ALL
     print(divider)
     print(Fore.BLUE + "Applying ℓ-Diversity for Adult Dataset..." + Style.RESET_ALL)
     l_diverse_data = apply_l_diversity(

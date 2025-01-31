@@ -8,7 +8,7 @@ def create_sensitive_values(categories, num_records, weights=None):
     return random.choices(categories, weights=weights, k=num_records)
 
 # Create Adult Dataset
-def create_realistic_adult_dataset(num_records=2000):
+def create_realistic_adult_dataset(num_records=10000):
     """Create a realistic Adult Dataset as per paper specifications."""
     salary_weights = [0.5, 0.5]  # Balanced distribution for Salary Class
     occupation_weights = [1 / 41] * 41  # Uniform distribution for 41 occupations
@@ -43,7 +43,7 @@ def create_realistic_adult_dataset(num_records=2000):
     print(Fore.GREEN + f"Adult dataset created and saved as '{output_path}'." + Style.RESET_ALL)
 
 # Create Lands End Dataset
-def create_realistic_lands_end_dataset(num_records=2000):
+def create_realistic_lands_end_dataset(num_records=10000):
     """Create a realistic Lands End Dataset as per paper specifications."""
     cost_weights = [1 / 147] * 147  # Uniform distribution for 147 cost values
     price_weights = [1 / 346] * 346  # Uniform distribution for 346 price values
